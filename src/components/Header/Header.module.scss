@@ -1,0 +1,125 @@
+@import '/styles/__main';
+@import '/styles/0_variables.scss';
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 95px;
+    position: sticky;
+    top: 0px;
+    z-index: 200;
+    background-color: $primary-blue;
+    transition: top 0.3s;
+    color: $white;
+
+    &.visible {
+        top: 0;
+    }
+
+    &.hidden {
+        top: -100px;
+    }
+}
+
+.headerContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: $max-container-width;
+    top: 0;
+    left: 0;
+
+    img {
+        max-width: 125px;
+        @include media(sm) {
+            max-width: unset;
+        }
+    }
+
+    .isOpen {
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: $dimmed;
+            width: 100vw;
+            align-items: center;
+            z-index: 101;
+            a,
+            > div {
+                padding: 10px;
+            }
+        }
+    }
+
+    nav {
+        display: none;
+        a {
+            display: flex;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: $white;
+            align-items: center;
+            font-size: 10px;
+            position: relative;
+
+            @include media(sm) {
+                font-size: 13px;
+            }
+
+            // this should be the same as DropdownHeader .isActive
+            &.active {
+                &::before {
+                    content: '';
+                    position: absolute;
+                    background-color: $primary-blue;
+                    width: 100%;
+                    height: 2px;
+                    bottom: 2px;
+                    border-radius: 16px;
+                    left: 0;
+                    @include media(md) {
+                        bottom: -4px;
+                    }
+                }
+            }
+
+            &:hover {
+                color: $primary-blue;
+            }
+        }
+
+        @include media(md) {
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+            gap: 14px;
+            justify-content: center;
+            align-items: center;
+            margin-left: 25px;
+        }
+
+        @include media(lg) {
+            gap: 20px;
+            justify-content: flex-end;
+
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .hamburgerWrapper {
+        display: block;
+        z-index: 102;
+        @include media(md) {
+            display: none;
+        }
+    }
+}

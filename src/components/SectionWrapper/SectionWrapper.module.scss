@@ -1,0 +1,25 @@
+@import "/styles/__main";
+@import "/styles/0_variables.scss";
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: $max-container-width;
+    padding: 30px;
+    width: 100%;
+    margin: 60px auto;
+
+    @include media(md) {
+        margin: 90px auto;
+    }
+
+    @include media(lg) {
+        flex-direction: row;
+        gap: 60px;
+    }
+    
+    @include media(xl) {
+        padding: 0;
+    }
+}

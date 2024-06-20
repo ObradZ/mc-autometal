@@ -1,0 +1,21 @@
+{
+    "Header": {
+        "home": "Home",
+        "aboutUs": "About us",
+        "production": "Production",
+        "contact": "Contact"
+    },
+    "Footer": {},
+    "Index": {
+        "title": "Homepage"
+    },
+    "AboutUs": {
+        "title": "About us..."
+    },
+    "Contact": {
+        "title": "contact"
+    },
+    "Products": {
+        "title": "products"
+    }
+}

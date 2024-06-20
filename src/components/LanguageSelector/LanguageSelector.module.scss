@@ -1,0 +1,31 @@
+@import "/styles/__main";
+@import "/styles/0_variables.scss";
+
+.languageSelector {
+    display: flex;
+    align-items: center;
+
+    @include media(md) {
+        margin-left: 20px;
+    }
+
+    @include media(lg) {
+        margin-left: 90px;
+    }
+}
+
+.select {
+    border: 0 !important;
+    box-shadow: none !important;
+}
+.selectWrapper {
+    border: none;
+    cursor: pointer;
+    padding-left: 5px;
+    background: transparent;
+    font-size: 18px;
+
+    &:focus {
+        outline: none;
+    }
+}
