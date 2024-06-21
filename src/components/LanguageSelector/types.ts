@@ -1,4 +1,4 @@
 export interface ISelectedLang {
-    value: string;
+    value: any;
     label: string;
 }
