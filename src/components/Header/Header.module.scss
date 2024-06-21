@@ -4,15 +4,14 @@
 .header {
     display: flex;
     align-items: center;
-    justify-content: center;
     width: 100%;
     height: 95px;
     position: sticky;
     top: 0px;
     z-index: 200;
-    background-color: $primary-blue;
+    background: linear-gradient(-60deg, $primary-blue 50%, $white 50%);
     transition: top 0.3s;
-    color: $white;
+    color: $primary-blue;
 
     &.visible {
         top: 0;
@@ -20,6 +19,10 @@
 
     &.hidden {
         top: -100px;
+    }
+    @include media(sm) {
+        background: linear-gradient(-60deg, $primary-blue 60%, $white 60%);
+        color: $white;
     }
 }
 
@@ -59,12 +62,13 @@
 
     nav {
         display: none;
+
         a {
             display: flex;
             text-decoration: none;
             text-transform: uppercase;
             font-weight: 700;
-            color: $white;
+            color: $primary-blue;
             align-items: center;
             font-size: 10px;
             position: relative;
@@ -73,12 +77,16 @@
                 font-size: 13px;
             }
 
+            @include media(md) {
+                color: $white;
+            }
+
             // this should be the same as DropdownHeader .isActive
             &.active {
                 &::before {
                     content: '';
                     position: absolute;
-                    background-color: $primary-blue;
+                    background-color: $white;
                     width: 100%;
                     height: 2px;
                     bottom: 2px;
@@ -100,7 +108,7 @@
             flex-direction: row;
             width: 100vw;
             gap: 14px;
-            justify-content: center;
+            justify-content: flex-end;
             align-items: center;
             margin-left: 25px;
         }
@@ -117,6 +125,7 @@
 
     .hamburgerWrapper {
         display: block;
+        color: $white;
         z-index: 102;
         @include media(md) {
             display: none;
