@@ -42,8 +42,14 @@ function Header({ homeTitle, contactTitle, productionTitle, aboutUsTitle }: Head
     return (
         <header className={`${styles.header} ${isVisible ? styles.visible : styles.hidden}`}>
             <div className={styles.headerContainer}>
-                <Link href={'/'}>
+                <Link className={isOpen ? styles.headerLogoOpen : styles.headerLogoClosed} href={'/'}>
                     <Image src={Logo} width={68} height={75} alt='Mc_Autometal' />
+                    <div className={styles.headerHeading}>
+                        <h2 className={styles.headingTop}>
+                            <span className={styles.headingTopSubstring}>MC</span>AUTOMETAL
+                        </h2>
+                        <p className={styles.headingBottom}>mašinski centar</p>
+                    </div>
                 </Link>
                 <nav className={isOpen ? styles.isOpen : styles.isClosed}>
                     <Link className={`${pathname === '/' ? `${styles.active}` : ''}`} href={'/'} onClick={handleCLose}>

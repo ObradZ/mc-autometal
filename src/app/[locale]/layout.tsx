@@ -1,10 +1,10 @@
 import Footer from '@/components/Footer';
 import { TranslationsWrapper as Header } from '@/components/Header/TranslationsWrapper';
-import { Lato } from 'next/font/google';
+import { Inter } from 'next/font/google';
 import '../globals.css';
 
-const lato = Lato({
-    weight: ['300', '400', '700'],
+const lato = Inter({
+    weight: ['300', '400', '800'],
     subsets: ['latin']
 });
 export default function LocaleLayout({
