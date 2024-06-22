@@ -1,0 +1,43 @@
+@import '/styles/__main';
+@import '/styles/0_variables.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+*,
+body {
+    box-sizing: border-box;
+}
+
+.react-dropdown-select-item {
+    border-bottom: 0 !important;
+}
+
+.react-dropdown-select-dropdown {
+    display: inline-block;
+    margin: 0;
+    width: unset !important;
+    top: 43px !important;
+
+    :hover {
+        color: $primary-red !important;
+        background-color: unset;
+    }
+}
+
+.react-dropdown-select-item {
+    color: $primary-blue;
+}
+
+.react-dropdown-select-item-selected {
+    background-color: $primary-blue !important;
+    color: $white !important;
+
+    :hover {
+        color: $white !important;
+        background-color: $primary-red !important;
+    }
+}

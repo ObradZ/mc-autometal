@@ -1,7 +1,7 @@
 import Footer from '@/components/Footer';
 import { TranslationsWrapper as Header } from '@/components/Header/TranslationsWrapper';
 import { Inter } from 'next/font/google';
-import '../globals.css';
+import '../globals.scss';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
