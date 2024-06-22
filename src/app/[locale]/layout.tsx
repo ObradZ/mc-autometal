@@ -3,6 +3,7 @@ import { TranslationsWrapper as Header } from '@/components/Header/TranslationsW
 import { Inter } from 'next/font/google';
 import '../globals.scss';
 import { Metadata } from 'next';
+import Telephone from '@/components/Telephone';
 
 export const metadata: Metadata = {
     applicationName: 'MC Autometal',
@@ -28,6 +29,7 @@ export default function LocaleLayout({
         <html lang={locale}>
             <body className={lato.className}>
                 <Header />
+                <Telephone></Telephone>
                 {children}
                 <Footer />
             </body>

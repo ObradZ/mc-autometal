@@ -24,38 +24,30 @@ const Telephone: React.FC = () => {
     return (
         <div className={styles.telephoneWrapper}>
             <div
-                ref={ref}
-                onClick={() => setIsOpen((state) => !state)}
-                className={
-                    !isOpen
-                        ? styles.telephoneContainer
-                        : `${styles.telephoneContainer} ${styles.telephoneContainerOpen}`
-                }
-            >
-                <Image src={TelephoneImg} alt='telephone' />
-            </div>
-            <div
                 className={
                     !isOpen
                         ? styles.telephoneEntryContainer
                         : `${styles.telephoneEntryContainer} ${styles.telephoneEntryContainerOpen}`
                 }
             >
-                <p className={styles.telephoneEntry}>Tel/Fax:</p>
-                <p className={styles.telephoneEntry}>
-                    <a href='tel:+38125729999'>+381 25 729999</a>
-                </p>
-                <p className={styles.telephoneEntry}>
-                    <a href='tel:+38125723300'>+381 25 723 300</a>
-                </p>
-                <p className={styles.telephoneEntry}>
-                    <a href='tel:+38125723829'></a>
-                </p>
-                <br />
-                <p className={styles.telephoneEntry}>Email:</p>
-                <p className={styles.telephoneEntry}>
-                    <a href='mailto:ekolek@bioesen.com'>ekolek@bioesen.com</a>
-                </p>
+                <div className={styles.telephoneLeft}>
+                    <Image src={TelephoneImg} alt='telephone' onClick={() => setIsOpen((state) => !state)} />
+                </div>
+                <div className={styles.telephoneRight}>
+                    <p className={styles.telephoneEntry}>
+                        <a href='tel:+38765171711'>+387 (0)65171711 - Milan</a>
+                    </p>
+                    <p className={styles.telephoneEntry}>
+                        <a href='tel:+38765588693'>+387 (0)65588693 - Petar</a>
+                    </p>
+                    <p className={styles.telephoneEntry}>
+                        <a href='tel:+38758621300'>+387 (0)58621300 - tel / faks</a>
+                    </p>
+
+                    <p className={styles.telephoneEntry}>
+                        <a href='mailto:ekolek@bioesen.com'>ekolek@bioesen.com</a>
+                    </p>
+                </div>
             </div>
         </div>
     );
