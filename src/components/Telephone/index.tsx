@@ -29,6 +29,7 @@ const Telephone: React.FC = () => {
                         ? styles.telephoneEntryContainer
                         : `${styles.telephoneEntryContainer} ${styles.telephoneEntryContainerOpen}`
                 }
+                ref={ref}
             >
                 <div className={styles.telephoneLeft}>
                     <Image src={TelephoneImg} alt='telephone' onClick={() => setIsOpen((state) => !state)} />
