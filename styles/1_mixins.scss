@@ -3,12 +3,23 @@ $breakpoints: (
     sm: 576px,
     md: 768px,
     lg: 992px,
-    xl: 1200px,
+    xl: 1200px
+);
+
+$heightbreakpoints: (
+    sm: 585px
 );
 
 @mixin media($breakpoint) {
     $value: map-get($breakpoints, $breakpoint);
     @media (min-width: $value) {
+        @content;
+    }
+}
+
+@mixin mediaHeight($breakpoint) {
+    $value: map-get($heightbreakpoints, $breakpoint);
+    @media (max-height: $value) {
         @content;
     }
 }
