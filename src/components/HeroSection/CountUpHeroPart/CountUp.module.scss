@@ -1,0 +1,142 @@
+@import '/styles/__main';
+@import '/styles/0_variables.scss';
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    max-width: $max-container-width;
+    margin-left: auto;
+    margin-right: auto;
+    color: $white;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 20px;
+
+    @include media(md) {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    @include media(lg) {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .property {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 22px;
+        line-height: 40px;
+        font-weight: 800;
+        @include media(md) {
+            font-size: 22px;
+            line-height: 40px;
+            font-weight: 800;
+        }
+        @include media(lg) {
+            font-size: 28px;
+            line-height: 40px;
+            font-weight: 800;
+        }
+        @include media(xl) {
+            font-size: 30px;
+            line-height: 40px;
+            font-weight: 800;
+        }
+    }
+
+    .divider {
+        width: 1px;
+        min-height: 100%;
+        background-color: $white;
+        opacity: 0.3;
+    }
+
+    @include media(md) {
+        flex-direction: row;
+    }
+}
+
+.countUp {
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 800;
+
+    @include media(md) {
+        font-size: 60px;
+        line-height: 60px;
+        font-weight: 800;
+    }
+    @include media(lg) {
+        font-size: 90px;
+        line-height: 90px;
+        font-weight: 800;
+    }
+    @include media(xl) {
+        font-size: 100px;
+        line-height: 100px;
+        font-weight: 800;
+    }
+}
+
+.countUpWrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    @include media(md) {
+        align-items: flex-end;
+        justify-content: unset;
+    }
+
+    .prefix {
+        font-size: 30px;
+        line-height: 70px;
+        font-weight: 800;
+        @include media(sm) {
+            font-size: 40px;
+            line-height: 70px;
+            font-weight: 800;
+        }
+        @include media(md) {
+            font-size: 40px;
+            line-height: 70px;
+            font-weight: 800;
+        }
+        @include media(lg) {
+            font-size: 60px;
+            line-height: 100px;
+            font-weight: 800;
+        }
+        @include media(xl) {
+            font-size: 70px;
+            line-height: 100px;
+            font-weight: 800;
+        }
+    }
+    .sufix {
+        font-size: 18px;
+        line-height: 40px;
+        font-weight: 800;
+        @include media(sm) {
+            font-size: 24px;
+            line-height: 40px;
+            font-weight: 800;
+        }
+        @include media(md) {
+            font-size: 24px;
+            line-height: 30px;
+            font-weight: 800;
+        }
+        @include media(lg) {
+            font-size: 30px;
+            line-height: 40px;
+            font-weight: 800;
+        }
+        @include media(xl) {
+            font-size: 33px;
+            line-height: 40px;
+            font-weight: 800;
+        }
+    }
+}
