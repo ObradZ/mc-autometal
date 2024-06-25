@@ -1,0 +1,28 @@
+@import '/styles/__main';
+@import '/styles/0_variables.scss';
+
+.mainHeadingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-self: center;
+
+    .subHeading {
+        color: $primary-red;
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+        @include media(sm) {
+            font-size: 24px;
+        }
+    }
+
+    .heading {
+        color: $primary-blue;
+        font-size: 36px;
+        margin-top: 20px;
+        @include media(sm) {
+            font-size: 40px;
+        }
+    }
+}
