@@ -26,6 +26,7 @@ const Contact = () => {
                         </p>
                     ) : (
                         <a
+                            key={item.id}
                             href={section === 'telephone' ? `tel:${item.value}` : `mailto:${item.value}`}
                             className={styles.itemLink}
                         >
