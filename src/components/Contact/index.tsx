@@ -1,4 +1,5 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import styles from './Contact.module.scss';
 import SectionWrapper from '../SectionWrapper';
 import { content } from './content';
@@ -6,11 +7,17 @@ import EmailIcon from '@images/Contact/email.svg';
 import AddressIcon from '@images/Contact/address.svg';
 import TelephoneIcon from '@images/Contact/telephone.svg';
 import SocialIcon from '@images/Footer/social_icon.svg';
-import AttachmentIcon from '@images/Contact/attachment.svg';
 
 import Image, { StaticImageData } from 'next/image';
 import MainHeading from '../MainHeading';
+
 const Contact = () => {
+    const [body, setBody] = useState({ companyName: '', message: '' });
+
+    const handleInputChange = (e: any) => {
+        setBody({ ...body, [e.target.name]: e.target.value });
+    };
+
     const rendersection = (title: string, section: string, icon: StaticImageData) => {
         const sectionToRender = content[section as keyof typeof content];
 
@@ -56,10 +63,15 @@ const Contact = () => {
                         </h3>
                     </div>
                     <div className={styles.contactForm}>
-                        <div className={styles.nameAndEmailWrapper}>
-                            <input type='text' className={styles.inputField} placeholder='Ime kompanije' />
-                            <input type='email' className={styles.inputField} placeholder='E-mail' />
-                        </div>
+                        <input
+                            type='text'
+                            className={styles.inputField}
+                            name='companyName'
+                            placeholder='Ime kompanije'
+                            onChange={handleInputChange}
+                            value={body.companyName}
+                        />
+
                         <textarea
                             placeholder='Poruka'
                             name='message'
@@ -67,12 +79,16 @@ const Contact = () => {
                             className={styles.message}
                             rows={12}
                             cols={10}
+                            value={body.message}
+                            onChange={handleInputChange}
                         ></textarea>
-                        <p className={styles.attachment}>
-                            <Image src={AttachmentIcon} alt='attachment-icon'></Image>{' '}
-                            <input type='file' className={styles.attachButton} />
-                        </p>
-                        <button className={styles.sendButton}>Pošalji &rarr;</button>
+
+                        <a
+                            className={styles.sendLink}
+                            href={`mailto:info@mcautometal.com?subject=${body.companyName}&body=${body.message}`}
+                        >
+                            Pošalji &rarr;
+                        </a>
                     </div>
                 </div>
             </div>

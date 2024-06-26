@@ -49,25 +49,13 @@
             align-items: flex-start;
             width: 100%;
 
-            .nameAndEmailWrapper {
-                display: flex;
-                flex-direction: column;
+            input {
                 width: 100%;
-                justify-content: space-between;
-                @include media(sm) {
-                    flex-direction: row;
-                }
-                input {
-                    width: 100%;
-                    padding: 20px 40px;
-                    border: 1px solid $primary-blue;
-                    margin: 10px 0;
-                    @include media(sm) {
-                        width: 48%;
-                        margin: 0;
-                    }
-                }
+                padding: 20px;
+                border: 1px solid $primary-blue;
+                margin: 10px 0;
             }
+
             textarea {
                 width: 100%;
                 margin: 20px 0 0 0;
@@ -84,14 +72,19 @@
                     color: $primary-blue;
                 }
             }
-            .sendButton {
+            .sendLink {
                 width: 100%;
-                padding: 20px 40px;
+                padding: 20px;
                 color: $primary-blue;
+                border: 1px solid $primary-blue;
+                margin-top: 30px;
+                text-decoration: none;
+                text-align: center;
                 cursor: pointer;
                 &:hover {
                     color: $primary-red;
                     transition: 0.2s ease-in;
+                    background-color: $primary-gray;
                 }
             }
         }
