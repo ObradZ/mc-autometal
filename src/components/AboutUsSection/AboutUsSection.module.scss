@@ -60,14 +60,6 @@
         width: 100%;
         margin: 20px 0;
 
-        .firstVector {
-            width: 159px;
-            height: 157px;
-            position: absolute;
-            bottom: -70px;
-            left: -80px;
-        }
-
         @include media(lg) {
             width: 635px;
             height: 496px;

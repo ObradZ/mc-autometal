@@ -2,7 +2,6 @@ import Image, { StaticImageData } from 'next/image';
 import styles from './AboutUsSection.module.scss';
 import { Link } from '@/navigation';
 import SectionWrapper from '../SectionWrapper';
-import Vector from '@images/AboutUs/Vector.svg';
 
 interface AboutSectionProps {
     imageSrc: StaticImageData;
@@ -23,7 +22,6 @@ const AboutUsSection = ({ imageSrc, title, subtitle, text }: AboutSectionProps) 
                     </div>
                     <div className={styles.imageContent}>
                         <Image src={imageSrc} alt={title} layout='fill' objectFit='cover' />
-                        <Image className={styles.firstVector} src={Vector} alt={'vector'} />
                     </div>
                 </div>
                 <Link href='/o-nama' className={styles.link}>
