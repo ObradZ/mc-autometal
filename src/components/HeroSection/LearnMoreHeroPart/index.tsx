@@ -1,9 +1,8 @@
 import Image from 'next/image';
 import styles from './LearnMoreHeroPart.module.scss';
-import parentStyles from '../HeroSection.module.scss';
-import { Link } from '@/navigation';
 import EngineImg from '@images/Homepage/engine.png';
 import EmblaCarousel from '../EmblaCarousel';
+import MainLink from '@/components/MainLink';
 
 const sliderData = [
     {
@@ -32,9 +31,7 @@ const LearnMoreHeroPart = () => {
                         <Image className={styles.sliderImg} src={EngineImg} alt='engine' />
                         <p className={styles.sliderTitle}>{item.title}</p>
                         <p className={styles.sliderText}>{item.text}</p>
-                        <Link className={parentStyles.learnMore} href={item.href}>
-                            Saznaj više →
-                        </Link>
+                        <MainLink href='/o-nama'>Saznaj više →</MainLink>
                     </div>
                 ))}
             </div>
@@ -45,9 +42,7 @@ const LearnMoreHeroPart = () => {
                             <Image className={styles.sliderImg} src={EngineImg} alt='engine' />
                             <p className={styles.sliderTitle}>{item.title}</p>
                             <p className={styles.sliderText}>{item.text}</p>
-                            <Link className={parentStyles.learnMore} href={item.href}>
-                                Saznaj više →
-                            </Link>
+                            <MainLink href='/o-nama'>Saznaj više →</MainLink>
                         </div>
                     ))}
                 />

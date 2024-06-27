@@ -1,0 +1,39 @@
+@import '/styles/__main';
+@import '/styles/0_variables.scss';
+
+.cooperandsWrapper {
+    padding: 40px 50px;
+    background-color: $primary-blue;
+    .cooperandsContainer {
+        display: grid;
+        gap: 10px;
+        width: 100%;
+
+        box-sizing: border-box;
+
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+
+        .gridItem {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:nth-of-type(9),
+            &:nth-of-type(8) {
+                @include media(sm) {
+                    grid-column: span 2;
+                }
+            }
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        @include media(sm) {
+            grid-template-columns: repeat(6, auto);
+            grid-auto-rows: auto;
+        }
+    }
+}

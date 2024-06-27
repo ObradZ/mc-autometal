@@ -1,0 +1,21 @@
+@import '/styles/__main';
+@import '/styles/0_variables.scss';
+
+.mapContainer {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    .popupItem {
+        margin: 0px;
+        text-align: center;
+    }
+    @include media(sm) {
+        padding: 30px;
+
+        margin: 60px auto;
+    }
+    @include media(xl) {
+        padding: 0;
+    }
+}
