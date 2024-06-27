@@ -7,8 +7,8 @@
     align-items: flex-start;
     justify-self: center;
 
-    .subHeading {
-        color: $primary-red;
+    .subHeadingDark,
+    .subHeadingLight {
         font-size: 20px;
         padding: 0;
         margin: 0;
@@ -17,12 +17,29 @@
         }
     }
 
-    .heading {
-        color: $primary-blue;
+    .subHeadingDark {
+        color: $primary-red;
+        font-weight: 400;
+    }
+    .subHeadingLight {
+        color: $white;
+        font-weight: 300;
+    }
+
+    .headingLight,
+    .headingDark {
         font-size: 36px;
         margin-top: 20px;
         @include media(sm) {
             font-size: 40px;
         }
+    }
+
+    .headingDark {
+        color: $primary-blue;
+    }
+
+    .headingLight {
+        color: $white;
     }
 }
