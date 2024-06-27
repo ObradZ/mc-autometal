@@ -6,6 +6,7 @@ import styles from './Map.module.scss';
 import { mapContent } from './content';
 import Image from 'next/image';
 import AddressPin from '@images/Contact/address.svg';
+import SectionWrapper from '../SectionWrapper';
 
 const MapComponent = () => {
     const [popupOpen, setPopupOpen] = useState(false);
@@ -15,15 +16,15 @@ const MapComponent = () => {
         setPopupOpen((state) => !state);
     };
     return (
-        <div className={styles.mapContainer}>
+        <SectionWrapper superStyles={styles.mapContainer}>
             <Map
                 mapLib={import('mapbox-gl')}
                 initialViewState={{
                     longitude: mapContent.longitude,
                     latitude: mapContent.latitude,
-                    zoom: 12
+                    zoom: 13
                 }}
-                style={{ width: '90%', height: 330, margin: 'auto' }}
+                style={{ width: '100%', height: 330 }}
                 mapStyle='mapbox://styles/mapbox/standard'
                 mapboxAccessToken='pk.eyJ1IjoibWFya29uczE5OTAiLCJhIjoiY2txNmd5NnQzMXNibzJ2cXJydW9icHV3NiJ9.tiKjJKOEiLZ2xXEj9ZjQVA'
             >
@@ -47,7 +48,7 @@ const MapComponent = () => {
                     </Popup>
                 )}
             </Map>
-        </div>
+        </SectionWrapper>
     );
 };
 

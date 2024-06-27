@@ -48,7 +48,12 @@ const Contact = () => {
     return (
         <SectionWrapper>
             <div className={styles.contactWrapper}>
-                <MainHeading title='Lorem ipsum' subtitle='Kontakt' />
+                <MainHeading
+                    superStyles={styles.contactMainHeading}
+                    shade='dark'
+                    title='Lorem ipsum'
+                    subtitle='Kontakt'
+                />
                 <div className={styles.contactContainer}>
                     <div className={styles.contactDetails}>
                         {rendersection('Adresa', 'address', AddressIcon)}

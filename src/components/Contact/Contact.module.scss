@@ -3,6 +3,9 @@
 
 .contactWrapper {
     width: 100%;
+    .contactMainHeading {
+        margin-top: 100px;
+    }
     .contactContainer {
         display: flex;
         flex-direction: column;
