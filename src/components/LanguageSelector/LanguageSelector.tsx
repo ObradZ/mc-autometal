@@ -15,7 +15,7 @@ const LanguageSelector = () => {
     const locale = useLocale();
 
     const selectedLang = options.find((i) => i.value === locale) || options[0];
-    console.log(selectedLang);
+
     const [values, setValues] = useState<ISelectedLang[]>([selectedLang]);
 
     const handleLanguageChange = (selected: ISelectedLang[]) => {
