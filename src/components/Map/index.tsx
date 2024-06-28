@@ -35,7 +35,7 @@ const MapComponent = () => {
                     latitude={mapContent.latitude}
                     anchor='center'
                 >
-                    <Image className={styles.marker} src={Pin} alt='marker' />
+                    <Image width={40} height={50} className={styles.marker} src={Pin} alt='marker' />
                 </Marker>
                 {popupOpen && (
                     <Popup anchor='bottom' latitude={mapContent.latitude} longitude={mapContent.longitude}>
