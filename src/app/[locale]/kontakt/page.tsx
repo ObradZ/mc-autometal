@@ -4,6 +4,9 @@ import MapComponent from '@/components/Map';
 import SectionWrapper from '@/components/SectionWrapper';
 import HeroImg from '@images/Contact/Hero.jpg';
 import styles from './Contact.module.scss';
+import { images } from '@/components/ProductionGridSection/content';
+import ProductionGridSection from '@/components/ProductionGridSection';
+
 const page = () => {
     return (
         <main>
@@ -15,6 +18,7 @@ const page = () => {
             <Contact />
 
             <MapComponent />
+            <ProductionGridSection title='Proizvodnja' subtitle='Lorem Ipsum' images={images} />
         </main>
     );
 };
