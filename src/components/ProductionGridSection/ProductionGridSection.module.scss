@@ -1,0 +1,135 @@
+@import '/styles/__main';
+@import '/styles/0_variables.scss';
+
+.container {
+    .title {
+        color: $primary-red;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 27px;
+        margin-bottom: 10px;
+    }
+
+    .subtitle {
+        color: $primary-blue;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 49px;
+        margin-bottom: 20px;
+
+        @include media(lg) {
+            margin-bottom: 40px;
+        }
+    }
+
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        @include media(lg) {
+            justify-content: space-between;
+        }
+    }
+
+    .gridItem {
+        text-align: center;
+        position: relative;
+        margin-bottom: 20px;
+        width: 100%;
+
+        @include media(lg) {
+            width: calc(33.33% - 20px);
+            margin-bottom: 40px;
+        }
+    }
+
+    .imageWrapper {
+        position: relative;
+        width: 100%;
+        height: 200px;
+
+        img {
+            object-fit: cover;
+        }
+
+        @include media(lg) {
+            width: 100%;
+            height: 233px;
+
+            &:hover .overlay {
+                opacity: 1;
+            }
+        }
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        opacity: 1;
+        transition: opacity 0.3s;
+
+        @include media(lg) {
+            opacity: 0;
+        }
+
+        .overlayContent {
+            width: 225px;
+            text-align: start;
+            margin-top: 15px;
+            margin-left: 40px;
+
+            @include media(lg) {
+                margin-top: 40px;
+            }
+
+            .overlayText {
+                color: $white;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 22px;
+                margin-bottom: 25px;
+            }
+
+            .overlayButton {
+                background: none;
+                color: $white;
+                cursor: pointer;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 22px;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .imageCaption {
+        position: absolute;
+        bottom: -6px;
+        left: 40px;
+        width: 100%;
+        color: $white;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 25px;
+        text-align: left;
+    }
+
+    .rectangleImg {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}

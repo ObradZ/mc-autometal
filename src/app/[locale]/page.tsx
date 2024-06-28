@@ -3,7 +3,8 @@ import HeroSection from '@/components/HeroSection';
 import { content } from '@/components/AboutUsSection/content';
 import HeroImg from '@images/Homepage/Hero.jpg';
 import AboutUsSectionImg from '@images/AboutUs/AboutUsSectionImg.jpg';
-
+import ProductionGridSection from '@/components/ProductionGridSection';
+import { images } from '@/components/ProductionGridSection/content';
 
 export default function Home() {
     return (
@@ -13,7 +14,13 @@ export default function Home() {
                 title='Lorem Ipsum'
                 text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.'
             />
-            <AboutUsSection imageSrc={AboutUsSectionImg} title={content.title} subtitle={content.subtitle} text={content.text} />
+            <AboutUsSection
+                imageSrc={AboutUsSectionImg}
+                title={content.title}
+                subtitle={content.subtitle}
+                text={content.text}
+            />
+            <ProductionGridSection title='Proizvodnja' subtitle='Lorem Ipsum' images={images} />
         </main>
     );
 }
