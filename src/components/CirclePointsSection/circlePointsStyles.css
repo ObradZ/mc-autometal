@@ -1,0 +1,21 @@
+/* Points! */
+#circleItem0 {
+    transform: translate(0, -200%);
+}
+
+#circleItem1 {
+    transform: translate(200%, -100%);
+}
+
+#circleItem2 {
+    transform: translate(200%, 100%);
+}
+#circleItem3 {
+    transform: translate(0, 200%);
+}
+#circleItem4 {
+    transform: translate(-200%, 100%);
+}
+#circleItem5 {
+    transform: translate(-200%, -100%);
+}
