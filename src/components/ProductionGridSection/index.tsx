@@ -4,6 +4,7 @@ import styles from './ProductionGridSection.module.scss';
 import SectionWrapper from '../SectionWrapper';
 import Rectangle from '../../../public/static/images/ProductionGridSection/Rectangle.png';
 import { Link } from '@/navigation';
+import MainHeading from '../MainHeading';
 
 interface ProductionGridSectionProps {
     title: string;
@@ -19,8 +20,7 @@ const ProductionGridSection = ({ title, subtitle, images }: ProductionGridSectio
     return (
         <SectionWrapper>
             <div className={styles.container}>
-                <h1 className={styles.title}>{title}</h1>
-                <h2 className={styles.subtitle}>{subtitle}</h2>
+                <MainHeading title={title} subtitle={subtitle} shade='dark' />
                 <div className={styles.grid}>
                     {images.map((image, index) => (
                         <div key={index} className={styles.gridItem}>

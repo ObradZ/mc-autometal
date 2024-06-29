@@ -2,26 +2,6 @@
 @import '/styles/0_variables.scss';
 
 .container {
-    .title {
-        color: $primary-red;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 27px;
-        margin-bottom: 10px;
-    }
-
-    .subtitle {
-        color: $primary-blue;
-        font-size: 36px;
-        font-weight: 800;
-        line-height: 49px;
-        margin-bottom: 20px;
-
-        @include media(lg) {
-            margin-bottom: 40px;
-        }
-    }
-
     .grid {
         display: flex;
         flex-wrap: wrap;
