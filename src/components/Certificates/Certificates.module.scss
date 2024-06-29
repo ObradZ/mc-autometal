@@ -50,6 +50,7 @@
                 img {
                     width: 312px;
                     height: 456px;
+                    object-fit: cover;
                 }
             }
 
@@ -61,10 +62,11 @@
 
         .imageContentMobileSlider {
             display: block;
-
+            position: relative;
             img {
-                height: 456px;
                 width: 100%;
+                max-height: 456px;
+                object-fit: cover;
             }
 
             @include media(lg) {

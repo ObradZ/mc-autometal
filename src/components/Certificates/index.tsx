@@ -4,7 +4,7 @@ import Image, { StaticImageData } from 'next/image';
 import styles from './Certificates.module.scss';
 import SectionWrapper from '../SectionWrapper';
 import MainHeading from '../MainHeading';
-import EmblaCarouselWithArrows from './EmblaCarouselWithArrows/EmblaCarouselWithArrows';
+import EmblaCarousel from '../EmblaCarousel';
 
 type CertificatesProps = {
     title: string;
@@ -33,7 +33,7 @@ const Certificates = ({ title, subtitle, text, certificate1, certificate2 }: Cer
                         <Image src={certificate2} alt='Certificate2' className={styles.certificateImage} />
                     </div>
                     <div className={styles.imageContentMobileSlider}>
-                        <EmblaCarouselWithArrows slides={slides} />
+                        <EmblaCarousel options={{ loop: true }} slides={slides} enableDotsButtons={false} />
                     </div>
                 </div>
             </div>
