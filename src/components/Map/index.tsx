@@ -5,7 +5,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import styles from './Map.module.scss';
 import { mapContent } from './content';
 import Image from 'next/image';
-import AddressPin from '@images/Contact/address.svg';
+import Pin from '@images/Contact/pin.png';
 import SectionWrapper from '../SectionWrapper';
 
 const MapComponent = () => {
@@ -35,7 +35,7 @@ const MapComponent = () => {
                     latitude={mapContent.latitude}
                     anchor='center'
                 >
-                    <Image className={styles.marker} src={AddressPin} alt='marker' />
+                    <Image width={40} height={50} className={styles.marker} src={Pin} alt='marker' />
                 </Marker>
                 {popupOpen && (
                     <Popup anchor='bottom' latitude={mapContent.latitude} longitude={mapContent.longitude}>

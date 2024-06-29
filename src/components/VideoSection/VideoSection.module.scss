@@ -1,0 +1,47 @@
+@import '/styles/__main';
+@import '/styles/0_variables.scss';
+
+.videoSection {
+    .videoSectionWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        position: relative;
+        @include media(md) {
+            flex-direction: row;
+            align-items: unset;
+            gap: 50px;
+            justify-content: flex-start;
+        }
+
+        .videoSectionContent {
+            flex-basis: 40%;
+
+            .videoSectionParagraph {
+                margin: 0;
+            }
+        }
+        .videoSectionVideoWrapper {
+            width: 100%;
+            height: 100%;
+            height: 300px;
+            @include media(md) {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 50vw;
+                height: '100%';
+                height: 340px;
+                transform: translateY(-50%);
+            }
+            @include media(lg) {
+                height: 400px;
+            }
+            @include media(xxl) {
+                height: 420px;
+            }
+        }
+    }
+}
