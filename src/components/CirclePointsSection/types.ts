@@ -9,4 +9,5 @@ export interface CirclePointsSectionProps {
     title: string;
     subTitle: string;
     pointsBorder?: boolean;
+    areImagesSvgs?: boolean;
 }

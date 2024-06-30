@@ -8,7 +8,13 @@ import styles from './CirclePointsSection.module.scss';
 import './circlePointsStyles.css';
 
 /** Data prop should contain id with number from 0 to 5 - it affects css */
-const CirclePointsSection = ({ title, subTitle, data, pointsBorder }: CirclePointsSectionProps) => {
+const CirclePointsSection = ({
+    title,
+    subTitle,
+    data,
+    pointsBorder,
+    areImagesSvgs = true
+}: CirclePointsSectionProps) => {
     return (
         <SectionWrapper superStyles={styles.wrapper}>
             <MainHeading title={title} subtitle={subTitle} shade='dark' />
@@ -20,7 +26,7 @@ const CirclePointsSection = ({ title, subTitle, data, pointsBorder }: CirclePoin
                         className={[styles.pointWrapper, pointsBorder ? styles.pointBorder : ''].join(' ')}
                         id={`circleItem${item.id}`}
                     >
-                        <Image src={item.img} alt={item.text} />
+                        <Image className={areImagesSvgs ? '' : styles.radiusImage} src={item.img} alt={item.text} />
                         <p>{item.text}</p>
                     </div>
                 ))}
