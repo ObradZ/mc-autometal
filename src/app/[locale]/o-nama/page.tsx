@@ -5,6 +5,8 @@ import HeroImg from '@images/AboutUs/Hero.jpg';
 import { images } from '@/components/ProductionGridSection/content';
 import Certificates from '@/components/Certificates';
 import { content } from '@/components/Certificates/content';
+import CirclePointsSection from '@/components/CirclePointsSection';
+import { data } from './content';
 
 const page = () => {
     return (
@@ -14,6 +16,7 @@ const page = () => {
                 title='About Us'
                 text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.'
             />
+            <CirclePointsSection title='Tim' subTitle='Lorem ipsum' data={data} pointsBorder />
             <Certificates
                 title={content.title}
                 subtitle={content.subtitle}

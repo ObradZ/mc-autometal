@@ -1,0 +1,68 @@
+@import '/styles/__main';
+@import '/styles/0_variables.scss';
+
+.wrapper {
+    flex-direction: column !important;
+    gap: 0 !important;
+    width: 100%;
+}
+
+.contentWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 490px;
+    @include media(md) {
+        height: 820px;
+    }
+}
+
+.pointWrapper {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        position: absolute;
+        top: 90%;
+        text-align: center;
+        font-size: 12px;
+    }
+    img {
+        width: 100%;
+    }
+    .radiusImage {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        @include media(md) {
+            width: 146px;
+            height: 146px;
+        }
+    }
+    @include media(md) {
+        width: 146px;
+        height: 146px;
+        padding: 15px;
+        p {
+            top: 100%;
+            font-size: 16px;
+        }
+    }
+}
+.pointBorder {
+    border: 2px solid $primary-blue;
+}
+
+.centerImage {
+    width: 100px;
+    height: auto;
+    @include media(md) {
+        width: 200px;
+    }
+}
