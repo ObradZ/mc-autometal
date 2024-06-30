@@ -8,7 +8,7 @@
     .footerTop {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         position: relative;
         font-size: 16px;
         padding-top: 40px;
@@ -25,7 +25,7 @@
             margin-bottom: 20px;
             height: 2px;
             @include media(md) {
-                width: 85%;
+                width: 100%;
             }
         }
         @include media(md) {
