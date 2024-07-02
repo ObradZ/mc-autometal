@@ -1,0 +1,61 @@
+@import '/styles/__main';
+@import '/styles/0_variables.scss';
+
+.sectionWrapper {
+    background-color: $primary-blue;
+
+    @include media(lg) {
+        background-color: unset;
+    }
+
+    .wrapper {
+        position: relative;
+
+        .cncLaserImg {
+            position: absolute;
+            bottom: -80px;
+            width: 350px;
+            height: auto;
+        }
+
+        @include media(lg) {
+            display: flex;
+            justify-content: flex-end;
+
+            img {
+                left: -70px;
+                width: 75% !important;
+                height: 390px !important;
+                bottom: -80px;
+            }
+        }
+
+        .cncLaserWrapper {
+            padding-bottom: 90px;
+
+            @include media(lg) {
+                background-color: $primary-blue;
+                max-width: 1100px;
+                width: 50%;
+                padding: 60px 120px;
+            }
+
+            .contentWithBackground {
+                .text,
+                .link {
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: $white;
+                }
+
+                .text {
+                    font-weight: 400;
+                }
+
+                .link {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
