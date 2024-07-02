@@ -4,13 +4,14 @@ import styles from './MobileDropdown.module.scss';
 import { useRouter } from '../../../navigation';
 import { DropdownHeaderProps } from '../types';
 import { usePathname } from 'next/navigation';
-import { useLayoutEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import DropdownSubsectionMobile from '../DropdownSubsectionMobile';
 
 const MobileDropdown = ({ title, links, mainHeaderClose, isOpen, toggleOpen }: DropdownHeaderProps) => {
     const router = useRouter();
     const pathname = usePathname();
     const contentHeight = useRef<HTMLDivElement>(null);
+    const [height, setHeight] = useState<number | undefined>(0);
 
     const handleItemClick = (item: { path: string }) => {
         toggleOpen(isOpen);
@@ -19,13 +20,16 @@ const MobileDropdown = ({ title, links, mainHeaderClose, isOpen, toggleOpen }: D
     };
 
     const isActive = pathname.replaceAll('-', ' ').includes(title);
-
+    const handleAccordionOpen = () => {
+        toggleOpen(isOpen);
+        setHeight((state) => (state = contentHeight.current?.scrollHeight));
+    };
     return (
         <div className={styles.wrapper}>
             <h3
                 tabIndex={0}
                 className={[styles.link, isActive ? styles.isActive : ''].join(' ')}
-                onClick={() => toggleOpen(isOpen)}
+                onClick={handleAccordionOpen}
             >
                 {title}
             </h3>
@@ -35,7 +39,7 @@ const MobileDropdown = ({ title, links, mainHeaderClose, isOpen, toggleOpen }: D
                 style={
                     isOpen
                         ? {
-                              height: '185px'
+                              height: height
                           }
                         : { height: '0px' }
                 }
@@ -47,6 +51,7 @@ const MobileDropdown = ({ title, links, mainHeaderClose, isOpen, toggleOpen }: D
                             links={link.subsection}
                             mainHeaderClose={mainHeaderClose}
                             title={'MAŠINSKI CENTAR'}
+                            setHeight={setHeight}
                         />
                     ) : (
                         <div key={link.name} onClick={() => handleItemClick(link)} className={styles.link}>

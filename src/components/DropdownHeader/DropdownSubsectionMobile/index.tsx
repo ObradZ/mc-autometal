@@ -5,12 +5,12 @@ import { useRouter } from '../../../navigation';
 const DropdownSubsectionMobile = ({
     links,
     mainHeaderClose,
-
+    setHeight,
     title
 }: {
     links: { path: string; name: string }[];
     mainHeaderClose: Function;
-
+    setHeight: Function;
     title: string;
 }) => {
     const [isOpenDropdown, setIsOpenDropdown] = useState(false);
@@ -24,9 +24,18 @@ const DropdownSubsectionMobile = ({
         router.replace(item);
     };
 
+    const handleOpenAccordion = () => {
+        setIsOpenDropdown((state) => !state);
+        if (!isOpenDropdown) {
+            setHeight((state: any) => state + contentHeight?.current?.scrollHeight);
+        } else {
+            setHeight((state: any) => state - contentHeight?.current?.scrollHeight);
+        }
+    };
+
     return (
         <div className={styles.subsectionMobileContainer}>
-            <h3 className={styles.subsectionHeading} onClick={() => setIsOpenDropdown((state) => !state)}>
+            <h3 className={styles.subsectionHeading} onClick={() => handleOpenAccordion()}>
                 {title}
                 {isOpenDropdown ? <span className={styles.arrow}>⯅</span> : <span className={styles.arrow}>⯆</span>}
             </h3>
