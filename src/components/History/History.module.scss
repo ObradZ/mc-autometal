@@ -1,0 +1,62 @@
+@import '/styles/__main';
+@import '/styles/0_variables.scss';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $dimmed;
+    margin-top: 30px;
+
+    .historyContentTop {
+        @include media(lg) {
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .historyContentBottom {
+        @include media(lg) {
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 120px;
+        }
+    }
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .textBlock {
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-weight: 400;
+        color: $black;
+        line-height: 22px;
+
+        @include media(lg) {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .imageBlock {
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .historyImg2 {
+            @include media(lg) {
+                width: 571px;
+            }
+        }
+    }
+}

@@ -1,5 +1,6 @@
 import Cooperands from '@/components/Cooperands';
 import HeroSection from '@/components/HeroSection';
+import History from '@/components/History';
 import ProductionGridSection from '@/components/ProductionGridSection';
 import HeroImg from '@images/AboutUs/Hero.jpg';
 import { images } from '@/components/ProductionGridSection/content';
@@ -16,6 +17,7 @@ const page = () => {
                 title='About Us'
                 text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.'
             />
+            <History />
             <CirclePointsSection title='Tim' subTitle='Lorem ipsum' data={data} pointsBorder />
             <Certificates
                 title={content.title}
