@@ -1,0 +1,63 @@
+@import '/styles/__main';
+@import '/styles/0_variables.scss';
+
+.dropdownSubsectionContainer {
+    position: relative;
+    .subsectionHeading {
+        margin: 0;
+        padding: 0 40px;
+        font-size: 10px;
+        text-transform: uppercase;
+
+        &:hover {
+            color: $primary-red;
+            transition: 0.2s ease-in;
+        }
+
+        @include media(sm) {
+            font-size: 13px;
+        }
+
+        @include media(lg) {
+            font-size: 16px;
+        }
+    }
+    &:hover {
+        .subsectionList {
+            display: block;
+        }
+    }
+
+    .subsectionList {
+        position: absolute;
+        top: -15px;
+        background-color: $primary-blue;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        text-align: center;
+        z-index: 100;
+        padding: 0 30px;
+        display: none;
+        font-size: 9px;
+        transform: translateX(100%);
+        border-top: 0;
+
+        .subsectionListItem {
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 700;
+
+            &:hover {
+                color: $primary-red;
+            }
+
+            @include media(md) {
+                font-size: 13px;
+            }
+
+            @include media(lg) {
+                font-size: 16px;
+            }
+        }
+    }
+}

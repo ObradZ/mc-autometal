@@ -8,16 +8,25 @@ import Image from 'next/image';
 import Logo from '@images/Header/mc_autometal_logo.png';
 import Hamburger from 'hamburger-react';
 import { HeaderProps } from './types';
+import DropdownHeader from '../DropdownHeader';
+import { productionLinks } from './content';
 
 function Header({ homeTitle, contactTitle, productionTitle, aboutUsTitle }: HeaderProps) {
     const [isOpen, setOpen] = useState(false);
     const [scrollPosition, setScrollPosition] = useState(0);
     const [isVisible, setIsVisible] = useState(true);
-
+    const [isProductionOpen, setIsProductionOpen] = useState(false);
     const pathname = usePathname();
 
     const handleCLose = () => {
         setOpen(false);
+    };
+
+    const toggleProductionDropdown = (currentValue: boolean) => {
+        if (!currentValue) {
+            setIsProductionOpen(false);
+        }
+        setIsProductionOpen(!currentValue);
     };
 
     useEffect(() => {
@@ -62,13 +71,14 @@ function Header({ homeTitle, contactTitle, productionTitle, aboutUsTitle }: Head
                     >
                         {aboutUsTitle}
                     </Link>
-                    <Link
-                        className={`${pathname === '/proizvodnja' ? `${styles.active}` : ''}`}
-                        href={'/proizvodnja'}
-                        onClick={handleCLose}
-                    >
-                        {productionTitle}
-                    </Link>
+
+                    <DropdownHeader
+                        isOpen={isProductionOpen}
+                        toggleOpen={toggleProductionDropdown}
+                        title={'proizvodnja'}
+                        links={productionLinks}
+                        mainHeaderClose={handleCLose}
+                    />
 
                     <Link
                         className={`${pathname === '/kontakt' ? `${styles.active}` : ''}`}
