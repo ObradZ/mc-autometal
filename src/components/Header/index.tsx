@@ -11,7 +11,7 @@ import { HeaderProps } from './types';
 import DropdownHeader from '../DropdownHeader';
 import { productionLinks } from './content';
 
-function Header({ homeTitle, contactTitle, productionTitle, aboutUsTitle }: HeaderProps) {
+function Header({ homeTitle, contactTitle, aboutUsTitle }: HeaderProps) {
     const [isOpen, setOpen] = useState(false);
     const [scrollPosition, setScrollPosition] = useState(0);
     const [isVisible, setIsVisible] = useState(true);
