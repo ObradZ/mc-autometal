@@ -3,7 +3,7 @@ import styles from './CncLaserInfo.module.scss';
 import Image from 'next/image';
 import { Link } from '@/navigation';
 import { content } from './content';
-import Laser from '../../../public/static/images/CncLaser/laser.png';
+import Laser from '../../../public/static/images/CncLaser/cnc-laser.png';
 
 import MainHeading from '../MainHeading';
 
