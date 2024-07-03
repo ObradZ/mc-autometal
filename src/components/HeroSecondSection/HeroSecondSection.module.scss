@@ -49,14 +49,14 @@
             width: 120px;
             height: 120px;
             position: absolute;
-            z-index: 1;
+            z-index: -1;
             bottom: 100px;
 
             @include media(lg) {
                 width: 230px;
-                left: 100px;
+                left: -98px;
                 height: 230px;
-                bottom: 80px;
+                bottom: 105px;
             }
         }
 
@@ -71,8 +71,8 @@
             @include media(lg) {
                 width: 190px;
                 height: 190px;
-                left: 560px;
-                bottom: -80px;
+                right: -97px;
+                bottom: 0;
             }
         }
     }
