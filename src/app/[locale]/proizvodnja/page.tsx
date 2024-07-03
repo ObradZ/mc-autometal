@@ -6,6 +6,7 @@ import { images } from '@/components/ProductionGridSection/content';
 import { circleData, data } from './content';
 import CirclePointsSection from '@/components/CirclePointsSection';
 import CncLaserInfo from '@/components/CncLaserInfo';
+import SliderSection from '@/components/SliderSection';
 
 const page = () => {
     return (
@@ -20,6 +21,7 @@ const page = () => {
             <VideoSection />
             <CncLaserInfo />
             <CirclePointsSection data={circleData} title='Lorem Ipsum' subTitle='Lorem Ipsum' areImagesSvgs={false} />
+            <SliderSection />
             <ProductionGridSection title='Proizvodnja' subtitle='Lorem Ipsum' images={images} />
         </main>
     );
