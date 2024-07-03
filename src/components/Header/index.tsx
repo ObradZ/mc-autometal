@@ -10,6 +10,7 @@ import Hamburger from 'hamburger-react';
 import { HeaderProps } from './types';
 import DropdownHeader from '../DropdownHeader';
 import { productionLinks } from './content';
+import MainLink from '../MainLink';
 
 function Header({ homeTitle, contactTitle, aboutUsTitle }: HeaderProps) {
     const [isOpen, setOpen] = useState(false);
@@ -61,16 +62,22 @@ function Header({ homeTitle, contactTitle, aboutUsTitle }: HeaderProps) {
                     </div>
                 </Link>
                 <nav className={isOpen ? styles.isOpen : styles.isClosed}>
-                    <Link className={`${pathname === '/' ? `${styles.active}` : ''}`} href={'/'} onClick={handleCLose}>
+                    <MainLink
+                        superStyles={`${pathname === '/' ? `${styles.active}` : ''}`}
+                        href={'/'}
+                        shade='light'
+                        onClick={handleCLose}
+                    >
                         {homeTitle}
-                    </Link>
-                    <Link
-                        className={`${pathname === '/o-nama' ? `${styles.active}` : ''}`}
+                    </MainLink>
+                    <MainLink
+                        superStyles={`${pathname === '/o-nama' ? `${styles.active}` : ''}`}
                         href={'/o-nama'}
+                        shade='light'
                         onClick={handleCLose}
                     >
                         {aboutUsTitle}
-                    </Link>
+                    </MainLink>
 
                     <DropdownHeader
                         isOpen={isProductionOpen}
@@ -80,13 +87,14 @@ function Header({ homeTitle, contactTitle, aboutUsTitle }: HeaderProps) {
                         mainHeaderClose={handleCLose}
                     />
 
-                    <Link
-                        className={`${pathname === '/kontakt' ? `${styles.active}` : ''}`}
+                    <MainLink
+                        superStyles={`${pathname === '/kontakt' ? `${styles.active}` : ''}`}
                         href={'/kontakt'}
+                        shade='light'
                         onClick={handleCLose}
                     >
                         {contactTitle}
-                    </Link>
+                    </MainLink>
                     <LanguageSelector />
                 </nav>
                 <div className={styles.hamburgerWrapper}>
