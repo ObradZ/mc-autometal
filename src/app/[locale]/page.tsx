@@ -5,6 +5,7 @@ import HeroImg from '@images/Homepage/Hero.jpg';
 import AboutUsSectionImg from '@images/AboutUs/AboutUsSectionImg.jpg';
 import ProductionGridSection from '@/components/ProductionGridSection';
 import { images } from '@/components/ProductionGridSection/content';
+import HeroSecondSection from '@/components/HeroSecondSection';
 
 export default function Home() {
     return (
@@ -21,6 +22,7 @@ export default function Home() {
                 text={content.text}
             />
             <ProductionGridSection title='Proizvodnja' subtitle='Lorem Ipsum' images={images} />
+            <HeroSecondSection />
         </main>
     );
 }
