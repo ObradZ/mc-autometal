@@ -6,6 +6,7 @@ import HeroImg from '@images/Contact/Hero.jpg';
 import styles from './Contact.module.scss';
 import { images } from '@/components/ProductionGridSection/content';
 import ProductionGridSection from '@/components/ProductionGridSection';
+import HeroSecondSection from '@/components/HeroSecondSection';
 
 const page = () => {
     return (
@@ -19,6 +20,7 @@ const page = () => {
 
             <MapComponent />
             <ProductionGridSection title='Proizvodnja' subtitle='Lorem Ipsum' images={images} />
+            <HeroSecondSection />
         </main>
     );
 };
