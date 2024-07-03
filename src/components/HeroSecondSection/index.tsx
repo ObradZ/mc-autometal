@@ -18,9 +18,9 @@ const HeroSecondSection = () => {
                     <MainLink href='/kontakt' superStyles={styles.link} shade='light'>
                         Kontaktiraj nas →
                     </MainLink>
-                    <Image src={GearImage} alt='Gear image' className={styles.gearImage1} />
-                    <Image src={GearImage} alt='Gear image' className={styles.gearImage2} />
                 </div>
+                <Image src={GearImage} alt='Gear image' className={styles.gearImage1} />
+                <Image src={GearImage} alt='Gear image' className={styles.gearImage2} />
             </SectionWrapper>
         </div>
     );

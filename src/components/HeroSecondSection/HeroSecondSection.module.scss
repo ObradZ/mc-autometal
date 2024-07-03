@@ -21,7 +21,7 @@
             bottom: -80px;
             right: 0;
             width: 80%;
-            z-index: 3;
+            z-index: 2;
 
             @include media(lg) {
                 padding: 90px 70px 90px 40px;
@@ -43,37 +43,36 @@
             .link {
                 font-weight: 600;
             }
+        }
 
-            .gearImage1 {
-                top: 50px;
-                width: 120px;
-                left: -60px;
-                height: 120px;
-                position: absolute;
-                z-index: 1;
+        .gearImage1 {
+            width: 120px;
+            height: 120px;
+            position: absolute;
+            z-index: 1;
+            bottom: 100px;
 
-                @include media(lg) {
-                    top: 100px;
-                    width: 230px;
-                    left: -120px;
-                    height: 230px;
-                }
+            @include media(lg) {
+                width: 230px;
+                left: 100px;
+                height: 230px;
+                bottom: 80px;
             }
+        }
 
-            .gearImage2 {
-                position: absolute;
-                width: 120px;
-                height: 120px;
-                right: 10px;
-                bottom: -60px;
-                z-index: 2;
+        .gearImage2 {
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            right: 30px;
+            bottom: -140px;
+            z-index: 3;
 
-                @include media(lg) {
-                    width: 190px;
-                    height: 190px;
-                    right: -100px;
-                    bottom: 0px;
-                }
+            @include media(lg) {
+                width: 190px;
+                height: 190px;
+                left: 560px;
+                bottom: -80px;
             }
         }
     }
