@@ -36,7 +36,7 @@ function Header({ homeTitle, contactTitle, aboutUsTitle }: HeaderProps) {
             setScrollPosition(currentScrollPos);
             setIsVisible(visible);
 
-            if (!visible && isOpen) {
+            if (!isVisible && isOpen) {
                 handleCLose();
             }
         };

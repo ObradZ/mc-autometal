@@ -32,6 +32,7 @@ const MobileDropdown = ({ title, links, mainHeaderClose, isOpen, toggleOpen }: D
                 onClick={handleAccordionOpen}
             >
                 {title}
+                {isOpen ? <span className={styles.arrow}>⯅</span> : <span className={styles.arrow}>⯆</span>}
             </h3>
             <div
                 className={styles.accordionContent}

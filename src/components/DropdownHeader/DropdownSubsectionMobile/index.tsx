@@ -25,11 +25,12 @@ const DropdownSubsectionMobile = ({
     };
 
     const handleOpenAccordion = () => {
+        const currEl = contentHeight?.current;
         setIsOpenDropdown((state) => !state);
         if (!isOpenDropdown) {
-            setHeight((state: any) => state + contentHeight?.current?.scrollHeight);
+            setHeight((state: any) => currEl && state + currEl.scrollHeight);
         } else {
-            setHeight((state: any) => state - contentHeight?.current?.scrollHeight);
+            setHeight((state: any) => currEl && state - currEl.scrollHeight);
         }
     };
 
