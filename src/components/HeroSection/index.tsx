@@ -14,7 +14,9 @@ const HeroSection = ({ image, title, text, isLearnMoreVisible = true, countUpDat
                 <div className={styles.contentWrapper}>
                     <h1 className={styles.title}>{title}</h1>
                     <p className={styles.text}>{text}</p>
-                    <MainLink href='/o-nama'>Saznaj više →</MainLink>
+                    <MainLink href='/o-nama' shade='light'>
+                        Saznaj više →
+                    </MainLink>
                 </div>
                 {countUpData && <CountUpHeroPart data={countUpData} />}
             </SectionWrapper>

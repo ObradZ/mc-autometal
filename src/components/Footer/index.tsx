@@ -4,6 +4,8 @@ import SectionWrapper from '../SectionWrapper';
 import SocialIcon from '@images/Footer/social_icon.svg';
 import Logo from '@images/Header/mc_autometal_logo.png';
 import Image from 'next/image';
+import MainLink from '../MainLink';
+
 const index = () => {
     return (
         <div className={styles.footerContainer}>
@@ -32,28 +34,20 @@ const index = () => {
 
                     <div className={styles.footerSubsection}>
                         <h4 className={styles.footerSubheading}>Email</h4>
-                        <p className={styles.footerItemRow}>
-                            <a className={styles.footerLink} href='mailto:info@mcautometal.com'>
-                                info@mcautometal.com
-                            </a>
-                        </p>
+                        <MainLink superStyles={styles.footerLink} shade='dark' href='mailto:info@mcautometal.com'>
+                            info@mcautometal.com
+                        </MainLink>
                         <br />
                         <h4 className={styles.footerSubheading}>Telefon</h4>
-                        <p className={styles.footerItemRow}>
-                            <a className={styles.footerLink} href='tel:+38758621300'>
-                                +387 (0)58621300 - tel / faks
-                            </a>
-                        </p>
-                        <p className={styles.footerItemRow}>
-                            <a className={styles.footerLink} href='tel:+38765588693'>
-                                +387 (0)65588693 - Petar
-                            </a>
-                        </p>
-                        <p className={styles.footerItemRow}>
-                            <a className={styles.footerLink} href='tel:+38765171711'>
-                                +387 (0)65171711 - Milan
-                            </a>
-                        </p>
+                        <MainLink superStyles={styles.footerLink} shade='dark' href='tel:+38758621300'>
+                            +387 (0)58621300 - tel / faks
+                        </MainLink>
+                        <MainLink superStyles={styles.footerLink} shade='dark' href='tel:+38765588693'>
+                            +387 (0)65588693 - Petar
+                        </MainLink>
+                        <MainLink superStyles={styles.footerLink} shade='dark' href='tel:+38765171711'>
+                            +387 (0)65171711 - Milan
+                        </MainLink>
                     </div>
                 </div>
             </SectionWrapper>

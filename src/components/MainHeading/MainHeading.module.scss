@@ -12,6 +12,7 @@
         font-size: 20px;
         padding: 0;
         margin: 0;
+
         @include media(sm) {
             font-size: 24px;
         }
@@ -30,6 +31,7 @@
     .headingDark {
         font-size: 36px;
         margin-top: 20px;
+        
         @include media(sm) {
             font-size: 40px;
         }

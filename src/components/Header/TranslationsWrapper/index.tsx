@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import Header from '..';
+
 export const TranslationsWrapper = () => {
     const t = useTranslations('Header');
 

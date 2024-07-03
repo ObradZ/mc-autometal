@@ -1,7 +1,7 @@
 import Image, { StaticImageData } from 'next/image';
 import styles from './AboutUsSection.module.scss';
-import { Link } from '@/navigation';
 import SectionWrapper from '../SectionWrapper';
+import MainLink from '../MainLink';
 
 interface AboutSectionProps {
     imageSrc: StaticImageData;
@@ -24,9 +24,9 @@ const AboutUsSection = ({ imageSrc, title, subtitle, text }: AboutSectionProps) 
                         <Image src={imageSrc} alt={title} layout='fill' objectFit='cover' />
                     </div>
                 </div>
-                <Link href='/o-nama' className={styles.link}>
+                <MainLink href='/o-nama' superStyles={styles.link} shade='dark'>
                     O nama →
-                </Link>
+                </MainLink>
             </div>
         </SectionWrapper>
     );

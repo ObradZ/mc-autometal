@@ -3,8 +3,8 @@ import Image, { StaticImageData } from 'next/image';
 import styles from './ProductionGridSection.module.scss';
 import SectionWrapper from '../SectionWrapper';
 import Rectangle from '../../../public/static/images/ProductionGridSection/Rectangle.png';
-import { Link } from '@/navigation';
 import MainHeading from '../MainHeading';
+import MainLink from '../MainLink';
 
 interface ProductionGridSectionProps {
     title: string;
@@ -35,9 +35,9 @@ const ProductionGridSection = ({ title, subtitle, images }: ProductionGridSectio
                                 <div className={styles.overlay}>
                                     <div className={styles.overlayContent}>
                                         <p className={styles.overlayText}>{image.text}</p>
-                                        <Link href='#' className={styles.overlayButton}>
+                                        <MainLink href='#' superStyles={styles.overlayButton} shade='light'>
                                             Saznaj više →
-                                        </Link>
+                                        </MainLink>
                                     </div>
                                 </div>
                                 <Image className={styles.rectangleImg} src={Rectangle} alt='rectangle' />

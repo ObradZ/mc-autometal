@@ -8,6 +8,7 @@ import Image from 'next/image';
 import Logo from '@images/Header/mc_autometal_logo.png';
 import Hamburger from 'hamburger-react';
 import { HeaderProps } from './types';
+import MainLink from '../MainLink';
 
 function Header({ homeTitle, contactTitle, productionTitle, aboutUsTitle }: HeaderProps) {
     const [isOpen, setOpen] = useState(false);
@@ -52,31 +53,38 @@ function Header({ homeTitle, contactTitle, productionTitle, aboutUsTitle }: Head
                     </div>
                 </Link>
                 <nav className={isOpen ? styles.isOpen : styles.isClosed}>
-                    <Link className={`${pathname === '/' ? `${styles.active}` : ''}`} href={'/'} onClick={handleCLose}>
+                    <MainLink
+                        superStyles={`${pathname === '/' ? `${styles.active}` : ''}`}
+                        href={'/'}
+                        shade='light'
+                        onClick={handleCLose}
+                    >
                         {homeTitle}
-                    </Link>
-                    <Link
-                        className={`${pathname === '/o-nama' ? `${styles.active}` : ''}`}
+                    </MainLink>
+                    <MainLink
+                        superStyles={`${pathname === '/o-nama' ? `${styles.active}` : ''}`}
                         href={'/o-nama'}
+                        shade='light'
                         onClick={handleCLose}
                     >
                         {aboutUsTitle}
-                    </Link>
-                    <Link
-                        className={`${pathname === '/proizvodnja' ? `${styles.active}` : ''}`}
+                    </MainLink>
+                    <MainLink
+                        superStyles={`${pathname === '/proizvodnja' ? `${styles.active}` : ''}`}
                         href={'/proizvodnja'}
+                        shade='light'
                         onClick={handleCLose}
                     >
                         {productionTitle}
-                    </Link>
-
-                    <Link
-                        className={`${pathname === '/kontakt' ? `${styles.active}` : ''}`}
+                    </MainLink>
+                    <MainLink
+                        superStyles={`${pathname === '/kontakt' ? `${styles.active}` : ''}`}
                         href={'/kontakt'}
+                        shade='light'
                         onClick={handleCLose}
                     >
                         {contactTitle}
-                    </Link>
+                    </MainLink>
                     <LanguageSelector />
                 </nav>
                 <div className={styles.hamburgerWrapper}>

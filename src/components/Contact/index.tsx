@@ -7,7 +7,6 @@ import EmailIcon from '@images/Contact/email.svg';
 import AddressIcon from '@images/Contact/address.svg';
 import TelephoneIcon from '@images/Contact/telephone.svg';
 import SocialIcon from '@images/Footer/social_icon.svg';
-
 import Image, { StaticImageData } from 'next/image';
 import MainHeading from '../MainHeading';
 
