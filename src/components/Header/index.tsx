@@ -8,6 +8,7 @@ import Image from 'next/image';
 import Logo from '@images/Header/mc_autometal_logo.png';
 import Hamburger from 'hamburger-react';
 import { HeaderProps } from './types';
+import MainLink from '../MainLink';
 
 function Header({ homeTitle, contactTitle, productionTitle, aboutUsTitle }: HeaderProps) {
     const [isOpen, setOpen] = useState(false);
@@ -42,7 +43,7 @@ function Header({ homeTitle, contactTitle, productionTitle, aboutUsTitle }: Head
     return (
         <header className={`${styles.header} ${isVisible ? styles.visible : styles.hidden}`}>
             <div className={styles.headerContainer}>
-                <Link className={isOpen ? styles.headerLogoOpen : styles.headerLogoClosed} href={'/'}>
+                <MainLink superStyles={isOpen ? styles.headerLogoOpen : styles.headerLogoClosed} href={'/'}>
                     <Image src={Logo} width={68} height={75} alt='Mc_Autometal' />
                     <div className={styles.headerHeading}>
                         <h2 className={styles.headingTop}>
@@ -50,18 +51,24 @@ function Header({ homeTitle, contactTitle, productionTitle, aboutUsTitle }: Head
                         </h2>
                         <p className={styles.headingBottom}>mašinski centar</p>
                     </div>
-                </Link>
+                </MainLink>
                 <nav className={isOpen ? styles.isOpen : styles.isClosed}>
-                    <Link className={`${pathname === '/' ? `${styles.active}` : ''}`} href={'/'} onClick={handleCLose}>
+                    <MainLink
+                        superStyles={`${pathname === '/' ? `${styles.active}` : ''}`}
+                        href={'/'}
+                        shade='light'
+                        onClick={handleCLose}
+                    >
                         {homeTitle}
-                    </Link>
-                    <Link
-                        className={`${pathname === '/o-nama' ? `${styles.active}` : ''}`}
+                    </MainLink>
+                    <MainLink
+                        superStyles={`${pathname === '/o-nama' ? `${styles.active}` : ''}`}
                         href={'/o-nama'}
+                        shade='light'
                         onClick={handleCLose}
                     >
                         {aboutUsTitle}
-                    </Link>
+                    </MainLink>
                     <Link
                         className={`${pathname === '/proizvodnja' ? `${styles.active}` : ''}`}
                         href={'/proizvodnja'}

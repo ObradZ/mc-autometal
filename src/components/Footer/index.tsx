@@ -4,6 +4,7 @@ import SectionWrapper from '../SectionWrapper';
 import SocialIcon from '@images/Footer/social_icon.svg';
 import Logo from '@images/Header/mc_autometal_logo.png';
 import Image from 'next/image';
+
 const index = () => {
     return (
         <div className={styles.footerContainer}>

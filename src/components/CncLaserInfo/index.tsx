@@ -14,7 +14,7 @@ const CncLaserInfo = () => {
                     <div className={styles.contentWithBackground}>
                         <MainHeading title={content.title} subtitle={content.subtitle} shade='light' />
                         <p className={styles.text}>{content.text}</p>
-                        <MainLink href='#'>Poseti sajt →</MainLink>
+                        <MainLink href='#' shade='light'>Poseti sajt →</MainLink>
                     </div>
                 </div>
                 <Image src={Laser} alt='CNC laser' className={styles.cncLaserImg} />

@@ -14,7 +14,9 @@ const LearnMoreHeroPart = () => {
                         <Image className={styles.sliderImg} src={EngineImg} alt='engine' />
                         <p className={styles.sliderTitle}>{item.title}</p>
                         <p className={styles.sliderText}>{item.text}</p>
-                        <MainLink href='/o-nama'>Saznaj više →</MainLink>
+                        <MainLink href='/o-nama' shade='light'>
+                            Saznaj više →
+                        </MainLink>
                     </div>
                 ))}
             </div>
@@ -26,7 +28,9 @@ const LearnMoreHeroPart = () => {
                             <Image className={styles.sliderImg} src={EngineImg} alt='engine' />
                             <p className={styles.sliderTitle}>{item.title}</p>
                             <p className={styles.sliderText}>{item.text}</p>
-                            <MainLink href='/o-nama'>Saznaj više →</MainLink>
+                            <MainLink href='/o-nama' shade='light'>
+                                Saznaj više →
+                            </MainLink>
                         </div>
                     ))}
                 />
