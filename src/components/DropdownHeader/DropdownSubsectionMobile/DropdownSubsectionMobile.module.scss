@@ -1,0 +1,45 @@
+@import '/styles/0_variables';
+@import '/styles/__main';
+.accordionContentSubsection {
+    overflow: hidden;
+    transition: height 0.4s ease-in-out;
+    display: block;
+}
+.subsectionMobileContainer {
+    h3 {
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 5px;
+        line-height: 10px;
+        cursor: pointer;
+        font-size: 10px;
+        &:hover {
+            color: $primary-red;
+        }
+        @include media(sm) {
+            font-size: 16px;
+            line-height: 16px;
+        }
+    }
+    .arrow {
+        margin-left: 3px;
+        font-size: 14px;
+    }
+    .subsectionLink {
+        font-size: 10px;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin: 0;
+        text-align: center;
+        padding: 8px;
+        &:hover {
+            color: $primary-red;
+        }
+        @include media(sm) {
+            font-size: 13px;
+        }
+    }
+}

@@ -20,6 +20,7 @@ const LanguageSelector = () => {
 
     const handleLanguageChange = (selected: ISelectedLang[]) => {
         setValues((values) => values);
+
         router.replace(pathname, { locale: selected[0].value });
     };
 

@@ -8,17 +8,26 @@ import Image from 'next/image';
 import Logo from '@images/Header/mc_autometal_logo.png';
 import Hamburger from 'hamburger-react';
 import { HeaderProps } from './types';
+import DropdownHeader from '../DropdownHeader';
+import { productionLinks } from './content';
 import MainLink from '../MainLink';
 
-function Header({ homeTitle, contactTitle, productionTitle, aboutUsTitle }: HeaderProps) {
+function Header({ homeTitle, contactTitle, aboutUsTitle }: HeaderProps) {
     const [isOpen, setOpen] = useState(false);
     const [scrollPosition, setScrollPosition] = useState(0);
     const [isVisible, setIsVisible] = useState(true);
-
+    const [isProductionOpen, setIsProductionOpen] = useState(false);
     const pathname = usePathname();
 
     const handleCLose = () => {
         setOpen(false);
+    };
+
+    const toggleProductionDropdown = (currentValue: boolean) => {
+        if (!currentValue) {
+            setIsProductionOpen(false);
+        }
+        setIsProductionOpen(!currentValue);
     };
 
     useEffect(() => {
@@ -28,7 +37,7 @@ function Header({ homeTitle, contactTitle, productionTitle, aboutUsTitle }: Head
             setScrollPosition(currentScrollPos);
             setIsVisible(visible);
 
-            if (!visible && isOpen) {
+            if (!isVisible && isOpen) {
                 handleCLose();
             }
         };
@@ -69,14 +78,15 @@ function Header({ homeTitle, contactTitle, productionTitle, aboutUsTitle }: Head
                     >
                         {aboutUsTitle}
                     </MainLink>
-                    <MainLink
-                        superStyles={`${pathname === '/proizvodnja' ? `${styles.active}` : ''}`}
-                        href={'/proizvodnja'}
-                        shade='light'
-                        onClick={handleCLose}
-                    >
-                        {productionTitle}
-                    </MainLink>
+
+                    <DropdownHeader
+                        isOpen={isProductionOpen}
+                        toggleOpen={toggleProductionDropdown}
+                        title={'proizvodnja'}
+                        links={productionLinks}
+                        mainHeaderClose={handleCLose}
+                    />
+
                     <MainLink
                         superStyles={`${pathname === '/kontakt' ? `${styles.active}` : ''}`}
                         href={'/kontakt'}
