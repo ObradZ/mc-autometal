@@ -11,7 +11,7 @@ const MobileDropdown = ({ title, links, mainHeaderClose, isOpen, toggleOpen }: D
     const router = useRouter();
     const pathname = usePathname();
     const contentHeight = useRef<HTMLDivElement>(null);
-    const [height, setHeight] = useState<number | undefined>(0);
+    const [height, setHeight] = useState<number>(0);
 
     const handleItemClick = (item: { path: string }) => {
         toggleOpen(isOpen);
@@ -20,10 +20,15 @@ const MobileDropdown = ({ title, links, mainHeaderClose, isOpen, toggleOpen }: D
     };
 
     const isActive = pathname.replaceAll('-', ' ').includes(title);
+
     const handleAccordionOpen = () => {
         toggleOpen(isOpen);
-        setHeight((state) => (state = contentHeight.current?.scrollHeight));
+        const scrollHeight = contentHeight?.current?.scrollHeight;
+        if (!!scrollHeight) {
+            setHeight((state) => (state = scrollHeight));
+        }
     };
+
     return (
         <div className={styles.wrapper}>
             <h3
@@ -32,7 +37,7 @@ const MobileDropdown = ({ title, links, mainHeaderClose, isOpen, toggleOpen }: D
                 onClick={handleAccordionOpen}
             >
                 {title}
-                {isOpen ? <span className={styles.arrow}>⯅</span> : <span className={styles.arrow}>⯆</span>}
+                {isOpen ? <span className={styles.arrow}>-</span> : <span className={styles.arrow}>+</span>}
             </h3>
             <div
                 className={styles.accordionContent}

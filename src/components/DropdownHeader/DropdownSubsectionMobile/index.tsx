@@ -28,9 +28,9 @@ const DropdownSubsectionMobile = ({
         const currEl = contentHeight?.current;
         setIsOpenDropdown((state) => !state);
         if (!isOpenDropdown) {
-            setHeight((state: any) => currEl && state + currEl.scrollHeight);
+            setHeight((state: number) => currEl && state + currEl.scrollHeight);
         } else {
-            setHeight((state: any) => currEl && state - currEl.scrollHeight);
+            setHeight((state: number) => currEl && state - currEl.scrollHeight);
         }
     };
 
@@ -38,7 +38,7 @@ const DropdownSubsectionMobile = ({
         <div className={styles.subsectionMobileContainer}>
             <h3 className={styles.subsectionHeading} onClick={() => handleOpenAccordion()}>
                 {title}
-                {isOpenDropdown ? <span className={styles.arrow}>⯅</span> : <span className={styles.arrow}>⯆</span>}
+                {isOpenDropdown ? <span className={styles.arrow}>-</span> : <span className={styles.arrow}>+</span>}
             </h3>
             <div
                 className={styles.accordionContentSubsection}
