@@ -46,15 +46,15 @@
         }
 
         .gearImage1 {
-            width: 120px;
+            width: 60px;
             height: 120px;
             position: absolute;
-            z-index: -1;
-            bottom: 100px;
+            bottom: 174px;
+            left: -60px;
 
-            @include media(lg) {
-                width: 230px;
-                left: -98px;
+            @include media(md) {
+                width: 115px;
+                left: -115px;
                 height: 230px;
                 bottom: 105px;
             }
@@ -65,8 +65,15 @@
             width: 120px;
             height: 120px;
             right: 30px;
-            bottom: -140px;
+            bottom: -60px;
             z-index: 3;
+
+            @include media(md) {
+                width: 190px;
+                height: 190px;
+                right: 30px;
+                bottom: -100px;
+            }
 
             @include media(lg) {
                 width: 190px;
