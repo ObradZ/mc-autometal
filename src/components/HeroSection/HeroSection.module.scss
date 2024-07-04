@@ -4,7 +4,6 @@
 .wrapper {
     position: relative;
     min-height: calc(100vh - 95px);
-
     margin-bottom: 100px;
 
     .heroImage {
@@ -29,9 +28,11 @@
         @include media(md) {
             padding: 4vh 0 0;
         }
+        
         @include media(lg) {
             padding: 8vh 0 0;
         }
+
         @include media(xl) {
             padding: 10vh 0 0;
         }
@@ -55,6 +56,7 @@
             max-width: 542px;
         }
     }
+
     .text {
         color: $white;
         max-width: 542px;
@@ -62,6 +64,7 @@
         line-height: 22px;
     }
 }
+
 .sectionStyles {
     margin-top: 0 !important;
     margin-bottom: 90px;
