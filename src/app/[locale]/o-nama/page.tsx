@@ -8,6 +8,7 @@ import Certificates from '@/components/Certificates';
 import { content } from '@/components/Certificates/content';
 import CirclePointsSection from '@/components/CirclePointsSection';
 import { data } from './content';
+import HeroSecondSection from '@/components/HeroSecondSection';
 
 const page = () => {
     return (
@@ -28,6 +29,7 @@ const page = () => {
             />
             <Cooperands />
             <ProductionGridSection title='Proizvodnja' subtitle='Lorem Ipsum' images={images} />
+            <HeroSecondSection />
         </main>
     );
 };
