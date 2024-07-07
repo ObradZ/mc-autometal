@@ -86,14 +86,14 @@
 }
 
 .embla__button_prev {
-    margin-left: -47px;
+    margin-left: -43px;
     @include media(md) {
         margin-left: 0px;
     }
 }
 
 .embla__button_next {
-    margin-right: -47px;
+    margin-right: -43px;
     @include media(md) {
         margin-right: 0px;
     }
