@@ -43,6 +43,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    pointer-events: none;
 }
 .embla__buttons {
     display: flex;
@@ -50,6 +51,8 @@
     width: 100%;
 }
 .embla__button {
+    pointer-events: all;
+
     -webkit-tap-highlight-color: rgba(var(--text-high-contrast-rgb-value), 0.5);
     -webkit-appearance: none;
     appearance: none;
@@ -80,4 +83,18 @@
 }
 .embla__slide__number {
     backface-visibility: hidden;
+}
+
+.embla__button_prev {
+    margin-left: -47px;
+    @include media(md) {
+        margin-left: 0px;
+    }
+}
+
+.embla__button_next {
+    margin-right: -47px;
+    @include media(md) {
+        margin-right: 0px;
+    }
 }
