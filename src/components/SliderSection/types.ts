@@ -1,1 +1,5 @@
-export interface SliderSectionProps {}
+import { ReactNode } from 'react';
+
+export interface SliderSectionProps {
+    slides: ReactNode[];
+}
