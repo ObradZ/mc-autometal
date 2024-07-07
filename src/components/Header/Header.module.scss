@@ -60,16 +60,30 @@
                 .headingTopSubstring {
                     color: $primary-red;
                 }
+
+                @include media(sm) {
+                    font-size: 16px;
+                }
+
                 @include media(md) {
+                    font-size: 18px;
+                }
+                @include media(lg) {
                     font-size: 24px;
                 }
             }
             .headingBottom {
                 margin: 0;
                 padding: 0;
-                font-size: 8px;
+                font-size: 9px;
                 font-weight: 800;
+                @include media(sm) {
+                    font-size: 11px;
+                }
                 @include media(md) {
+                    font-size: 14px;
+                }
+                @include media(lg) {
                     font-size: 16px;
                 }
             }
@@ -161,11 +175,16 @@
             position: relative;
 
             @include media(sm) {
-                font-size: 16px;
+                font-size: 13px;
             }
 
             @include media(md) {
                 color: $white;
+            }
+
+            @include media(lg) {
+                color: $white;
+                font-size: 16px;
             }
 
             // this should be the same as DropdownHeader .isActive

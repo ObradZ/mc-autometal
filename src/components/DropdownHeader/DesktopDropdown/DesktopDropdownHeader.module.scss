@@ -17,6 +17,10 @@
         }
 
         @include media(sm) {
+            font-size: 13px;
+        }
+
+        @include media(lg) {
             font-size: 16px;
         }
     }
@@ -59,7 +63,7 @@
                 color: $primary-red;
             }
 
-            @include media(md) {
+            @include media(sm) {
                 font-size: 13px;
             }
 
