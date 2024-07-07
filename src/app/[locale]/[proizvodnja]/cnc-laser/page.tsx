@@ -6,7 +6,19 @@ import { images } from '@/components/ProductionGridSection/content';
 import { circleData, data } from './content';
 import CirclePointsSection from '@/components/CirclePointsSection';
 import CncLaserInfo from '@/components/CncLaserInfo';
+import SliderSection from '@/components/SliderSection';
 import HeroSecondSection from '@/components/HeroSecondSection';
+// Slider images
+import AboutImg from '@images/AboutUs/Hero.jpg';
+import ContactImg from '@images/Contact/Hero.jpg';
+import HomepageImg from '@images/Homepage/Hero.jpg';
+import Image from 'next/image';
+
+const slides = [
+    <Image src={AboutImg} alt='about us' key={1} />,
+    <Image src={ContactImg} alt='contact' key={2} />,
+    <Image src={HomepageImg} alt='homepage' key={3} />
+];
 
 const Page = () => {
     return (
@@ -21,6 +33,7 @@ const Page = () => {
             <VideoSection videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI' />
             <CncLaserInfo />
             <CirclePointsSection data={circleData} title='Lorem Ipsum' subTitle='Lorem Ipsum' areImagesSvgs={false} />
+            <SliderSection slides={slides} />
             <ProductionGridSection title='Proizvodnja' subtitle='Lorem Ipsum' images={images} />
             <HeroSecondSection />
         </main>
