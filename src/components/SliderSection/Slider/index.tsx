@@ -6,7 +6,7 @@ import useEmblaCarousel from 'embla-carousel-react';
 import { NextButton, PrevButton, usePrevNextButtons } from './SliderButton';
 import styles from './Slider.module.scss';
 
-const TWEEN_FACTOR_BASE = 0.52;
+const TWEEN_FACTOR_BASE = 0.15;
 
 const numberWithinRange = (number: number, min: number, max: number): number => Math.min(Math.max(number, min), max);
 

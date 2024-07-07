@@ -11,7 +11,7 @@ const SliderSection = ({ slides }: SliderSectionProps) => {
         <SectionWrapper superStyles={styles.superStyles}>
             <MainHeading subtitle='Lorem ipsum' title='Lorem ipsum' shade='dark' />
             <div className={styles.wrapper}>
-                <Slider options={{ loop: true }} slides={slides} />
+                <Slider options={{ loop: true, slidesToScroll: 'auto' }} slides={slides} />
             </div>
         </SectionWrapper>
     );
