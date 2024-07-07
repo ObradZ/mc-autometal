@@ -5,7 +5,7 @@ import styles from './VideoSection.module.scss';
 import MainHeading from '../MainHeading';
 import ReactPlayer from 'react-player';
 
-const VideoSection = () => {
+const VideoSection = ({ videoUrl }: { videoUrl: string }) => {
     return (
         <SectionWrapper superStyles={styles.videoSection}>
             <div className={styles.videoSectionWrapper}>
@@ -21,13 +21,7 @@ const VideoSection = () => {
                     </p>
                 </div>
                 <div className={styles.videoSectionVideoWrapper}>
-                    <ReactPlayer
-                        width={'100%'}
-                        height={'100%'}
-                        volume={0}
-                        controls
-                        url='https://www.youtube.com/watch?v=nziA33FrhoI'
-                    />
+                    <ReactPlayer width={'100%'} height={'100%'} volume={0} controls url={videoUrl} />
                 </div>
             </div>
         </SectionWrapper>

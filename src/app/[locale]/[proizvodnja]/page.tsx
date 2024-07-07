@@ -6,7 +6,7 @@ import { images } from '@/components/ProductionGridSection/content';
 import { circleData, data } from './content';
 import CirclePointsSection from '@/components/CirclePointsSection';
 import CncLaserInfo from '@/components/CncLaserInfo';
-import SliderSection from '@/components/SliderSection';
+import HeroSecondSection from '@/components/HeroSecondSection';
 
 const page = () => {
     return (
@@ -18,11 +18,11 @@ const page = () => {
                 countUpData={data}
                 text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.'
             />
-            <VideoSection />
+            <VideoSection videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI' />
             <CncLaserInfo />
             <CirclePointsSection data={circleData} title='Lorem Ipsum' subTitle='Lorem Ipsum' areImagesSvgs={false} />
-            <SliderSection />
             <ProductionGridSection title='Proizvodnja' subtitle='Lorem Ipsum' images={images} />
+            <HeroSecondSection />
         </main>
     );
 };

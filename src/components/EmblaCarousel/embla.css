@@ -43,7 +43,7 @@
     align-items: center;
 }
 .embla__button {
-    -webkit-tap-highlight-color: rgba(#fff, 0.5);
+    -webkit-tap-highlight-color: transparent;
     -webkit-appearance: none;
     appearance: none;
     background-color: transparent;
@@ -80,7 +80,7 @@
     bottom: 20px;
 }
 .embla__dot {
-    -webkit-tap-highlight-color: rgba(#ffffff, 0.5);
+    -webkit-tap-highlight-color: transparent;
     -webkit-appearance: none;
     appearance: none;
     background-color: transparent;
@@ -105,7 +105,7 @@
     border-radius: 50%;
     display: flex;
     align-items: center;
-    content: "";
+    content: '';
     background-color: #fff;
     opacity: 0.5;
 }

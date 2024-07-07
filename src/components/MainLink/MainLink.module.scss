@@ -39,13 +39,9 @@
 }
 
 .linkLight {
-    @include media(md) {
-        color: $white;
-    }
+    color: $white;
 }
 
 .linkDark {
-    @include media(md) {
-        color: $primary-blue;
-    }
+    color: $primary-blue;
 }
