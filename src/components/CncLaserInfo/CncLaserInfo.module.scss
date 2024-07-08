@@ -14,8 +14,11 @@
         .cncLaserImg {
             position: absolute;
             bottom: -80px;
-            width: 340px;
+            width: 100%;
             height: auto;
+            @include media(sm) {
+                width: 340px;
+            }
         }
 
         @include media(lg) {
