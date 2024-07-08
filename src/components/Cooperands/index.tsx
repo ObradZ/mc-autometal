@@ -3,12 +3,16 @@ import styles from './Cooperands.module.scss';
 import { cooperands } from './content';
 import Image from 'next/image';
 import MainHeading from '../MainHeading';
+import SectionWrapper from '../SectionWrapper';
 
 const Cooperands = () => {
     return (
         <div className={styles.cooperandsWrapper}>
-            <MainHeading subtitle='Kooperanti' title='Lorem ipsum' shade='light' />
-            <div className={styles.cooperandsContainer}>
+            <SectionWrapper superStyles={styles.cooperandsHeadingContainer}>
+                <MainHeading subtitle='Kooperanti' title='Lorem ipsum' shade='light' />
+            </SectionWrapper>
+
+            <SectionWrapper superStyles={styles.cooperandsContainer}>
                 {cooperands.map((coop) => {
                     return (
                         <div key={coop.id} className={styles.gridItem}>
@@ -16,7 +20,7 @@ const Cooperands = () => {
                         </div>
                     );
                 })}
-            </div>
+            </SectionWrapper>
         </div>
     );
 };

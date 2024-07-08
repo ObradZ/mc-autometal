@@ -4,7 +4,7 @@ import ProductionGridSection from '@/components/ProductionGridSection';
 import { images } from '@/components/ProductionGridSection/content';
 import VideoSection from '@/components/VideoSection';
 import React from 'react';
-import Brusenje from '@images/MachineCenter/glodanje.jpg';
+import Brusenje from '@images/MachineCenter/brusenje.jpg';
 const Page = () => {
     return (
         <main>
