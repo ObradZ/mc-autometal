@@ -40,8 +40,9 @@
         a {
             color: $primary-blue;
             text-decoration: none;
+
             &:hover {
-                color: $primary-blue;
+                color: $primary-red;
                 transition: 0.2s ease-in-out;
             }
         }
