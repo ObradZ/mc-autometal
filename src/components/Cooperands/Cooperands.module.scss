@@ -4,8 +4,12 @@
 .cooperandsWrapper {
     background-color: $primary-blue;
     padding: 40px 0;
+
     @include media(md) {
-        padding: 40px 75px;
+        padding: 40px 25px;
+    }
+    @include media(sm) {
+        padding: 40px 0;
     }
     .cooperandsHeadingContainer {
         margin-bottom: 0;
@@ -25,11 +29,12 @@
             width: 100%;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: left;
             &:nth-of-type(9),
             &:nth-of-type(8) {
                 @include media(sm) {
                     grid-column: span 2;
+                    justify-content: center;
                 }
             }
         }
