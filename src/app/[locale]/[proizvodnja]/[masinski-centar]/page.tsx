@@ -4,10 +4,18 @@ import MasinskiCentar from '@images/MachineCenter/masinski_centar.jpg';
 import { data } from './content';
 import VideoSection from '@/components/VideoSection';
 import SliderSection from '@/components/SliderSection';
-import { slides } from '../cnc-laser/page';
 import ProductionGridSection from '@/components/ProductionGridSection';
 import { images } from '@/components/ProductionGridSection/content';
 import HeroSecondSection from '@/components/HeroSecondSection';
+import Image from 'next/image';
+import AboutImg from '@images/AboutUs/Hero.jpg';
+import ContactImg from '@images/Contact/Hero.jpg';
+import HomepageImg from '@images/Homepage/Hero.jpg';
+const slides = [
+    <Image src={AboutImg} alt='about us' key={1} />,
+    <Image src={ContactImg} alt='contact' key={2} />,
+    <Image src={HomepageImg} alt='homepage' key={3} />
+];
 const index = () => {
     return (
         <div>

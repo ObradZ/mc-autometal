@@ -14,7 +14,7 @@ import ContactImg from '@images/Contact/Hero.jpg';
 import HomepageImg from '@images/Homepage/Hero.jpg';
 import Image from 'next/image';
 
-export const slides = [
+const slides = [
     <Image src={AboutImg} alt='about us' key={1} />,
     <Image src={ContactImg} alt='contact' key={2} />,
     <Image src={HomepageImg} alt='homepage' key={3} />
