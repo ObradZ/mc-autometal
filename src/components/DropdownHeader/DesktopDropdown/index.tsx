@@ -22,7 +22,12 @@ const DesktopDropdown = ({ title, links }: DropdownHeaderProps) => {
             <div className={styles.listContainer}>
                 {links.map((link) =>
                     link.subsection.length > 0 ? (
-                        <DropdownSubsection key={link.name} links={link.subsection} title={'Mašinski centar'} />
+                        <DropdownSubsection
+                            key={link.name}
+                            links={link.subsection}
+                            title={'Mašinski centar'}
+                            titleLink='/proizvodnja/masinski-centar/'
+                        />
                     ) : (
                         <p key={link.name} onClick={() => handleItemClick(link)} className={styles.listItem}>
                             {link.name}

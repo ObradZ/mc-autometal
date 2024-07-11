@@ -6,4 +6,6 @@ export interface CountUpData {
     number: number;
     property: string;
     id: number;
+    isUnits?: boolean;
+    biggerThanSign?: boolean;
 }
