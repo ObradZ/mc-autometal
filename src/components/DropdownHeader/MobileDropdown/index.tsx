@@ -58,6 +58,7 @@ const MobileDropdown = ({ title, links, mainHeaderClose, isOpen, toggleOpen }: D
                             mainHeaderClose={mainHeaderClose}
                             title={'MAŠINSKI CENTAR'}
                             setHeight={setHeight}
+                            titleLink='/proizvodnja/masinski-centar/'
                         />
                     ) : (
                         <div key={link.name} onClick={() => handleItemClick(link)} className={styles.link}>
