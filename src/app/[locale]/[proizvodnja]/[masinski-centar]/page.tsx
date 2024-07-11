@@ -23,7 +23,7 @@ const index = () => {
                 image={MasinskiCentar}
                 isLearnMoreVisible={false}
                 countUpData={data}
-                title='Glodanje'
+                title='Mašinski centar'
                 text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.'
             />
             <VideoSection videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI' />
