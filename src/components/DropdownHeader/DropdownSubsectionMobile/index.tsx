@@ -36,10 +36,16 @@ const DropdownSubsectionMobile = ({
         }
     };
 
+    const handleTitleClick = (e: any) => {
+        titleLink && router.push(titleLink);
+        mainHeaderClose();
+    };
+
     return (
         <div className={styles.subsectionMobileContainer}>
-            <h3 onClick={() => titleLink && router.push(titleLink)} className={styles.subsectionHeading}>
-                {title}
+            <div className={styles.subsectionHeading}>
+                <h3 onClick={handleTitleClick}>{title}</h3>
+
                 {isOpenDropdown ? (
                     <span onClick={() => handleOpenAccordion()} className={styles.arrow}>
                         -
@@ -49,7 +55,7 @@ const DropdownSubsectionMobile = ({
                         +
                     </span>
                 )}
-            </h3>
+            </div>
             <div
                 className={styles.accordionContentSubsection}
                 ref={contentHeight}
