@@ -13,6 +13,7 @@
     align-items: center;
     width: 100%;
     height: 490px;
+
     @include media(md) {
         height: 820px;
     }
@@ -27,41 +28,59 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     p {
         position: absolute;
         top: 90%;
         text-align: center;
         font-size: 12px;
     }
+
     img {
         width: 100%;
     }
+
     .radiusImage {
         width: 70px;
         height: 70px;
         border-radius: 50%;
+
         @include media(md) {
             width: 146px;
             height: 146px;
         }
     }
+
     @include media(md) {
         width: 146px;
         height: 146px;
         padding: 15px;
+
         p {
             top: 100%;
             font-size: 16px;
         }
     }
 }
+
 .pointBorder {
     border: 2px solid $primary-blue;
+}
+
+@keyframes rotateGear {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .centerImage {
     width: 100px;
     height: auto;
+    animation: rotateGear 20s linear infinite;
+
     @include media(md) {
         width: 200px;
     }

@@ -14,6 +14,10 @@
             flex-direction: row;
             gap: 100px;
             margin-bottom: 30px;
+
+            .historyTextTop {
+                width: 355px;
+            }
         }
     }
 
@@ -40,6 +44,8 @@
         font-weight: 400;
         color: $black;
         line-height: 22px;
+        z-index: 1;
+        position: relative;
 
         @include media(lg) {
             display: flex;
@@ -47,7 +53,64 @@
         }
     }
 
-    .imageBlock {
+    @keyframes rotateGear {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    .imageBlockTop {
+        position: relative;
+        background-image: url('../../../public/static/images/History/BuildingOutside-min.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 235px;
+
+        @include media(lg) {
+            width: 635px;
+            height: 496px;
+        }
+
+        .gearLeft,
+        .gearRight {
+            position: absolute;
+            animation: rotateGear 20s linear infinite;
+        }
+
+        .gearLeft {
+            left: -80px;
+            bottom: -80px;
+            width: 159px;
+            height: 157px;
+
+            @include media(lg) {
+                width: 314px;
+                height: 309px;
+                left: -140px;
+                bottom: -160px;
+            }
+        }
+
+        .gearRight {
+            width: 187px;
+            height: 184px;
+            right: -100px;
+            top: 25px;
+
+            @include media(lg) {
+                width: 396px;
+                height: 390px;
+                right: -210px;
+                top: 50px;
+            }
+        }
+    }
+
+    .imageBlockBottom {
         img {
             width: 100%;
             height: auto;

@@ -11,22 +11,26 @@
         display: flex;
         align-items: center;
         top: 125px;
-        right: -210px;
+        right: -180px;
         padding: 5px 20px;
         cursor: pointer;
         background-color: $white;
         z-index: 100;
         -webkit-tap-highlight-color: transparent;
+
         @include media(md) {
-            right: -258px;
+            right: -228px;
             padding: 10px 30px;
         }
+
         .telephoneRight {
             margin-left: 30px;
+
             @include media(md) {
                 margin-left: 15px;
             }
         }
+
         img {
             height: 37px;
             width: 37px;
@@ -37,6 +41,7 @@
                 width: 61px;
             }
         }
+
         a {
             color: $primary-blue;
             text-decoration: none;
@@ -52,10 +57,12 @@
             color: $primary-blue;
             position: relative;
             font-size: 12px;
+
             @include media(md) {
                 font-size: 16px;
             }
         }
+
         .telephoneEntry:nth-of-type(1) {
             font-weight: 800;
         }
@@ -69,9 +76,7 @@
                 position: absolute;
                 bottom: 0;
                 left: 0;
-
                 width: 30%;
-
                 height: 1.5px;
             }
         }

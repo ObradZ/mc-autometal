@@ -1,16 +1,17 @@
-import Image, { StaticImageData } from 'next/image';
+import Image from 'next/image';
 import styles from './AboutUsSection.module.scss';
 import SectionWrapper from '../SectionWrapper';
 import MainLink from '../MainLink';
+import GearLeft from '../../../public/static/images/Gears/Vector-left.svg';
+import GearRight from '../../../public/static/images/Gears/Vector-right.svg';
 
 interface AboutSectionProps {
-    imageSrc: StaticImageData;
     title: string;
     subtitle: string;
     text: string;
 }
 
-const AboutUsSection = ({ imageSrc, title, subtitle, text }: AboutSectionProps) => {
+const AboutUsSection = ({ title, subtitle, text }: AboutSectionProps) => {
     return (
         <SectionWrapper>
             <div className={styles.aboutSection}>
@@ -21,7 +22,8 @@ const AboutUsSection = ({ imageSrc, title, subtitle, text }: AboutSectionProps) 
                         <p className={styles.text}>{text}</p>
                     </div>
                     <div className={styles.imageContent}>
-                        <Image src={imageSrc} alt={title} layout='fill' objectFit='cover' />
+                        <Image src={GearLeft} alt='gear' className={styles.gearLeft} />
+                        <Image src={GearRight} alt='gear' className={styles.gearRight} />
                     </div>
                 </div>
                 <MainLink href='/o-nama' superStyles={styles.link} shade='dark'>
