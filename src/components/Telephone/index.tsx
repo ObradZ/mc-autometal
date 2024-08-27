@@ -44,9 +44,8 @@ const Telephone: React.FC = () => {
                     <p className={styles.telephoneEntry}>
                         <a href='tel:+38758621300'>+387 (0)58621300 - tel / faks</a>
                     </p>
-
                     <p className={styles.telephoneEntry}>
-                        <a href='mailto:ekolek@bioesen.com'>ekolek@bioesen.com</a>
+                        <a href='mailto:info@mcautometal.com'>info@mcautometal.com</a>
                     </p>
                 </div>
             </div>
