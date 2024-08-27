@@ -8,8 +8,14 @@ body {
 }
 
 *,
-body {
+body,
+html {
     box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
 }
 
 .react-dropdown-select-item {
