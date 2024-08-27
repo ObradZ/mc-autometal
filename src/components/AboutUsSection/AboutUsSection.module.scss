@@ -53,17 +53,63 @@
         }
     }
 
+    @keyframes rotateGear {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
     .imageContent {
         position: relative;
         min-height: 235px;
         height: 100%;
         width: 100%;
         margin: 20px 0;
+        background-image: url('../../../public/static/images/AboutUs/AboutUsSectionImg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .gearLeft,
+        .gearRight {
+            position: absolute;
+            animation: rotateGear 20s linear infinite;
+        }
+
+        .gearLeft {
+            left: -80px;
+            bottom: -80px;
+            width: 159px;
+            height: 157px;
+        }
+
+        .gearRight {
+            width: 187px;
+            height: 184px;
+            right: -100px;
+            top: 25px;
+        }
 
         @include media(lg) {
             width: 635px;
             height: 496px;
             margin: unset;
+
+            .gearLeft {
+                left: -180px;
+                bottom: -160px;
+                width: 337px;
+                height: 332px;
+            }
+
+            .gearRight {
+                width: 396px;
+                height: 390px;
+                right: -230px;
+                top: 50px;
+            }
         }
     }
 }
