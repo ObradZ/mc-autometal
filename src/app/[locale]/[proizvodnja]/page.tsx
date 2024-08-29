@@ -18,7 +18,10 @@ const page = () => {
                 countUpData={data}
                 text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.'
             />
-            <VideoSection videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI' />
+            <VideoSection
+                videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI'
+                videoText='Ovi mašinski centri su srce naše proizvodne linije, omogućavajući nam da odgovorimo na različite zahteve naših klijenata i proizvedemo komponente visokog standarda i kvaliteta. Naši stručni operateri su obučeni da maksimalno iskoriste potencijal ovih mašina, obezbeđujući optimalne performanse i zadovoljavajući čak i najzahtevnije specifikacije projekata. '
+            />
             <CncLaserInfo />
             <CirclePointsSection data={circleData} title='Lorem Ipsum' subTitle='Lorem Ipsum' areImagesSvgs={false} />
             <ProductionGridSection title='Proizvodnja' subtitle='Lorem Ipsum' images={images} />
