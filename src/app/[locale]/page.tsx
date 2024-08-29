@@ -12,7 +12,7 @@ export default function Home() {
             <HeroSection
                 image={HeroImg}
                 title='Lorem Ipsum'
-                text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.'
+                text='Društvo za proizvodnju, usluge i trgovinu iz oblasti mašinstva d.o.o. MC AUTOMETAL posluje od 1999.godine sa sjedištem u Višegradu. Otkrijte više o našoj porodičnoj kompaniji i kako možemo unaprediti vaš poslovni svet. Budite deo našeg putovanja ka budućnosti u mašinskoj proizvodnji! '
             />
             <AboutUsSection title={content.title} subtitle={content.subtitle} text={content.text} />
             <ProductionGridSection title='Proizvodnja' subtitle='Lorem Ipsum' images={images} />
