@@ -17,7 +17,10 @@ const Page = () => {
                 countUpData={data}
                 text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.'
             />
-            <VideoSection videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI' />
+            <VideoSection
+                videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI'
+                videoText='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.'
+            />
             <ProductionGridSection title='Proizvodnja' subtitle='Lorem ipsum' images={images} />
             <HeroSecondSection />
         </main>

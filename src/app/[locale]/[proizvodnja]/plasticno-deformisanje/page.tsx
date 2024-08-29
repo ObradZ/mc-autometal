@@ -13,9 +13,12 @@ const Page = () => {
                 image={PlasticDeformation}
                 isLearnMoreVisible={false}
                 title='Plastično deformisanje'
-                text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.'
+                text='Naša kompanija je opremljena tehnologijama plastičnog deformisanja koje nam omogućavaju širok spektar mogućnosti u proizvodnji. Posedujemo ekscentar i hidraulične apkant prese koje su ključne za savijanje metala u različitim oblicima i dimenzijama. '
             />
-            <VideoSection videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI' />
+            <VideoSection
+                videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI'
+                videoText='Ove mašine su idealne kako za proizvodnju pojedinačnih komponenti, tako i za rad u velikim serijama, čime efikasno zadovoljavamo potrebe naših klijenata iz različitih industrija. Naša sposobnost da precizno i pouzdano oblikujemo metalne komponente pomoću ovih tehnologija čini nas partnerom po izboru za projekte koji zahtevaju visok nivo prilagođenosti i kvaliteta. '
+            />
             <ProductionGridSection title='Proizvodnja' subtitle='Lorem ipsum' images={images} />
             <HeroSecondSection />
         </main>

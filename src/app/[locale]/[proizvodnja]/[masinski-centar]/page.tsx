@@ -24,9 +24,12 @@ const index = () => {
                 isLearnMoreVisible={false}
                 countUpData={data}
                 title='Mašinski centar'
-                text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.'
+                text='Naša kompanija se ponosi savremenim CNC mašinskim parkom opremljenim najnovijom tehnologijom. Posedujemo CNC glodalice i strugove koji nam omogućavaju izvođenje 3-osnih i 4-osnih obrada sa maksimalnom preciznošću i efikasnošću. '
             />
-            <VideoSection videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI' />
+            <VideoSection
+                videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI'
+                videoText='Ovi mašinski centri su srce naše proizvodne linije, omogućavajući nam da odgovorimo na različite zahteve naših klijenata i proizvedemo komponente visokog standarda i kvaliteta. Naši stručni operateri su obučeni da maksimalno iskoriste potencijal ovih mašina, obezbeđujući optimalne performanse i zadovoljavajući čak i najzahtevnije specifikacije projekata. '
+            />
             <SliderSection slides={slides} />
             <ProductionGridSection title='Proizvodnja' subtitle='Lorem Ipsum' images={images} />
             <HeroSecondSection />

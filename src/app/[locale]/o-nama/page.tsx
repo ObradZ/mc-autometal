@@ -15,8 +15,8 @@ const page = () => {
         <main>
             <HeroSection
                 image={HeroImg}
-                title='About Us'
-                text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.'
+                title='Dobrodošli!'
+                text='Uživajte u putovanju kroz našu porodičnu priču i nasleđe u mašinskoj proizvodnji koje traje već 25 godina. Od skromnih početaka do danas, kontinuirano se razvijamo i rastemo zahvaljujući predanosti kvalitetu, inovacijama i vrhunskoj usluzi'
             />
             <History />
             <CirclePointsSection title='Tim' subTitle='Lorem ipsum' data={data} pointsBorder />
