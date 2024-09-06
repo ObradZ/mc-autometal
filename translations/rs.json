@@ -5,17 +5,160 @@
         "production": "Proizvodnja",
         "contact": "Kontakt"
     },
-    "Footer": {},
-    "Index": {
-        "title": "Homepage"
+    "Footer": {
+        "machine_center": "mašinski centar",
+        "address": "Adresa",
+        "email": "Email",
+        "telephone": "Telefon",
+        "social_networks": "Društvene mreže"
     },
-    "AboutUs": {
-        "title": "About us..."
+    "Hero_section": {
+        "find_out_more": "Saznaj više"
+    },
+    "Learn_more_hero_part": {
+        "cnc_laser_title": "CNC Laser",
+        "cnc_laser_text": "Posjedujemo 12KW fiber laser poslednje generacije koji daje izuzetno visoke brzine uz osiguranu preciznost sječenja različitih vrsta materijala.",
+        "machine_center_title": "Mašinski centar",
+        "machine_center_text": "Savremeni mašinski park vrši izradu mašinskih dijelova u pojedinačnoj i serijskoj proizvodnji za različite industrije.",
+        "plastic_deformation_title": "Plastično deformisanje",
+        "plastic_deformation_text": "Veliki broj ekscentar i hidrauličnih presa na kome se vrše operacije savijanja, probijanja, prosjecanja i dubokog izvlačenja u serijskoj proizvodnji."
+    },
+    "Home": {
+        "hero_section_title": "Lorem ipsum",
+        "hero_section_text": "Društvo za proizvodnju, usluge i trgovinu iz oblasti mašinstva d.o.o. MC AUTOMETAL posluje od 1999.godine sa sjedištem u Višegradu. Otkrijte više o našoj porodičnoj kompaniji i kako možemo unaprediti vaš poslovni svet. Budite deo našeg putovanja ka budućnosti u mašinskoj proizvodnji!",
+        "about_us_section_title": "Lorem Ipsum",
+        "about_us_section_subtitle": "About us",
+        "about_us_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "production_grid_section_title": "Proizvodnja",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "About_us": {
+        "hero_section_title": "Dobrodošli",
+        "hero_section_text": "Uživajte u putovanju kroz našu porodičnu priču i nasleđe u mašinskoj proizvodnji koje traje već 25 godina. Od skromnih početaka do danas, kontinuirano se razvijamo i rastemo zahvaljujući predanosti kvalitetu, inovacijama i vrhunskoj usluzi",
+        "circle_points_section_title": "Tim",
+        "circle_points_section_subtitle": "Lorem ipsum",
+        "3d_design_and_modeling": "3D projektovanje i dizajn",
+        "cad/cam": "CAD/CAM",
+        "quality_control": "Kontrola kvaliteta",
+        "quality_certificate": "Sertifikat kvaliteta",
+        "expert_team": "Stručan tim",
+        "cnc_machine_park": "CNC mašinski park",
+        "production_grid_section_title": "Proizvodnja",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "About_us_section": {
+        "about_us": "About us"
     },
     "Contact": {
-        "title": "contact"
+        "title": "contact",
+        "hero_section_title": "Kontakt",
+        "hero_section_text": "Biće nam zadovoljstvo da u što kraćem vremenskom roku odgovorimo i na Vaš zahtjev!",
+        "production_grid_section_title": "Proizvodnja",
+        "production_grid_section_subtitle": "Lorem ipsum",
+        "address": "Adresa",
+        "email": "Email",
+        "telephone": "Telephone",
+        "social_networks": "Društvene mreže",
+        "send": "Pošalji",
+        "name_of_the_company": "Ime kompanije",
+        "message": "Poruka"
     },
-    "Products": {
-        "title": "products"
+    "History": {
+        "title": "Lorem Ipsum",
+        "subtitle": "Istorija",
+        "text1": "Garancija kvalitetnog, brzog i konkurentnog proizvoda su stručan kadar, kvalitetna oprema i saradnja sa velikim brojem partnera, kako u zemlji tako i u inostranstvu. Naša misija je da stvaramo vrhunske mašinske proizvode koji podižu standarde industrije i unapređuju efikasnost poslovanja naših klijenata širom sveta. Posvećeni smo pružanju pouzdanih rešenja i izgradnji dugoročnih partnerstava.",
+        "text2": "Ponosno nudimo širok spektar proizvoda koji pokrivaju potrebe različitih industrija. Od preciznih komponenti do kompleksnih mašinskih sistema, naša tehnologija je sinonim za pouzdanost i performanse. Kvalitet je temelj našeg poslovanja. Svaki proizvod prolazi kroz rigorozne kontrole kvaliteta kako bismo osigurali da ispunjava najviše standarde izdržljivosti, preciznosti i dugotrajnosti"
+    },
+    "Production": {
+        "title": "production"
+    },
+    "Machine_center": {
+        "hero_section_title": "Mašinski centar",
+        "hero_section_text": "Naša kompanija se ponosi savremenim CNC mašinskim parkom opremljenim najnovijom tehnologijom. Posedujemo CNC glodalice i strugove koji nam omogućavaju izvođenje 3-osnih i 4-osnih obrada sa maksimalnom preciznošću i efikasnošću.",
+        "years_of_business": "GODINA POSLOVANJA",
+        "satisfied_clients": "ZADOVOLJNIH KLIJENATA",
+        "video_section_text": "Ovi mašinski centri su srce naše proizvodne linije, omogućavajući nam da odgovorimo na različite zahteve naših klijenata i proizvedemo komponente visokog standarda i kvaliteta. Naši stručni operateri su obučeni da maksimalno iskoriste potencijal ovih mašina, obezbeđujući optimalne performanse i zadovoljavajući čak i najzahtevnije specifikacije projekata.",
+        "production_grid_section_title": "Proizvodnja",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "Grinding": {
+        "hero_section_title": "Brušenje",
+        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "production_grid_section_title": "Proizvodnja",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "Drilling": {
+        "hero_section_title": "Bušenje",
+        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "production_grid_section_title": "Proizvodnja",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "Milling": {
+        "hero_section_title": "Glodanje",
+        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "production_grid_section_title": "Proizvodnja",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "Turning": {
+        "hero_section_title": "Struganje",
+        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "production_grid_section_title": "Proizvodnja",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "CNC_Laser": {
+        "hero_section_title": "CNC Laser",
+        "hero_section_text": "U 2023. godini, investirali smo u najnoviju tehnologiju u mašinskoj proizvodnji - fiber laser poslednje generacije.",
+        "video_section_text": "Ovaj vrhunski uređaj predstavlja vrhunac u našem tehnološkom arsenalu, omogućavajući nam da postignemo izuzetne rezultate u sečenju raznovrsnih materijala kao što su Inox, Aluminijum, čelik (MS), bakar i drugi. Zahvaljujući impresivnoj snazi od 12KW, naš fiber laser s lakoćom seče velike debljine materijala, postižući visoke brzine obrade bez kompromisa na preciznosti.",
+        "circle_points_section_title": "Lorem ipsum",
+        "circle_points_section_subtitle": "Lorem ipsum",
+        "circle_data_car_manufacturing": "Proizvodnja automobila",
+        "circle_data_mechanical_processing": "Mehanička obrada",
+        "circle_data_petroleum_machinery": "Naftna oprema",
+        "circle_data_solar_panels": "Solarni paneli",
+        "circle_data_metallurgy": "Metalurgija",
+        "circle_data_sheet_metal_fabrication": "Izrada delova od limova",
+        "steel_data": "Čelik",
+        "stainless_steel_data": "Nerdjajući čelik",
+        "aluminum_data": "Aluminijum",
+        "bronze_data": "Bronza",
+        "production_grid_section_title": "Proizvodnja",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "Plastic_deformation": {
+        "hero_section_title": "Plastično deformisanje",
+        "hero_section_text": "Naša kompanija je opremljena tehnologijama plastičnog deformisanja koje nam omogućavaju širok spektar mogućnosti u proizvodnji. Posedujemo ekscentar i hidraulične apkant prese koje su ključne za savijanje metala u različitim oblicima i dimenzijama.",
+        "video_section_text": "Ove mašine su idealne kako za proizvodnju pojedinačnih komponenti, tako i za rad u velikim serijama, čime efikasno zadovoljavamo potrebe naših klijenata iz različitih industrija. Naša sposobnost da precizno i pouzdano oblikujemo metalne komponente pomoću ovih tehnologija čini nas partnerom po izboru za projekte koji zahtevaju visok nivo prilagođenosti i kvaliteta.",
+        "production_grid_section_title": "Proizvodnja",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "Production_grid_section": {
+        "cnc_laser_alt": "CNC Laser",
+        "cnc_laser_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "milling_alt": "Glodanje",
+        "milling_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "turning_alt": "Struganje",
+        "turning_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "grinding_alt": "Brušenje",
+        "grinding_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "drilling_alt": "Bušenje",
+        "drilling_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "plastic_deformation_alt": "Plast. deformisanje",
+        "plastic_deformation_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "find_out_more": "Saznaj više"
+    },
+    "CNC_Laser_info": {
+        "title": "Lorem Ipsum",
+        "subtitle": "Lorem Ipsum",
+        "text": "Dodatno, ovaj laser je opremljen automatski izmjenjivim stolom, što nam omogućava značajne uštede u vremenu pripreme. Ova funkcionalnost omogućava bržu promenu materijala i smanjenje downtime-a između različitih zadataka, čime dodatno povećavamo našu efikasnost i produktivnost.Ova tehnologija nam omogućava da ispunimo čak i najzahtevnije specifikacije naših klijenata, pružajući im komponente visokog kvaliteta sa savršenim ivicama i minimalnim termičkim deformacijama. Naš tim stručnjaka je obučen da maksimalno iskoristi potencijal ovog fiber lasera, što nam omogućava da budemo na čelu inovacija i efikasnosti u industriji mašinske obrade.",
+        "visit_website": "Poseti sajt"
+    },
+    "Hero_second_section": {
+        "contact": "Kontakt",
+        "text": "Spremni smo da vam pružimo više informacija o našim proizvodima i uslugama. Obratite nam se sa poverenjem jer smo tu da podržimo vaše poslovne potrebe i ciljeve.",
+        "contact_us": "Kontaktirajte nas"
     }
 }

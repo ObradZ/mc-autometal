@@ -10,7 +10,23 @@ import SocialIcon from '@images/Footer/social_icon.svg';
 import Image, { StaticImageData } from 'next/image';
 import MainHeading from '../MainHeading';
 
-const Contact = () => {
+const Contact = ({
+    address,
+    email,
+    telephone,
+    socialNetworks,
+    send,
+    nameOfTheCompany,
+    message
+}: {
+    address: string;
+    email: string;
+    telephone: string;
+    socialNetworks: string;
+    send: string;
+    nameOfTheCompany: string;
+    message: string;
+}) => {
     const [body, setBody] = useState({ companyName: '', message: '' });
 
     const handleInputChange = (e: any) => {
@@ -55,11 +71,11 @@ const Contact = () => {
                 />
                 <div className={styles.contactContainer}>
                     <div className={styles.contactDetails}>
-                        {rendersection('Adresa', 'address', AddressIcon)}
-                        {rendersection('Email', 'email', EmailIcon)}
-                        {rendersection('Telefon', 'telephone', TelephoneIcon)}
+                        {rendersection(address, 'address', AddressIcon)}
+                        {rendersection(email, 'email', EmailIcon)}
+                        {rendersection(telephone, 'telephone', TelephoneIcon)}
                         <h3 className={styles.contactDetailsSectionHeading}>
-                            Društvene mreže{' '}
+                            {socialNetworks}{' '}
                             <span>
                                 {' '}
                                 <Image className={styles.socialIcon} src={SocialIcon} alt='instagram-icon'></Image>{' '}
@@ -71,13 +87,13 @@ const Contact = () => {
                             type='text'
                             className={styles.inputField}
                             name='companyName'
-                            placeholder='Ime kompanije'
+                            placeholder={nameOfTheCompany}
                             onChange={handleInputChange}
                             value={body.companyName}
                         />
 
                         <textarea
-                            placeholder='Poruka'
+                            placeholder={message}
                             name='message'
                             id='message'
                             className={styles.message}
@@ -91,7 +107,7 @@ const Contact = () => {
                             className={styles.sendLink}
                             href={`mailto:info@mcautometal.com?subject=${body.companyName}&body=${body.message}`}
                         >
-                            Pošalji &rarr;
+                            {send} &rarr;
                         </a>
                     </div>
                 </div>

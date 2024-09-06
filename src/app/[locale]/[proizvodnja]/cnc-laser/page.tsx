@@ -8,6 +8,7 @@ import CirclePointsSection from '@/components/CirclePointsSection';
 import CncLaserInfo from '@/components/CncLaserInfo';
 import SliderSection from '@/components/SliderSection';
 import HeroSecondSection from '@/components/HeroSecondSection';
+import { useTranslations } from 'next-intl';
 // Slider images
 import AboutImg from '@images/AboutUs/Hero.jpg';
 import ContactImg from '@images/Contact/Hero.jpg';
@@ -21,25 +22,30 @@ const slides = [
 ];
 
 const Page = () => {
+    const t = useTranslations('CNC_Laser');
     return (
         <main>
             <HeroSection
                 image={HeroImg}
                 isLearnMoreVisible={false}
-                title='CNC Laser'
-                countUpData={data}
-                text='U 2023. godini, investirali smo u najnoviju tehnologiju u mašinskoj proizvodnji – fiber laser poslednje generacije. '
+                title={t('hero_section_title')}
+                countUpData={data(t)}
+                text={t('hero_section_text')}
             />
-            <VideoSection
-                videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI'
-                videoText={
-                    'Ovaj vrhunski uređaj predstavlja vrhunac u našem tehnološkom arsenalu, omogućavajući nam da postignemo izuzetne rezultate u sečenju raznovrsnih materijala kao što su Inox, Aluminijum, čelik (MS), bakar i drugi. Zahvaljujući impresivnoj snazi od 12KW, naš fiber laser s lakoćom seče velike debljine materijala, postižući visoke brzine obrade bez kompromisa na preciznosti. '
-                }
-            />
+            <VideoSection videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI' videoText={t('video_section_text')} />
             <CncLaserInfo />
-            <CirclePointsSection data={circleData} title='Lorem Ipsum' subTitle='Lorem Ipsum' areImagesSvgs={false} />
+            <CirclePointsSection
+                data={circleData(t)}
+                title='Lorem Ipsum'
+                subTitle='Lorem Ipsum'
+                areImagesSvgs={false}
+            />
             <SliderSection slides={slides} />
-            <ProductionGridSection title='Proizvodnja' subtitle='Lorem Ipsum' images={images} />
+            <ProductionGridSection
+                title={t('production_grid_section_title')}
+                subtitle={t('production_grid_section_subtitle')}
+                images={images}
+            />
             <HeroSecondSection />
         </main>
     );

@@ -7,16 +7,18 @@ import HistoryImg2 from '../../../public/static/images/AboutUs/AboutUsSectionImg
 import SectionWrapper from '../SectionWrapper';
 import GearLeft from '../../../public/static/images/Gears/Vector-left.svg';
 import GearRight from '../../../public/static/images/Gears/Vector-right.svg';
+import { useTranslations } from 'next-intl';
 
 const History = () => {
+    const t = useTranslations('History');
     return (
         <SectionWrapper>
             <div className={styles.container}>
                 <div className={styles.historyContentTop}>
                     <div className={styles.historyTextTop}>
-                        <MainHeading title={content.title} subtitle={content.subtitle} shade='dark' />
+                        <MainHeading title={t('title')} subtitle={t('subtitle')} shade='dark' />
                         <div className={styles.textBlock}>
-                            <p>{content.text1}</p>
+                            <p>{t('text1')}</p>
                         </div>
                     </div>
                     <div className={styles.imageBlockTop}>
@@ -26,7 +28,7 @@ const History = () => {
                 </div>
                 <div className={styles.historyContentBottom}>
                     <div className={styles.textBlock}>
-                        <p>{content.text2}</p>
+                        <p>{t('text2')}</p>
                     </div>
                     <div className={styles.imageBlockBottom}>
                         <Image src={HistoryImg2} alt='factory worker img' className={styles.historyImg2} />

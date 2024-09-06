@@ -4,7 +4,7 @@ import SectionWrapper from '../SectionWrapper';
 import MainLink from '../MainLink';
 import GearLeft from '../../../public/static/images/Gears/Vector-left.svg';
 import GearRight from '../../../public/static/images/Gears/Vector-right.svg';
-
+import { useTranslations } from 'next-intl';
 interface AboutSectionProps {
     title: string;
     subtitle: string;
@@ -12,6 +12,7 @@ interface AboutSectionProps {
 }
 
 const AboutUsSection = ({ title, subtitle, text }: AboutSectionProps) => {
+    const t = useTranslations('About_us_section');
     return (
         <SectionWrapper>
             <div className={styles.aboutSection}>
@@ -27,7 +28,7 @@ const AboutUsSection = ({ title, subtitle, text }: AboutSectionProps) => {
                     </div>
                 </div>
                 <MainLink href='/o-nama' superStyles={styles.link} shade='dark'>
-                    O nama →
+                    {t('about_us')} →
                 </MainLink>
             </div>
         </SectionWrapper>

@@ -8,7 +8,7 @@ import CirclePointsSection from '@/components/CirclePointsSection';
 import CncLaserInfo from '@/components/CncLaserInfo';
 import HeroSecondSection from '@/components/HeroSecondSection';
 
-const page = () => {
+const Page = () => {
     return (
         <main>
             <HeroSection
@@ -30,4 +30,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;

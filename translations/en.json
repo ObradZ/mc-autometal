@@ -5,17 +5,160 @@
         "production": "Production",
         "contact": "Contact"
     },
-    "Footer": {},
-    "Index": {
-        "title": "Homepage"
+    "Footer": {
+        "machine_center": "machine center",
+        "address": "Address",
+        "email": "Email",
+        "telephone": "Telephone",
+        "social_networks": "Social networks"
     },
-    "AboutUs": {
-        "title": "About us..."
+    "Hero_section": {
+        "find_out_more": "Find out more"
+    },
+    "Learn_more_hero_part": {
+        "cnc_laser_title": "CNC Laser",
+        "cnc_laser_text": "We have a 12KW state-of-the-art fiber laser that provides extremely high speeds while ensuring precise cutting of various types of materials.",
+        "machine_center_title": "Machine center",
+        "machine_center_text": "Our modern machine park manufactures machine parts for both individual and series production across various industries.",
+        "plastic_deformation_title": "Plastic deformation",
+        "plastic_deformation_text": "A large number of eccentric and hydraulic presses are used for bending, punching, shearing, and deep drawing operations in series production."
+    },
+    "Home": {
+        "hero_section_title": "Lorem ipsum",
+        "hero_section_text": "The company MC AUTOMETAL d.o.o., specializing in manufacturing, services, and trade in the field of machining, has been operating since 1999, with its headquarters in Višegrad. Discover more about our family-owned business and how we can enhance your business world. Be a part of our journey towards the future of machining production!",
+        "about_us_section_title": "Lorem Ipsum",
+        "about_us_section_subtitle": "O nama",
+        "about_us_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "production_grid_section_title": "Proizvodnja",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "About_us": {
+        "hero_section_title": "Welcome!",
+        "hero_section_text": "Enjoy the journey through our family story and 25-year legacy in machining production. From humble beginnings to today, we have continuously developed and grown thanks to our commitment to quality, innovation, and excellent service.",
+        "circle_points_section_title": "Team",
+        "circle_points_section_subtitle": "Lorem ipsum",
+        "3d_design_and_modeling": "3D design and modeling",
+        "cad/cam": "CAD/CAM",
+        "quality_control": "Quality control",
+        "quality_certificate": "Quality certificate",
+        "expert_team": "Expert team",
+        "cnc_machine_park": "CNC machine park",
+        "production_grid_section_title": "Production",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "About_us_section": {
+        "about_us": "About us"
     },
     "Contact": {
-        "title": "contact"
+        "title": "contact",
+        "hero_section_title": "Kontakt",
+        "hero_section_text": "We will be pleased to respond to your request as soon as possible!",
+        "production_grid_section_title": "Production",
+        "production_grid_section_subtitle": "Lorem ipsum",
+        "address": "Address",
+        "email": "Email",
+        "telephone": "Telephone",
+        "social_networks": "Social networks",
+        "send": "Send",
+        "name_of_the_company": "Name of the company",
+        "message": "Message"
     },
-    "Products": {
+    "History": {
+        "title": "Lorem Ipsum",
+        "subtitle": "History",
+        "text1": "The guarantee of a high-quality, fast, and competitive product lies in our expert staff, quality equipment, and collaboration with a large number of partners, both domestically and internationally. Our mission is to create top-notch machining products that raise industry standards and enhance the efficiency of our clients' businesses worldwide. We are dedicated to providing reliable solutions and building long-term partnerships.",
+        "text2": "We proudly offer a wide range of products that cater to the needs of various industries. From precision components to complex machining systems, our technology is synonymous with reliability and performance. Quality is the foundation of our business. Every product undergoes rigorous quality control to ensure it meets the highest standards of durability, precision, and longevity."
+    },
+    "Production": {
         "title": "products"
+    },
+    "Machine_center": {
+        "hero_section_title": "Machine Center",
+        "hero_section_text": "Our company takes pride in its modern CNC machine park, equipped with the latest technology. We have CNC milling machines and lathes that allow us to perform 3-axis and 4-axis machining with maximum precision and efficiency.",
+        "years_of_business": "YEARS OF BUSINESS",
+        "satisfied_clients": "SATISFIED CLIENTS",
+        "video_section_text": "These machine centers are the heart of our production line, enabling us to meet various client demands and produce components of high standard and quality. Our expert operators are trained to maximize the potential of these machines, ensuring optimal performance and meeting even the most demanding project specifications.",
+        "production_grid_section_title": "Production",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "Grinding": {
+        "hero_section_title": "Grinding",
+        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "production_grid_section_title": "Production",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "Drilling": {
+        "hero_section_title": "Drilling",
+        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "production_grid_section_title": "Production",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "Milling": {
+        "hero_section_title": "Milling",
+        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "production_grid_section_title": "Production",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "Turning": {
+        "hero_section_title": "Turning",
+        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "production_grid_section_title": "Production",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "CNC_Laser": {
+        "hero_section_title": "CNC Laser",
+        "hero_section_text": "In 2023, we invested in the latest technology in machining production—a state-of-the-art fiber laser.",
+        "video_section_text": "This top-of-the-line device represents the pinnacle of our technological arsenal, enabling us to achieve exceptional results in cutting various materials such as stainless steel, aluminum, steel (MS), copper, and others. Thanks to its impressive 12KW power, our fiber laser effortlessly cuts through thick materials, achieving high processing speeds without compromising precision.",
+        "circle_points_section_title": "Lorem ipsum",
+        "circle_points_section_subtitle": "Lorem ipsum",
+        "circle_data_car_manufacturing": "Car manufacturing",
+        "circle_data_mechanical_processing": "Mechanical processing",
+        "circle_data_petroleum_machinery": "Petroleum machinery",
+        "circle_data_solar_panels": "Solar panels",
+        "circle_data_metallurgy": "Metallurgy",
+        "circle_data_sheet_metal_fabrication": "Sheet metal fabrication",
+        "steel_data": "steel",
+        "stainless_steel_data": "Stainless steel",
+        "aluminum_data": "Aluminum",
+        "bronze_data": "Bronze",
+        "production_grid_section_title": "Production",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "Plastic_deformation": {
+        "hero_section_title": "Plastic deformation",
+        "hero_section_text": "Our company is equipped with plastic deformation technologies that allow us a wide range of production possibilities. We have eccentric and hydraulic bending presses that are key for bending metal into various shapes and dimensions.",
+        "video_section_text": "These machines are ideal for both producing individual components and working in large series, allowing us to efficiently meet the needs of our clients from various industries. Our ability to precisely and reliably shape metal components with these technologies makes us the partner of choice for projects that require a high level of customization and quality.",
+        "production_grid_section_title": "Production",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "Production_grid_section": {
+        "cnc_laser_alt": "CNC Laser",
+        "cnc_laser_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "milling_alt": "Milling",
+        "milling_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "turning_alt": "Turning",
+        "turning_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "grinding_alt": "Grinding",
+        "grinding_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "drilling_alt": "Drilling",
+        "drilling_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "plastic_deformation_alt": "Plastic deformation",
+        "plastic_deformation_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "find_out_more": "Find out more"
+    },
+    "CNC_Laser_info": {
+        "title": "Lorem Ipsum",
+        "subtitle": "Lorem Ipsum",
+        "text": "Additionally, this laser is equipped with an automatic exchange table, which allows us significant time savings in setup. This functionality enables faster material changes and reduces downtime between different tasks, further enhancing our efficiency and productivity. This technology allows us to meet even the most demanding client specifications, providing high-quality components with perfect edges and minimal thermal distortions. Our team of experts is trained to maximize the potential of this fiber laser, enabling us to lead in innovation and efficiency in the machining industry.",
+        "visit_website": "Visit website"
+    },
+    "Hero_second_section": {
+        "contact": "Contact",
+        "text": "We are ready to provide you with more information about our products and services. Feel free to contact us with confidence, as we are here to support your business needs and goals.",
+        "contact_us": "Contact us"
     }
 }

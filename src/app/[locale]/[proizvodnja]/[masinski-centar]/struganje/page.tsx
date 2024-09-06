@@ -6,22 +6,24 @@ import VideoSection from '@/components/VideoSection';
 import React from 'react';
 import Struganje from '@images/MachineCenter/glodanje.jpg';
 import { data } from './content';
-
+import { useTranslations } from 'next-intl';
 const Page = () => {
+    const t = useTranslations('Turning');
     return (
         <main>
             <HeroSection
                 image={Struganje}
                 isLearnMoreVisible={false}
-                title='Struganje'
                 countUpData={data}
-                text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.'
+                title={t('hero_section_title')}
+                text={t('text')}
             />
-            <VideoSection
-                videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI'
-                videoText='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.'
+            <VideoSection videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI' videoText={t('video_section_text')} />
+            <ProductionGridSection
+                title={t('production_grid_section_title')}
+                subtitle={t('production_grid_section_subtitle')}
+                images={images}
             />
-            <ProductionGridSection title='Proizvodnja' subtitle='Lorem ipsum' images={images} />
             <HeroSecondSection />
         </main>
     );
