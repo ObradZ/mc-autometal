@@ -21,5 +21,5 @@ export const data = [
     { property: 'divider', number: 0, id: 3 },
     { number: 40, property: 'aluminijum', id: 4 },
     { property: 'divider', number: 0, id: 5 },
-    { number: 45, property: 'brozna', id: 6 }
+    { number: 45, property: 'bronza', id: 6 }
 ];

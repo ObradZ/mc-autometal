@@ -17,6 +17,7 @@ interface ProductionGridSectionProps {
 }
 
 const ProductionGridSection = ({ title, subtitle, images }: ProductionGridSectionProps) => {
+    console.log(title);
     return (
         <SectionWrapper>
             <div className={styles.container}>

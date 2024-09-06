@@ -12,7 +12,7 @@ import DropdownHeader from '../DropdownHeader';
 import { productionLinks } from './content';
 import MainLink from '../MainLink';
 
-function Header({ homeTitle, contactTitle, aboutUsTitle }: HeaderProps) {
+function Header({ homeTitle, contactTitle, aboutUsTitle, productionTitle }: HeaderProps) {
     const [isOpen, setOpen] = useState(false);
     const [scrollPosition, setScrollPosition] = useState(0);
     const [isVisible, setIsVisible] = useState(true);
@@ -82,7 +82,7 @@ function Header({ homeTitle, contactTitle, aboutUsTitle }: HeaderProps) {
                     <DropdownHeader
                         isOpen={isProductionOpen}
                         toggleOpen={toggleProductionDropdown}
-                        title={'proizvodnja'}
+                        title={productionTitle}
                         links={productionLinks}
                         mainHeaderClose={handleCLose}
                     />

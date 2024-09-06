@@ -9,17 +9,20 @@ import { content } from '@/components/Certificates/content';
 import CirclePointsSection from '@/components/CirclePointsSection';
 import { data } from './content';
 import HeroSecondSection from '@/components/HeroSecondSection';
+import { useTranslations } from 'next-intl';
 
 const page = () => {
+    const t = useTranslations('About_us');
     return (
         <main>
-            <HeroSection
-                image={HeroImg}
-                title='Dobrodošli!'
-                text='Uživajte u putovanju kroz našu porodičnu priču i nasleđe u mašinskoj proizvodnji koje traje već 25 godina. Od skromnih početaka do danas, kontinuirano se razvijamo i rastemo zahvaljujući predanosti kvalitetu, inovacijama i vrhunskoj usluzi'
-            />
+            <HeroSection image={HeroImg} title={t('hero_section_title')} text={t('hero_section_text')} />
             <History />
-            <CirclePointsSection title='Tim' subTitle='Lorem ipsum' data={data} pointsBorder />
+            <CirclePointsSection
+                title={t('circle_points_section_title')}
+                subTitle={t('circle_points_section_subtitle')}
+                data={data(t)}
+                pointsBorder
+            />
             <Certificates
                 title={content.title}
                 subtitle={content.subtitle}
@@ -28,7 +31,11 @@ const page = () => {
                 certificate2={content.certificates.certificate2}
             />
             <Cooperands />
-            <ProductionGridSection title='Proizvodnja' subtitle='Lorem Ipsum' images={images} />
+            <ProductionGridSection
+                title={t('production_grid_section_title')}
+                subtitle={t('production_grid_section_subtitle')}
+                images={images}
+            />
             <HeroSecondSection />
         </main>
     );

@@ -4,12 +4,14 @@ import EngineImg from '@images/Homepage/engine.png';
 import MainLink from '@/components/MainLink';
 import EmblaCarousel from '@/components/EmblaCarousel';
 import { sliderData } from './content';
+import { useTranslations } from 'next-intl';
 
 const LearnMoreHeroPart = () => {
+    const t = useTranslations('Learn_more_hero_part');
     return (
         <div>
             <div className={styles.slider}>
-                {sliderData.map((item) => (
+                {sliderData(t).map((item) => (
                     <div key={item.title} className={styles.sliderItemWrapper}>
                         <Image className={styles.sliderImg} src={EngineImg} alt='engine' />
                         <p className={styles.sliderTitle}>{item.title}</p>
@@ -23,7 +25,7 @@ const LearnMoreHeroPart = () => {
             <div className={styles.mobileSlider}>
                 <EmblaCarousel
                     enableArrowButtons={false}
-                    slides={sliderData.map((item) => (
+                    slides={sliderData(t).map((item) => (
                         <div key={item.title} className={styles.sliderItemWrapper}>
                             <Image className={styles.sliderImg} src={EngineImg} alt='engine' />
                             <p className={styles.sliderTitle}>{item.title}</p>

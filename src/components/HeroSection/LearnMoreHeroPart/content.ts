@@ -1,17 +1,17 @@
-export const sliderData = [
+export const sliderData = (t: any) => [
     {
-        title: 'CNC Laser',
-        text: 'Posjedujemo 12KW fiber laser poslednje generacije koji daje izuzetno visoke brzine uz osiguranu preciznost sječenja različitih vrsta materijala.',
+        title: t('cnc_laser_title'),
+        text: t('cnc_laser_text'),
         href: '/o-nama'
     },
     {
-        title: 'Mašinski centar',
-        text: 'Savremeni mašinski park vrši izradu mašinskih dijelova u pojedinačnoj i serijskoj proizvodnji za različite industrije.',
+        title: t('machine_center_title'),
+        text: t('machine_center_text'),
         href: '/o-nama'
     },
     {
-        title: 'Plastično deformisanje',
-        text: 'Veliki broj ekscentar i hidrauličnih presa na kome se vrše operacije savijanja, probijanja, prosjecanja i dubokog izvlačenja u serijskoj proizvodnji.',
+        title: t('plastic_deformation_title'),
+        text: t('plastic_deformation_text'),
         href: '/o-nama'
     }
 ];

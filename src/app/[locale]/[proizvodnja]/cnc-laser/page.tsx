@@ -8,6 +8,7 @@ import CirclePointsSection from '@/components/CirclePointsSection';
 import CncLaserInfo from '@/components/CncLaserInfo';
 import SliderSection from '@/components/SliderSection';
 import HeroSecondSection from '@/components/HeroSecondSection';
+import { useTranslations } from 'next-intl';
 // Slider images
 import AboutImg from '@images/AboutUs/Hero.jpg';
 import ContactImg from '@images/Contact/Hero.jpg';
@@ -21,6 +22,7 @@ const slides = [
 ];
 
 const Page = () => {
+    const t = useTranslations('CNC_Laser');
     return (
         <main>
             <HeroSection
@@ -37,7 +39,12 @@ const Page = () => {
                 }
             />
             <CncLaserInfo />
-            <CirclePointsSection data={circleData} title='Lorem Ipsum' subTitle='Lorem Ipsum' areImagesSvgs={false} />
+            <CirclePointsSection
+                data={circleData(t)}
+                title='Lorem Ipsum'
+                subTitle='Lorem Ipsum'
+                areImagesSvgs={false}
+            />
             <SliderSection slides={slides} />
             <ProductionGridSection title='Proizvodnja' subtitle='Lorem Ipsum' images={images} />
             <HeroSecondSection />

@@ -5,8 +5,10 @@ import SectionWrapper from '../SectionWrapper';
 import LearnMoreHeroPart from './LearnMoreHeroPart';
 import CountUpHeroPart from './CountUpHeroPart';
 import MainLink from '../MainLink';
+import { useTranslations } from 'next-intl';
 
 const HeroSection = ({ image, title, text, isLearnMoreVisible = true, countUpData }: HeroSectionProps) => {
+    const t = useTranslations('Hero_section');
     return (
         <div className={styles.wrapper}>
             <Image className={styles.heroImage} src={image} alt='Banner' />
@@ -15,7 +17,7 @@ const HeroSection = ({ image, title, text, isLearnMoreVisible = true, countUpDat
                     <h1 className={styles.title}>{title}</h1>
                     <p className={styles.text}>{text}</p>
                     <MainLink href='/o-nama' shade='light'>
-                        Saznaj više →
+                        {t('find_out_more')} →
                     </MainLink>
                 </div>
                 {countUpData && <CountUpHeroPart data={countUpData} />}

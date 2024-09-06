@@ -8,30 +8,34 @@ import ProductionGridSection from '@/components/ProductionGridSection';
 import { images } from '@/components/ProductionGridSection/content';
 import HeroSecondSection from '@/components/HeroSecondSection';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 import AboutImg from '@images/AboutUs/Hero.jpg';
 import ContactImg from '@images/Contact/Hero.jpg';
 import HomepageImg from '@images/Homepage/Hero.jpg';
+
 const slides = [
     <Image src={AboutImg} alt='about us' key={1} />,
     <Image src={ContactImg} alt='contact' key={2} />,
     <Image src={HomepageImg} alt='homepage' key={3} />
 ];
 const index = () => {
+    const t = useTranslations('Machine_center');
     return (
         <div>
             <HeroSection
                 image={MasinskiCentar}
                 isLearnMoreVisible={false}
-                countUpData={data}
-                title='Mašinski centar'
-                text='Naša kompanija se ponosi savremenim CNC mašinskim parkom opremljenim najnovijom tehnologijom. Posedujemo CNC glodalice i strugove koji nam omogućavaju izvođenje 3-osnih i 4-osnih obrada sa maksimalnom preciznošću i efikasnošću. '
+                countUpData={data(t)}
+                title={t('hero_section_title')}
+                text={t('hero_section_text')}
             />
-            <VideoSection
-                videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI'
-                videoText='Ovi mašinski centri su srce naše proizvodne linije, omogućavajući nam da odgovorimo na različite zahteve naših klijenata i proizvedemo komponente visokog standarda i kvaliteta. Naši stručni operateri su obučeni da maksimalno iskoriste potencijal ovih mašina, obezbeđujući optimalne performanse i zadovoljavajući čak i najzahtevnije specifikacije projekata. '
-            />
+            <VideoSection videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI' videoText={t('video_section_text')} />
             <SliderSection slides={slides} />
-            <ProductionGridSection title='Proizvodnja' subtitle='Lorem Ipsum' images={images} />
+            <ProductionGridSection
+                title={t('production_grid_section_title')}
+                subtitle={t('production_grid_section_subtitle')}
+                images={images}
+            />
             <HeroSecondSection />
         </div>
     );
