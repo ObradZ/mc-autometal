@@ -20,8 +20,8 @@ const englishMetadata = {
     applicationName: 'MC Autometal',
     metadataBase: new URL('https://mc-autometal-mu.vercel.app/'),
     title: {
-        template: 'MC Autometal | Machine centar',
-        default: 'MC Autometal | Machine centar'
+        template: 'MC Autometal | Machine center',
+        default: 'MC Autometal | Machine center'
     },
     description:
         'MC Autometal is a company specializing in manufacturing, services, and trade in the field of mechanical engineering. '
