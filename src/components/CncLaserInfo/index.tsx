@@ -1,7 +1,6 @@
 import SectionWrapper from '../SectionWrapper';
 import styles from './CncLaserInfo.module.scss';
 import Image from 'next/image';
-import { content } from './content';
 import Laser from '../../../public/static/images/CncLaser/cnc-laser.png';
 import MainHeading from '../MainHeading';
 import MainLink from '../MainLink';

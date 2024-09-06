@@ -5,21 +5,24 @@ import VideoSection from '@/components/VideoSection';
 import ProductionGridSection from '@/components/ProductionGridSection';
 import { images } from '@/components/ProductionGridSection/content';
 import HeroSecondSection from '@/components/HeroSecondSection';
+import { useTranslations } from 'next-intl';
 
 const Page = () => {
+    const t = useTranslations('Plastic_deformation');
     return (
         <main>
             <HeroSection
                 image={PlasticDeformation}
                 isLearnMoreVisible={false}
-                title='Plastično deformisanje'
-                text='Naša kompanija je opremljena tehnologijama plastičnog deformisanja koje nam omogućavaju širok spektar mogućnosti u proizvodnji. Posedujemo ekscentar i hidraulične apkant prese koje su ključne za savijanje metala u različitim oblicima i dimenzijama. '
+                title={t('hero_section_title')}
+                text={t('hero_section_text')}
             />
-            <VideoSection
-                videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI'
-                videoText='Ove mašine su idealne kako za proizvodnju pojedinačnih komponenti, tako i za rad u velikim serijama, čime efikasno zadovoljavamo potrebe naših klijenata iz različitih industrija. Naša sposobnost da precizno i pouzdano oblikujemo metalne komponente pomoću ovih tehnologija čini nas partnerom po izboru za projekte koji zahtevaju visok nivo prilagođenosti i kvaliteta. '
+            <VideoSection videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI' videoText={t('video_section_text')} />
+            <ProductionGridSection
+                title={t('production_grid_section_title')}
+                subtitle={t('production_grid_section_subtitle')}
+                images={images}
             />
-            <ProductionGridSection title='Proizvodnja' subtitle='Lorem ipsum' images={images} />
             <HeroSecondSection />
         </main>
     );

@@ -18,7 +18,7 @@ const slides = [
     <Image src={ContactImg} alt='contact' key={2} />,
     <Image src={HomepageImg} alt='homepage' key={3} />
 ];
-const index = () => {
+const MachineCenter = () => {
     const t = useTranslations('Machine_center');
     return (
         <div>
@@ -41,4 +41,4 @@ const index = () => {
     );
 };
 
-export default index;
+export default MachineCenter;

@@ -29,7 +29,7 @@ const Page = () => {
                 image={HeroImg}
                 isLearnMoreVisible={false}
                 title='CNC Laser'
-                countUpData={data}
+                countUpData={data(t)}
                 text='U 2023. godini, investirali smo u najnoviju tehnologiju u mašinskoj proizvodnji – fiber laser poslednje generacije. '
             />
             <VideoSection
@@ -46,7 +46,11 @@ const Page = () => {
                 areImagesSvgs={false}
             />
             <SliderSection slides={slides} />
-            <ProductionGridSection title='Proizvodnja' subtitle='Lorem Ipsum' images={images} />
+            <ProductionGridSection
+                title={t('production_grid_section_title')}
+                subtitle={t('production_grid_section_subtitle')}
+                images={images}
+            />
             <HeroSecondSection />
         </main>
     );
