@@ -7,7 +7,7 @@ import ProductionGridSection from '@/components/ProductionGridSection';
 import HeroSecondSection from '@/components/HeroSecondSection';
 import { NextIntlClientProvider, useTranslations } from 'next-intl';
 
-const page = () => {
+const Page = () => {
     const t = useTranslations('Contact');
     return (
         <main>
@@ -34,4 +34,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;

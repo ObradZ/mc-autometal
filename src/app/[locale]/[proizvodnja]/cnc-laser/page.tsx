@@ -28,16 +28,11 @@ const Page = () => {
             <HeroSection
                 image={HeroImg}
                 isLearnMoreVisible={false}
-                title='CNC Laser'
+                title={t('hero_section_title')}
                 countUpData={data(t)}
-                text='U 2023. godini, investirali smo u najnoviju tehnologiju u mašinskoj proizvodnji – fiber laser poslednje generacije. '
+                text={t('hero_section_text')}
             />
-            <VideoSection
-                videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI'
-                videoText={
-                    'Ovaj vrhunski uređaj predstavlja vrhunac u našem tehnološkom arsenalu, omogućavajući nam da postignemo izuzetne rezultate u sečenju raznovrsnih materijala kao što su Inox, Aluminijum, čelik (MS), bakar i drugi. Zahvaljujući impresivnoj snazi od 12KW, naš fiber laser s lakoćom seče velike debljine materijala, postižući visoke brzine obrade bez kompromisa na preciznosti. '
-                }
-            />
+            <VideoSection videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI' videoText={t('video_section_text')} />
             <CncLaserInfo />
             <CirclePointsSection
                 data={circleData(t)}

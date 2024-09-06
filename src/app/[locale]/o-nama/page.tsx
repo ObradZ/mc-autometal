@@ -11,7 +11,7 @@ import { data } from './content';
 import HeroSecondSection from '@/components/HeroSecondSection';
 import { useTranslations } from 'next-intl';
 
-const page = () => {
+const Page = () => {
     const t = useTranslations('About_us');
     return (
         <main>
@@ -41,4 +41,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;
