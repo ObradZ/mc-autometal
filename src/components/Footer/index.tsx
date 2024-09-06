@@ -7,7 +7,7 @@ import Image from 'next/image';
 import MainLink from '../MainLink';
 import { useTranslations } from 'next-intl';
 
-const index = () => {
+const Index = () => {
     const t = useTranslations('Footer');
     return (
         <div className={styles.footerContainer}>
@@ -58,4 +58,4 @@ const index = () => {
     );
 };
 
-export default index;
+export default Index;
