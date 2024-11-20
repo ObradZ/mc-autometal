@@ -1,0 +1,165 @@
+{
+    "Header": {
+        "home": "Startseite",
+        "aboutUs": "Über uns",
+        "production": "Produktion",
+        "contact": "Kontakt"
+    },
+    "Footer": {
+        "machine_center": "Maschinenzentrum",
+        "address": "Adresse",
+        "email": "E-Mail",
+        "telephone": "Telefon",
+        "social_networks": "Soziale Netzwerke"
+    },
+    "Hero_section": {
+        "find_out_more": "Mehr erfahren"
+    },
+    "Learn_more_hero_part": {
+        "cnc_laser_title": "CNC-Laser",
+        "cnc_laser_text": "Wir verfügen über einen 12-kW-Hightech-Faserlaser, der extrem hohe Geschwindigkeiten und präzises Schneiden verschiedener Materialien ermöglicht.",
+        "machine_center_title": "Maschinenzentrum",
+        "machine_center_text": "Unser moderner Maschinenpark fertigt Maschinenteile für Einzel- und Serienproduktion in verschiedenen Branchen.",
+        "plastic_deformation_title": "Kunststoffverformung",
+        "plastic_deformation_text": "Eine Vielzahl von Exzenter- und Hydraulikpressen wird für Biege-, Stanz-, Scher- und Tiefziehoperationen in der Serienproduktion eingesetzt.",
+        "find_out_more": "Mehr erfahren"
+    },
+    "Home": {
+        "hero_section_title": "Lorem ipsum",
+        "hero_section_text": "Das Unternehmen MC AUTOMETAL d.o.o., spezialisiert auf Fertigung, Dienstleistungen und Handel im Bereich der Bearbeitung, ist seit 1999 tätig und hat seinen Hauptsitz in Višegrad. Entdecken Sie mehr über unser familiengeführtes Unternehmen und wie wir Ihr Geschäft verbessern können. Seien Sie Teil unserer Reise in die Zukunft der Bearbeitungsproduktion!",
+        "about_us_section_title": "Lorem Ipsum",
+        "about_us_section_subtitle": "Über uns",
+        "about_us_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "production_grid_section_title": "Produktion",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "About_us": {
+        "hero_section_title": "Willkommen!",
+        "hero_section_text": "Genießen Sie die Reise durch unsere Familiengeschichte und unser 25-jähriges Erbe in der Bearbeitungsproduktion. Von bescheidenen Anfängen bis heute haben wir uns dank unseres Engagements für Qualität, Innovation und exzellenten Service kontinuierlich entwickelt und sind gewachsen.",
+        "circle_points_section_title": "Team",
+        "circle_points_section_subtitle": "Lorem ipsum",
+        "3d_design_and_modeling": "3D-Design und Modellierung",
+        "cad/cam": "CAD/CAM",
+        "quality_control": "Qualitätskontrolle",
+        "quality_certificate": "Qualitätszertifikat",
+        "expert_team": "Expertenteam",
+        "cnc_machine_park": "CNC-Maschinenpark",
+        "production_grid_section_title": "Produktion",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "About_us_section": {
+        "about_us": "Über uns"
+    },
+    "Contact": {
+        "title": "Kontakt",
+        "hero_section_title": "Kontakt",
+        "hero_section_text": "Wir freuen uns, Ihre Anfrage so schnell wie möglich zu beantworten!",
+        "production_grid_section_title": "Produktion",
+        "production_grid_section_subtitle": "Lorem ipsum",
+        "address": "Adresse",
+        "email": "E-Mail",
+        "telephone": "Telefon",
+        "social_networks": "Soziale Netzwerke",
+        "send": "Senden",
+        "name_of_the_company": "Name des Unternehmens",
+        "message": "Nachricht"
+    },
+    "History": {
+        "title": "Lorem Ipsum",
+        "subtitle": "Geschichte",
+        "text1": "Die Garantie für ein qualitativ hochwertiges, schnelles und wettbewerbsfähiges Produkt liegt in unserem Fachpersonal, unserer hochwertigen Ausstattung und der Zusammenarbeit mit zahlreichen Partnern im In- und Ausland. Unsere Mission ist es, erstklassige Bearbeitungsprodukte zu schaffen, die die Branchenstandards erhöhen und die Effizienz unserer Kunden weltweit steigern. Wir sind bestrebt, zuverlässige Lösungen anzubieten und langfristige Partnerschaften aufzubauen.",
+        "text2": "Wir bieten stolz eine breite Palette von Produkten an, die den Bedürfnissen verschiedener Branchen entsprechen. Von Präzisionskomponenten bis hin zu komplexen Bearbeitungssystemen steht unsere Technologie für Zuverlässigkeit und Leistung. Qualität ist die Grundlage unseres Geschäfts. Jedes Produkt durchläuft strenge Qualitätskontrollen, um sicherzustellen, dass es den höchsten Standards in Bezug auf Haltbarkeit, Präzision und Langlebigkeit entspricht."
+    },
+    "Production": {
+        "title": "Produkte"
+    },
+    "Machine_center": {
+        "hero_section_title": "Maschinenzentrum",
+        "hero_section_text": "Unser Unternehmen ist stolz auf seinen modernen CNC-Maschinenpark, der mit der neuesten Technologie ausgestattet ist. Wir verfügen über CNC-Fräsmaschinen und Drehmaschinen, die uns die Durchführung von 3- und 4-Achsen-Bearbeitungen mit maximaler Präzision und Effizienz ermöglichen.",
+        "years_of_business": "JAHRE IM GESCHÄFT",
+        "satisfied_clients": "ZUFRIEDENE KUNDEN",
+        "video_section_text": "Diese Maschinenzentren sind das Herzstück unserer Produktionslinie und ermöglichen es uns, unterschiedliche Kundenanforderungen zu erfüllen und Komponenten von hohem Standard und Qualität zu produzieren. Unsere erfahrenen Bediener sind geschult, das Potenzial dieser Maschinen zu maximieren und selbst anspruchsvollste Projektspezifikationen zu erfüllen.",
+        "production_grid_section_title": "Produktion",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "Grinding": {
+        "hero_section_title": "Schleifen",
+        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "production_grid_section_title": "Produktion",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "Drilling": {
+        "hero_section_title": "Bohrung",
+        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "production_grid_section_title": "Produktion",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "Milling": {
+        "hero_section_title": "Fräsen",
+        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "production_grid_section_title": "Produktion",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "Turning": {
+        "hero_section_title": "Drehen",
+        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
+        "production_grid_section_title": "Produktion",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "CNC_Laser": {
+        "hero_section_title": "CNC Laser",
+        "hero_section_text": "Im Jahr 2023 haben wir in die neueste Technologie in der Fertigungstechnik investiert – einen hochmodernen Faserlaser.",
+        "video_section_text": "Dieses hochmoderne Gerät stellt den Höhepunkt unseres technologischen Arsenals dar und ermöglicht uns herausragende Ergebnisse beim Schneiden verschiedener Materialien wie Edelstahl, Aluminium, Stahl (MS), Kupfer und anderen. Dank seiner beeindruckenden 12 kW Leistung schneidet unser Faserlaser mühelos durch dicke Materialien und erreicht hohe Verarbeitungsgeschwindigkeiten ohne Kompromisse bei der Präzision.",
+        "circle_points_section_title": "Lorem ipsum",
+        "circle_points_section_subtitle": "Lorem ipsum",
+        "circle_data_car_manufacturing": "Automobilherstellung",
+        "circle_data_mechanical_processing": "Mechanische Bearbeitung",
+        "circle_data_petroleum_machinery": "Petroleumtechnik",
+        "circle_data_solar_panels": "Solarmodule",
+        "circle_data_metallurgy": "Metallurgie",
+        "circle_data_sheet_metal_fabrication": "Blechbearbeitung",
+        "steel_data": "Stahl",
+        "stainless_steel_data": "Edelstahl",
+        "aluminum_data": "Aluminium",
+        "bronze_data": "Bronze",
+        "production_grid_section_title": "Produktion",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "Plastic_deformation": {
+        "hero_section_title": "Kunststoffverformung",
+        "hero_section_text": "Unser Unternehmen ist mit Kunststoffverformungstechnologien ausgestattet, die uns eine breite Palette an Produktionsmöglichkeiten bieten. Wir verfügen über exzentrische und hydraulische Biegemaschinen, die entscheidend für das Biegen von Metall in verschiedene Formen und Dimensionen sind.",
+        "video_section_text": "Diese Maschinen sind ideal für die Herstellung einzelner Komponenten sowie für die Arbeit in großen Serien, wodurch wir die Bedürfnisse unserer Kunden aus verschiedenen Branchen effizient erfüllen können. Unsere Fähigkeit, Metallkomponenten präzise und zuverlässig mit diesen Technologien zu formen, macht uns zum bevorzugten Partner für Projekte, die ein hohes Maß an Anpassung und Qualität erfordern.",
+        "production_grid_section_title": "Produktion",
+        "production_grid_section_subtitle": "Lorem ipsum"
+    },
+    "Production_grid_section": {
+        "cnc_laser_alt": "CNC Laser",
+        "cnc_laser_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "milling_alt": "Fräsen",
+        "milling_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "turning_alt": "Drehen",
+        "turning_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "grinding_alt": "Schleifen",
+        "grinding_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "drilling_alt": "Bohrung",
+        "drilling_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "plastic_deformation_alt": "Kunststoffverformung",
+        "plastic_deformation_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "find_out_more": "Erfahren Sie mehr"
+    },
+    "CNC_Laser_info": {
+        "title": "Lorem Ipsum",
+        "subtitle": "Lorem Ipsum",
+        "text": "Zusätzlich ist dieser Laser mit einem automatischen Austausch-Tisch ausgestattet, der uns erhebliche Zeitersparnisse bei der Einrichtung ermöglicht. Diese Funktionalität ermöglicht schnellere Materialwechsel und reduziert Ausfallzeiten zwischen verschiedenen Aufgaben, wodurch unsere Effizienz und Produktivität weiter gesteigert wird. Diese Technologie ermöglicht es uns, selbst die anspruchsvollsten Kundenspezifikationen zu erfüllen und hochwertige Komponenten mit perfekten Kanten und minimalen thermischen Verzerrungen bereitzustellen. Unser Expertenteam ist darauf trainiert, das Potenzial dieses Faserlasers zu maximieren, wodurch wir in Innovation und Effizienz in der Fertigungsindustrie führend sind.",
+        "visit_website": "Website besuchen"
+    },
+    "Hero_second_section": {
+        "contact": "Kontakt",
+        "text": "Wir sind bereit, Ihnen weitere Informationen zu unseren Produkten und Dienstleistungen zur Verfügung zu stellen. Zögern Sie nicht, uns zu kontaktieren, denn wir sind hier, um Ihre geschäftlichen Bedürfnisse und Ziele zu unterstützen.",
+        "contact_us": "Kontaktieren Sie uns"
+    }
+}
