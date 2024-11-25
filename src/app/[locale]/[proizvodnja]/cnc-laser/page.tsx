@@ -1,7 +1,7 @@
 import HeroSection from '@/components/HeroSection';
 import VideoSection from '@/components/VideoSection';
 import ProductionGridSection from '@/components/ProductionGridSection';
-import HeroImg from '@images/Homepage/Hero.jpg';
+// import HeroImg from '@images/Homepage/Hero.jpg';
 import { images } from '@/components/ProductionGridSection/content';
 import { circleData, data } from './content';
 import CirclePointsSection from '@/components/CirclePointsSection';
@@ -26,7 +26,7 @@ const Page = () => {
     return (
         <main>
             <HeroSection
-                image={HeroImg}
+                 videoSrc='/videos/cnc.mp4'
                 isLearnMoreVisible={false}
                 title={t('hero_section_title')}
                 countUpData={data(t)}
