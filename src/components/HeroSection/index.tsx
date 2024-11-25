@@ -12,7 +12,12 @@ const HeroSection = ({ image, title, text, videoSrc, isLearnMoreVisible = true, 
     const t = useTranslations('Hero_section');
     return (
         <div className={styles.wrapper}>
-            {image && <Image className={styles.heroImage} src={image} alt='Banner' />}
+            {image && (
+                <>
+                    <Image className={styles.heroImage} src={image} alt='Banner' />
+                    <div className={styles.imageOpacity}></div>
+                </>
+            )}
             {videoSrc && <HeroVideo src={videoSrc} />}
             <SectionWrapper superStyles={styles.sectionStyles}>
                 <div className={styles.contentWrapper}>
