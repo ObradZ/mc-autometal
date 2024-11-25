@@ -33,7 +33,7 @@ const ProductionGridSection = ({ title, subtitle, images }: ProductionGridSectio
                                 <div className={styles.overlay}>
                                     <div className={styles.overlayContent}>
                                         <p className={styles.overlayText}>{image.text}</p>
-                                        <MainLink href='#' superStyles={styles.overlayButton} shade='light'>
+                                        <MainLink href={image.path} superStyles={styles.overlayButton} shade='light'>
                                             {t('find_out_more')} →
                                         </MainLink>
                                     </div>
