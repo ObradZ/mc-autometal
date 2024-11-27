@@ -32,7 +32,7 @@ const Page = () => {
                 countUpData={data(t)}
                 text={t('hero_section_text')}
             />
-            <VideoSection videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI' videoText={t('video_section_text')} />
+            <VideoSection videoUrl='https://www.youtube.com/watch?v=BXSsWHauKwE' videoText={t('video_section_text')} />
             <CncLaserInfo />
             <CirclePointsSection
                 data={circleData(t)}

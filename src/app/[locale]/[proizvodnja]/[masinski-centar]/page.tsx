@@ -29,7 +29,7 @@ const MachineCenter = () => {
                 title={t('hero_section_title')}
                 text={t('hero_section_text')}
             />
-            <VideoSection videoUrl='https://www.youtube.com/watch?v=nziA33FrhoI' videoText={t('video_section_text')} />
+            <VideoSection videoUrl='https://www.youtube.com/watch?v=wTauEVgfcDw' videoText={t('video_section_text')} />
             <SliderSection slides={slides} />
             <ProductionGridSection
                 title={t('production_grid_section_title')}
