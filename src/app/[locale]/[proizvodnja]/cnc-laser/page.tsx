@@ -26,7 +26,7 @@ const Page = () => {
     return (
         <main>
             <HeroSection
-                 videoSrc='/videos/cnc.mp4'
+                 videoSrc='/videos/cnc2.mp4'
                 isLearnMoreVisible={false}
                 title={t('hero_section_title')}
                 countUpData={data(t)}

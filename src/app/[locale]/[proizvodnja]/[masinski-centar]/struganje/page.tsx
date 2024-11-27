@@ -12,7 +12,7 @@ const Page = () => {
     return (
         <main>
             <HeroSection
-                image={Struganje}
+                videoSrc='/videos/struganje2.mp4'
                 isLearnMoreVisible={false}
                 countUpData={data}
                 title={t('hero_section_title')}

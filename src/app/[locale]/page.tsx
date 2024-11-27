@@ -10,7 +10,11 @@ export default function Home() {
     const t = useTranslations('Home');
     return (
         <main>
-            <HeroSection image={HeroImg} title={t('hero_section_title')} text={t('hero_section_text')} />
+            <HeroSection
+                videoSrc='/videos/homepage2.mp4'
+                title={t('hero_section_title')}
+                text={t('hero_section_text')}
+            />
             <AboutUsSection
                 title={t('about_us_section_title')}
                 subtitle={t('about_us_section_subtitle')}

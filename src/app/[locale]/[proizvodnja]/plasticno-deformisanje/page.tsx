@@ -1,6 +1,6 @@
 import HeroSection from '@/components/HeroSection';
 import React from 'react';
-import PlasticDeformation from '@images/PlasticDeformation/plasticDeformation.jpg';
+import PlasticDeformation from '@images/PlasticDeformation/Hero.jpeg';
 import VideoSection from '@/components/VideoSection';
 import ProductionGridSection from '@/components/ProductionGridSection';
 import { images } from '@/components/ProductionGridSection/content';

@@ -12,7 +12,7 @@ const Page = () => {
     return (
         <main>
             <HeroSection
-                image={Brusenje}
+                videoSrc='/videos/brusenje2.mp4'
                 isLearnMoreVisible={false}
                 title={t('hero_section_title')}
                 text={t('hero_section_text')}
