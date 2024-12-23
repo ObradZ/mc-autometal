@@ -11,7 +11,9 @@ import { data } from './content';
 import HeroSecondSection from '@/components/HeroSecondSection';
 import { useTranslations } from 'next-intl';
 
-const Page = () => {
+const Page = ({ params }: { params: { locale: string } }) => {
+    const { locale } = params;
+
     const t = useTranslations('About_us');
     return (
         <main>
@@ -30,7 +32,8 @@ const Page = () => {
                 certificate1={content.certificates.certificate1}
                 certificate2={content.certificates.certificate2}
             />
-            <Cooperands />
+            {locale === 'de' && <Cooperands />}
+
             <ProductionGridSection
                 title={t('production_grid_section_title')}
                 subtitle={t('production_grid_section_subtitle')}
