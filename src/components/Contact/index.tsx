@@ -9,7 +9,6 @@ import TelephoneIcon from '@images/Contact/telephone.svg';
 import SocialIcon from '@images/Footer/social_icon.svg';
 import Image, { StaticImageData } from 'next/image';
 import MainHeading from '../MainHeading';
-import { useTranslations } from 'next-intl';
 
 const Contact = ({
     address,
@@ -18,7 +17,8 @@ const Contact = ({
     socialNetworks,
     send,
     nameOfTheCompany,
-    message
+    message,
+    title
 }: {
     address: string;
     email: string;
@@ -27,8 +27,8 @@ const Contact = ({
     send: string;
     nameOfTheCompany: string;
     message: string;
+    title: string;
 }) => {
-    const t = useTranslations('Contact');
     const [body, setBody] = useState({ companyName: '', message: '' });
 
     const handleInputChange = (e: any) => {
@@ -65,7 +65,7 @@ const Contact = ({
     return (
         <SectionWrapper>
             <div className={styles.contactWrapper}>
-                <MainHeading superStyles={styles.contactMainHeading} shade='dark' title={t('contact_title')} />
+                <MainHeading superStyles={styles.contactMainHeading} shade='dark' title={title} />
                 <div className={styles.contactContainer}>
                     <div className={styles.contactDetails}>
                         {rendersection(address, 'address', AddressIcon)}

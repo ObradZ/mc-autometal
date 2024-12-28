@@ -15,6 +15,7 @@ const Page = () => {
 
             <Contact
                 address={t('address')}
+                title={t('title')}
                 email={t('email')}
                 telephone={t('telephone')}
                 socialNetworks={t('social_networks')}

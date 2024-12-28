@@ -52,7 +52,8 @@
         "about_us": "About us"
     },
     "Contact": {
-        "contact_title": "contact",
+        "title": "Contact",
+        "hero_section_title": "Contact",
         "hero_section_text": "We will be pleased to respond to your request as soon as possible!",
         "production_grid_section_title": "Production",
         "production_grid_section_subtitle": "Lorem ipsum",
