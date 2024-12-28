@@ -25,30 +25,33 @@
         "find_out_more": "Saznaj više"
     },
     "Home": {
-        "hero_section_title": "Lorem ipsum",
+        "hero_section_title": "Dobrodošli!",
         "hero_section_text": "Društvo za proizvodnju, usluge i trgovinu iz oblasti mašinstva d.o.o. MC AUTOMETAL posluje od 1999.godine sa sjedištem u Višegradu. Otkrijte više o našoj porodičnoj kompaniji i kako možemo unaprediti vaš poslovni svet. Budite deo našeg putovanja ka budućnosti u mašinskoj proizvodnji!",
-        "about_us_section_title": "Lorem Ipsum",
-        "about_us_section_subtitle": "About us",
-        "about_us_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "production_grid_section_title": "Proizvodnja",
+        "about_us_section_title": "MC Autometal",
+        "about_us_section_text": "Uživajte u putovanju kroz našu porodičnu priču i nasleđe u mašinskoj proizvodnji koje traje već 25 godina. Od skromnih početaka do danas, kontinuirano se razvijamo i rastemo zahvaljujući predanosti kvalitetu, inovacijama i vrhunskoj usluzi.",
+        "production_grid_section_title": "Tehnologije mašinske obrade",
         "production_grid_section_subtitle": "Lorem ipsum"
     },
     "About_us": {
-        "hero_section_title": "Dobrodošli",
-        "hero_section_text": "Uživajte u putovanju kroz našu porodičnu priču i nasleđe u mašinskoj proizvodnji koje traje već 25 godina. Od skromnih početaka do danas, kontinuirano se razvijamo i rastemo zahvaljujući predanosti kvalitetu, inovacijama i vrhunskoj usluzi",
+        "hero_section_title": "O nama",
+        "hero_section_text": "Naša porodična kompanija specijalizovana je za mašinsku obradu sa dugogodišnjim iskustvom i posvećenošću kvalitetu. Kroz preciznost, inovacije i modernu tehnologiju, pružamo pouzdana rešenja za različite industrije. Naša tradicija se temelji na vrijednostima povjerenja, kvaliteta i odgovornosti, a svaki projekat je prilika da pokažemo našu posvećenost i stručnost.",
         "circle_points_section_title": "Tim",
         "circle_points_section_subtitle": "Lorem ipsum",
+        "circle_points_section_text1": "Naš tim čine stručnjaci u svojim oblastima, posvećeni inovacijama i kontinuiranom unapređenju naših proizvoda i procesa.",
+        "circle_points_section_text2": "Sa ponosom negujemo atmosferu porodične zajednice među našim zaposlenima, jer verujemo da je srećan tim ključ uspeha.",
+        "certificates_title": "Sertifikati",
+        "certificates_text": "Naša kompanija posjeduje ISO 9001:2015 certifikat, što potvrđuje našu posvećenost održavanju najviših standarda kvaliteta u svim aspektima poslovanja. Ovaj certifikat, koji smo stekli kroz sistematski pristup i stalno unapređivanje, omogućava nam da pružimo pouzdane i efikasne usluge mašinske obrade našim klijentima. Kroz implementaciju ISO standarda, osiguravamo doslijednost u kvalitetu, zadovoljstvo klijenata i dugoročnu održivost poslovanja.",
+        "cooperands_title": "Kooperanti",
         "3d_design_and_modeling": "3D projektovanje i dizajn",
         "cad/cam": "CAD/CAM",
         "quality_control": "Kontrola kvaliteta",
         "quality_certificate": "Sertifikat kvaliteta",
         "expert_team": "Stručan tim",
         "cnc_machine_park": "CNC mašinski park",
-        "production_grid_section_title": "Proizvodnja",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "production_grid_section_title": "Tehnologije mašinske obrade"
     },
     "About_us_section": {
-        "about_us": "About us"
+        "about_us": "O nama"
     },
     "Contact": {
         "title": "contact",
@@ -65,10 +68,9 @@
         "message": "Poruka"
     },
     "History": {
-        "title": "Lorem Ipsum",
-        "subtitle": "Istorija",
-        "text1": "Garancija kvalitetnog, brzog i konkurentnog proizvoda su stručan kadar, kvalitetna oprema i saradnja sa velikim brojem partnera, kako u zemlji tako i u inostranstvu. Naša misija je da stvaramo vrhunske mašinske proizvode koji podižu standarde industrije i unapređuju efikasnost poslovanja naših klijenata širom sveta. Posvećeni smo pružanju pouzdanih rešenja i izgradnji dugoročnih partnerstava.",
-        "text2": "Ponosno nudimo širok spektar proizvoda koji pokrivaju potrebe različitih industrija. Od preciznih komponenti do kompleksnih mašinskih sistema, naša tehnologija je sinonim za pouzdanost i performanse. Kvalitet je temelj našeg poslovanja. Svaki proizvod prolazi kroz rigorozne kontrole kvaliteta kako bismo osigurali da ispunjava najviše standarde izdržljivosti, preciznosti i dugotrajnosti"
+        "title": "Istorija",
+        "text1": "Naša kompanija osnovana je 1999. godine, i od tada se kontinuirano razvija i raste. Kroz decenije rada, stalno smo unapređivali našu tehnologiju i usluge, što nam je omogućilo da postanemo lider u oblasti mašinske obrade. Posvećenost kvalitetu i inovacijama bila je ključ našeg uspijeha, a svakim novim korakom dokazujemo našu sposobnost da se prilagodimo potrebama tržišta i ostanemo konkurentni.",
+        "text2": "Ponosno nudimo širok spektar proizvoda koji pokrivaju potrebe različitih industrija. Od preciznih komponenti do kompleksnih mašinskih sistema, naša tehnologija je sinonim za pouzdanost i performanse. Kvalitet je temelj našeg poslovanja. Svaki proizvod prolazi kroz rigorozne kontrole kvaliteta kako bismo osigurali da ispunjava najviše standarde izdržljivosti, preciznosti i dugotrajnosti. "
     },
     "Production": {
         "title": "production"

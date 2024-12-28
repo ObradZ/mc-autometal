@@ -7,7 +7,7 @@ import GearRight from '../../../public/static/images/Gears/Vector-right.svg';
 import { useTranslations } from 'next-intl';
 interface AboutSectionProps {
     title: string;
-    subtitle: string;
+    subtitle?: string;
     text: string;
 }
 

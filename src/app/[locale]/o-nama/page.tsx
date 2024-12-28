@@ -19,26 +19,16 @@ const Page = ({ params }: { params: { locale: string } }) => {
         <main>
             <HeroSection image={HeroImg} title={t('hero_section_title')} text={t('hero_section_text')} />
             <History />
-            <CirclePointsSection
-                title={t('circle_points_section_title')}
-                subTitle={t('circle_points_section_subtitle')}
-                data={data(t)}
-                pointsBorder
-            />
+            <CirclePointsSection title={t('circle_points_section_title')} data={data(t)} pointsBorder />
             <Certificates
-                title={content.title}
-                subtitle={content.subtitle}
-                text={content.text}
+                title={t(content.title)}
+                text={t(content.text)}
                 certificate1={content.certificates.certificate1}
                 certificate2={content.certificates.certificate2}
             />
-            {locale === 'de' && <Cooperands />}
+            {locale === 'de' && <Cooperands title={t('cooperands_title')} />}
 
-            <ProductionGridSection
-                title={t('production_grid_section_title')}
-                subtitle={t('production_grid_section_subtitle')}
-                images={images}
-            />
+            <ProductionGridSection title={t('production_grid_section_title')} images={images} />
             <HeroSecondSection />
         </main>
     );

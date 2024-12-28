@@ -16,7 +16,7 @@ const HeroSecondSection = () => {
             <SectionWrapper superStyles={styles.sectionStyles}>
                 <div className={styles.contentWrapper}>
                     <Image src={HalfGearImage} alt='Half Gear' className={styles.gearImage1} />
-                    <MainHeading title={'Lorem ipsum'} subtitle={t('contact')} shade='light' />
+                    <MainHeading title={t('contact')} shade='light' superStyles={styles.mainHeadingContainer} />
                     <p className={styles.text}>{t('text')}</p>
                     <MainLink href='/kontakt' superStyles={styles.link} shade='light'>
                         {t('contact_us')} →

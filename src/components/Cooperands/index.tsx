@@ -5,11 +5,11 @@ import Image from 'next/image';
 import MainHeading from '../MainHeading';
 import SectionWrapper from '../SectionWrapper';
 
-const Cooperands = () => {
+const Cooperands = ({ title }: { title: string }) => {
     return (
         <div className={styles.cooperandsWrapper}>
             <SectionWrapper superStyles={styles.cooperandsHeadingContainer}>
-                <MainHeading subtitle='Kooperanti' title='Lorem ipsum' shade='light' />
+                <MainHeading title={title} shade='light' />
             </SectionWrapper>
 
             <SectionWrapper superStyles={styles.cooperandsContainer}>

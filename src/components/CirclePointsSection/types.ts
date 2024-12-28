@@ -7,7 +7,7 @@ export interface CirclePointsSectionProps {
         id: number;
     }[];
     title: string;
-    subTitle: string;
+    subTitle?: string;
     pointsBorder?: boolean;
     areImagesSvgs?: boolean;
 }

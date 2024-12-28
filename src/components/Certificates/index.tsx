@@ -8,7 +8,7 @@ import EmblaCarousel from '../EmblaCarousel';
 
 type CertificatesProps = {
     title: string;
-    subtitle: string;
+    subtitle?: string;
     text: string;
     certificate1: StaticImageData;
     certificate2: StaticImageData;

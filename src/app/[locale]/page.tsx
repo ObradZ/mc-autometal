@@ -15,16 +15,8 @@ export default function Home() {
                 title={t('hero_section_title')}
                 text={t('hero_section_text')}
             />
-            <AboutUsSection
-                title={t('about_us_section_title')}
-                subtitle={t('about_us_section_subtitle')}
-                text={t('about_us_section_text')}
-            />
-            <ProductionGridSection
-                title={t('production_grid_section_title')}
-                subtitle={t('production_grid_section_subtitle')}
-                images={images}
-            />
+            <AboutUsSection title={t('about_us_section_title')} text={t('about_us_section_text')} />
+            <ProductionGridSection title={t('production_grid_section_title')} images={images} />
             <HeroSecondSection />
         </main>
     );

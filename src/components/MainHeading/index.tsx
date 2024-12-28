@@ -3,7 +3,7 @@ import styles from './MainHeading.module.scss';
 
 interface mainHeadingProps {
     title: string;
-    subtitle: string;
+    subtitle?: string;
     shade: 'light' | 'dark';
     superStyles?: string;
 }

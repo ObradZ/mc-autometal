@@ -25,34 +25,34 @@
         "find_out_more": "Find out more"
     },
     "Home": {
-        "hero_section_title": "Lorem ipsum",
+        "hero_section_title": "Welcome!",
         "hero_section_text": "The company MC AUTOMETAL d.o.o., specializing in manufacturing, services, and trade in the field of machining, has been operating since 1999, with its headquarters in Višegrad. Discover more about our family-owned business and how we can enhance your business world. Be a part of our journey towards the future of machining production!",
-        "about_us_section_title": "Lorem Ipsum",
-        "about_us_section_subtitle": "About us",
-        "about_us_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "production_grid_section_title": "Production",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "about_us_section_title": "MC Autometal",
+        "about_us_section_text": "Enjoy the journey through our family story and 25 years of heritage in machine manufacturing. From humble beginnings to today, we continuously evolve and grow thanks to our dedication to quality, innovation, and exceptional service.",
+        "production_grid_section_title": "Machining Technologies"
     },
     "About_us": {
-        "hero_section_title": "Welcome!",
-        "hero_section_text": "Enjoy the journey through our family story and 25-year legacy in machining production. From humble beginnings to today, we have continuously developed and grown thanks to our commitment to quality, innovation, and excellent service.",
+        "hero_section_title": "About Us",
+        "hero_section_text": "Our family company specializes in machining with long-standing experience and a commitment to quality. Through precision, innovation, and modern technology, we provide reliable solutions for various industries. Our tradition is built on the values of trust, quality, and responsibility, and every project is an opportunity to showcase our dedication and expertise.",
         "circle_points_section_title": "Team",
-        "circle_points_section_subtitle": "Lorem ipsum",
+        "circle_points_section_text1": "Our team consists of experts in their fields, dedicated to innovation and the continuous improvement of our products and processes.",
+        "circle_points_section_text2": "We proudly foster a family-like atmosphere among our employees, as we believe that a happy team is the key to success.",
+        "certificates_title": "Certificates",
+        "certificates_text": "Our company holds the ISO 9001:2015 certification, which confirms our commitment to maintaining the highest quality standards in all aspects of our operations. This certification, which we have earned through a systematic approach and continuous improvement, enables us to provide reliable and efficient machining services to our clients. Through the implementation of ISO standards, we ensure consistency in quality, customer satisfaction, and long-term business sustainability.",
+        "cooperands_title": "Partners",
         "3d_design_and_modeling": "3D design and modeling",
         "cad/cam": "CAD/CAM",
         "quality_control": "Quality control",
         "quality_certificate": "Quality certificate",
         "expert_team": "Expert team",
         "cnc_machine_park": "CNC machine park",
-        "production_grid_section_title": "Production",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "production_grid_section_title": "Machining Technologies"
     },
     "About_us_section": {
         "about_us": "About us"
     },
     "Contact": {
-        "title": "contact",
-        "hero_section_title": "Kontakt",
+        "contact_title": "contact",
         "hero_section_text": "We will be pleased to respond to your request as soon as possible!",
         "production_grid_section_title": "Production",
         "production_grid_section_subtitle": "Lorem ipsum",
@@ -65,9 +65,8 @@
         "message": "Message"
     },
     "History": {
-        "title": "Lorem Ipsum",
-        "subtitle": "History",
-        "text1": "The guarantee of a high-quality, fast, and competitive product lies in our expert staff, quality equipment, and collaboration with a large number of partners, both domestically and internationally. Our mission is to create top-notch machining products that raise industry standards and enhance the efficiency of our clients' businesses worldwide. We are dedicated to providing reliable solutions and building long-term partnerships.",
+        "title": "History",
+        "text1": "Our company was founded in 1999, and since then, it has been continuously developing and growing. Over the decades of work, we have constantly improved our technology and services, which has allowed us to become a leader in the field of machining. Our dedication to quality and innovation has been the key to our success, and with each new step, we prove our ability to adapt to market needs and remain competitive.",
         "text2": "We proudly offer a wide range of products that cater to the needs of various industries. From precision components to complex machining systems, our technology is synonymous with reliability and performance. Quality is the foundation of our business. Every product undergoes rigorous quality control to ensure it meets the highest standards of durability, precision, and longevity."
     },
     "Production": {

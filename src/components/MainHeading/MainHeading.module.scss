@@ -31,7 +31,7 @@
     .headingDark {
         font-size: 36px;
         margin-top: 20px;
-        
+
         @include media(sm) {
             font-size: 40px;
         }

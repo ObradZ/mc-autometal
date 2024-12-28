@@ -9,7 +9,7 @@ import { useTranslations } from 'next-intl';
 
 interface ProductionGridSectionProps {
     title: string;
-    subtitle: string;
+    subtitle?: string;
     images: Function;
 }
 
@@ -18,7 +18,7 @@ const ProductionGridSection = ({ title, subtitle, images }: ProductionGridSectio
     return (
         <SectionWrapper>
             <div className={styles.container}>
-                <MainHeading title={title} subtitle={subtitle} shade='dark' />
+                <MainHeading title={title} subtitle={subtitle || ''} shade='dark' superStyles={styles.mainHeading} />
                 <div className={styles.grid}>
                     {images(t).map((image: any, index: number) => (
                         <div key={index} className={styles.gridItem}>

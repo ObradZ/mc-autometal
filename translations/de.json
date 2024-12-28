@@ -25,33 +25,34 @@
         "find_out_more": "Mehr erfahren"
     },
     "Home": {
-        "hero_section_title": "Lorem ipsum",
+        "hero_section_title": "Willkommen!",
         "hero_section_text": "Das Unternehmen MC AUTOMETAL d.o.o., spezialisiert auf Fertigung, Dienstleistungen und Handel im Bereich der Bearbeitung, ist seit 1999 tätig und hat seinen Hauptsitz in Višegrad. Entdecken Sie mehr über unser familiengeführtes Unternehmen und wie wir Ihr Geschäft verbessern können. Seien Sie Teil unserer Reise in die Zukunft der Bearbeitungsproduktion!",
-        "about_us_section_title": "Lorem Ipsum",
-        "about_us_section_subtitle": "Über uns",
-        "about_us_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "production_grid_section_title": "Produktion",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "about_us_section_title": "MC Autometal",
+        "about_us_section_text": "Genießen Sie die Reise durch unsere Familiengeschichte und unser 25-jähriges Erbe in der Maschinenherstellung. Von bescheidenen Anfängen bis heute entwickeln wir uns kontinuierlich weiter und wachsen dank unserer Hingabe an Qualität, Innovation und erstklassigen Service.",
+        "production_grid_section_title": "Maschinenbearbeitungstechnologien"
     },
     "About_us": {
-        "hero_section_title": "Willkommen!",
-        "hero_section_text": "Genießen Sie die Reise durch unsere Familiengeschichte und unser 25-jähriges Erbe in der Bearbeitungsproduktion. Von bescheidenen Anfängen bis heute haben wir uns dank unseres Engagements für Qualität, Innovation und exzellenten Service kontinuierlich entwickelt und sind gewachsen.",
+        "hero_section_title": "Über uns",
+        "hero_section_text": "Unser Familienunternehmen ist auf Maschinenbearbeitung spezialisiert und zeichnet sich durch langjährige Erfahrung und Engagement für Qualität aus. Mit Präzision, Innovation und moderner Technologie bieten wir zuverlässige Lösungen für verschiedene Branchen. Unsere Tradition basiert auf den Werten Vertrauen, Qualität und Verantwortung, und jedes Projekt ist eine Gelegenheit, unser Engagement und unsere Fachkompetenz unter Beweis zu stellen.",
         "circle_points_section_title": "Team",
-        "circle_points_section_subtitle": "Lorem ipsum",
+        "circle_points_section_text1": "Unser Team besteht aus Experten in ihren Bereichen, die sich der Innovation und der kontinuierlichen Verbesserung unserer Produkte und Prozesse widmen.",
+        "circle_points_section_text2": "Wir pflegen mit Stolz eine familiäre Atmosphäre unter unseren Mitarbeitern, da wir glauben, dass ein glückliches Team der Schlüssel zum Erfolg ist.",
+        "certificates_title": "Zertifikate",
+        "certificates_text": "Unser Unternehmen besitzt das ISO 9001:2015-Zertifikat, das unser Engagement für die Aufrechterhaltung der höchsten Qualitätsstandards in allen Aspekten unseres Unternehmens bestätigt. Dieses Zertifikat, das wir durch einen systematischen Ansatz und kontinuierliche Verbesserung erworben haben, ermöglicht es uns, unseren Kunden zuverlässige und effiziente Maschinenbearbeitungsdienstleistungen anzubieten. Durch die Implementierung der ISO-Standards gewährleisten wir Konsistenz in der Qualität, Kundenzufriedenheit und langfristige Geschäftsnachhaltigkeit.",
+        "cooperands_title": "Partner",
         "3d_design_and_modeling": "3D-Design und Modellierung",
         "cad/cam": "CAD/CAM",
         "quality_control": "Qualitätskontrolle",
         "quality_certificate": "Qualitätszertifikat",
         "expert_team": "Expertenteam",
         "cnc_machine_park": "CNC-Maschinenpark",
-        "production_grid_section_title": "Produktion",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "production_grid_section_title": "Maschinenbearbeitungstechnologien"
     },
     "About_us_section": {
         "about_us": "Über uns"
     },
     "Contact": {
-        "title": "Kontakt",
+        "contact_title": "Kontakt",
         "hero_section_title": "Kontakt",
         "hero_section_text": "Wir freuen uns, Ihre Anfrage so schnell wie möglich zu beantworten!",
         "production_grid_section_title": "Produktion",
@@ -65,9 +66,8 @@
         "message": "Nachricht"
     },
     "History": {
-        "title": "Lorem Ipsum",
-        "subtitle": "Geschichte",
-        "text1": "Die Garantie für ein qualitativ hochwertiges, schnelles und wettbewerbsfähiges Produkt liegt in unserem Fachpersonal, unserer hochwertigen Ausstattung und der Zusammenarbeit mit zahlreichen Partnern im In- und Ausland. Unsere Mission ist es, erstklassige Bearbeitungsprodukte zu schaffen, die die Branchenstandards erhöhen und die Effizienz unserer Kunden weltweit steigern. Wir sind bestrebt, zuverlässige Lösungen anzubieten und langfristige Partnerschaften aufzubauen.",
+        "title": "Geschichte",
+        "text1": "Unser Unternehmen wurde 1999 gegründet und hat sich seitdem kontinuierlich entwickelt und gewachsen. Im Laufe der Jahrzehnte haben wir unsere Technologie und Dienstleistungen ständig verbessert, was uns ermöglicht hat, ein führendes Unternehmen im Bereich der Maschinenbearbeitung zu werden. Unser Engagement für Qualität und Innovation war der Schlüssel zu unserem Erfolg, und mit jedem neuen Schritt beweisen wir unsere Fähigkeit, uns den Marktanforderungen anzupassen und wettbewerbsfähig zu bleiben.",
         "text2": "Wir bieten stolz eine breite Palette von Produkten an, die den Bedürfnissen verschiedener Branchen entsprechen. Von Präzisionskomponenten bis hin zu komplexen Bearbeitungssystemen steht unsere Technologie für Zuverlässigkeit und Leistung. Qualität ist die Grundlage unseres Geschäfts. Jedes Produkt durchläuft strenge Qualitätskontrollen, um sicherzustellen, dass es den höchsten Standards in Bezug auf Haltbarkeit, Präzision und Langlebigkeit entspricht."
     },
     "Production": {

@@ -2,6 +2,9 @@
 @import '/styles/0_variables.scss';
 
 .container {
+    .mainHeading {
+        overflow-wrap: anywhere;
+    }
     .grid {
         display: flex;
         flex-wrap: wrap;

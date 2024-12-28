@@ -16,7 +16,7 @@ const History = () => {
             <div className={styles.container}>
                 <div className={styles.historyContentTop}>
                     <div className={styles.historyTextTop}>
-                        <MainHeading title={t('title')} subtitle={t('subtitle')} shade='dark' />
+                        <MainHeading title={t('title')} shade='dark' />
                         <div className={styles.textBlock}>
                             <p>{t('text1')}</p>
                         </div>
