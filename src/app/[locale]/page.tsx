@@ -1,6 +1,5 @@
 import AboutUsSection from '@/components/AboutUsSection';
 import HeroSection from '@/components/HeroSection';
-import HeroImg from '@images/Homepage/homepageHero.jpg';
 import ProductionGridSection from '@/components/ProductionGridSection';
 import { images } from '@/components/ProductionGridSection/content';
 import HeroSecondSection from '@/components/HeroSecondSection';

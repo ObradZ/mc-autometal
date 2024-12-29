@@ -5,12 +5,22 @@ import styles from './VideoSection.module.scss';
 import MainHeading from '../MainHeading';
 import ReactPlayer from 'react-player';
 
-const VideoSection = ({ videoUrl, videoText }: { videoUrl: string; videoText: string }) => {
+const VideoSection = ({
+    videoUrl,
+    videoText,
+    videoTitle,
+    videoSubtitle
+}: {
+    videoUrl: string;
+    videoText: string;
+    videoTitle?: string;
+    videoSubtitle?: string;
+}) => {
     return (
         <SectionWrapper superStyles={styles.videoSection}>
             <div className={styles.videoSectionWrapper}>
                 <div className={styles.videoSectionContent}>
-                    <MainHeading title='Lorem ipsum' subtitle='Lorem ipsum' shade='dark' />
+                    <MainHeading title={videoTitle || 'Lorem ipsum'} subtitle={videoSubtitle || ''} shade='dark' />
                     <p className={styles.videoSectionParagraph}>{videoText}</p>
                 </div>
                 <div className={styles.videoSectionVideoWrapper}>

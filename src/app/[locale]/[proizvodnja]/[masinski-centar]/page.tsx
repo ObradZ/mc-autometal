@@ -7,19 +7,12 @@ import SliderSection from '@/components/SliderSection';
 import ProductionGridSection from '@/components/ProductionGridSection';
 import { images } from '@/components/ProductionGridSection/content';
 import HeroSecondSection from '@/components/HeroSecondSection';
-import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import AboutImg from '@images/AboutUs/Hero.jpg';
-import ContactImg from '@images/Contact/Hero.jpg';
-import HomepageImg from '@images/Homepage/Hero.jpg';
 
-const slides = [
-    <Image src={AboutImg} alt='about us' key={1} />,
-    <Image src={ContactImg} alt='contact' key={2} />,
-    <Image src={HomepageImg} alt='homepage' key={3} />
-];
 const MachineCenter = () => {
     const t = useTranslations('Machine_center');
+    const cncT = useTranslations('CNC_Laser');
+
     return (
         <div>
             <HeroSection
@@ -30,7 +23,7 @@ const MachineCenter = () => {
                 text={t('hero_section_text')}
             />
             <VideoSection videoUrl='https://www.youtube.com/watch?v=wTauEVgfcDw' videoText={t('video_section_text')} />
-            <SliderSection slides={slides} />
+            <SliderSection title={cncT('slider_section_title')} />
             <ProductionGridSection
                 title={t('production_grid_section_title')}
                 subtitle={t('production_grid_section_subtitle')}

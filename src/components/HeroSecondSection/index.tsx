@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import HeroImage from '../../../public/static/images/HeroSecondSection/hero-second-img-min.jpg';
+import HeroImage from '../../../public/static/images/HeroSecondSection/banner.jpg';
 import GearImage from '../../../public/static/images/HeroSecondSection/gear.png';
 import HalfGearImage from '../../../public/static/images/HeroSecondSection/halfGear.png';
 import styles from './HeroSecondSection.module.scss';

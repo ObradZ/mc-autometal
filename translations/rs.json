@@ -115,8 +115,10 @@
     "CNC_Laser": {
         "hero_section_title": "CNC Laser",
         "hero_section_text": "U 2023. godini, investirali smo u najnoviju tehnologiju u mašinskoj proizvodnji - fiber laser poslednje generacije.",
-        "video_section_text": "Ovaj vrhunski uređaj predstavlja vrhunac u našem tehnološkom arsenalu, omogućavajući nam da postignemo izuzetne rezultate u sečenju raznovrsnih materijala kao što su Inox, Aluminijum, čelik (MS), bakar i drugi. Zahvaljujući impresivnoj snazi od 12KW, naš fiber laser s lakoćom seče velike debljine materijala, postižući visoke brzine obrade bez kompromisa na preciznosti.",
-        "circle_points_section_title": "Lorem ipsum",
+        "video_section_title": "Fiber  laser",
+        "video_section_text": "Nedavno smo u naš mašinski park uvrstili novi CNC fiber laser od 12 kW, koji nam omogućava preciznu i efikasnu obradu materijala. Ova napredna tehnologija donosi značajno povećanje brzine i tačnosti, čime možemo da pružimo još kvalitetnije usluge našim klijentima. Sa velikim kapacitetom i fleksibilnošću, naš novi fiber laser omogućava obrada širokog spektra materijala, od metala do kompleksnih komponenata, sa vrhunskim rezultatima.",
+        "additional_laser_info": "Dodatno, ovaj laser je opremljen automatski izmjenjivim stolom, što nam omogućava značajne uštede u vremenu pripreme. Ova funkcionalnost omogućava bržu promenu materijala i smanjenje downtime-a između različitih zadataka, čime dodatno povećavamo našu efikasnost i produktivnost. Ova tehnologija nam omogućava da ispunimo čak i najzahtevnije specifikacije naših klijenata, pružajući im komponente visokog kvaliteta sa savršenim ivicama i minimalnim termičkim deformacijama. Naš tim stručnjaka je obučen da maksimalno iskoristi potencijal ovog fiber lasera, što nam omogućava da budemo na čelu inovacija i efikasnosti u industriji mašinske obrade.",
+        "circle_points_section_title": "Mreža industrija",
         "circle_points_section_subtitle": "Lorem ipsum",
         "circle_data_car_manufacturing": "Proizvodnja automobila",
         "circle_data_mechanical_processing": "Mehanička obrada",
@@ -124,11 +126,12 @@
         "circle_data_solar_panels": "Solarni paneli",
         "circle_data_metallurgy": "Metalurgija",
         "circle_data_sheet_metal_fabrication": "Izrada delova od limova",
+        "slider_section_title":"Naši proizvodi",
         "steel_data": "Čelik",
         "stainless_steel_data": "Nerdjajući čelik",
         "aluminum_data": "Aluminijum",
         "bronze_data": "Bronza",
-        "production_grid_section_title": "Proizvodnja",
+        "production_grid_section_title": "Tehnologije mašinske obrade",
         "production_grid_section_subtitle": "Lorem ipsum"
     },
     "Plastic_deformation": {
@@ -154,9 +157,9 @@
         "find_out_more": "Saznaj više"
     },
     "CNC_Laser_info": {
-        "title": "Lorem Ipsum",
-        "subtitle": "Lorem Ipsum",
-        "text": "Dodatno, ovaj laser je opremljen automatski izmjenjivim stolom, što nam omogućava značajne uštede u vremenu pripreme. Ova funkcionalnost omogućava bržu promenu materijala i smanjenje downtime-a između različitih zadataka, čime dodatno povećavamo našu efikasnost i produktivnost.Ova tehnologija nam omogućava da ispunimo čak i najzahtevnije specifikacije naših klijenata, pružajući im komponente visokog kvaliteta sa savršenim ivicama i minimalnim termičkim deformacijama. Naš tim stručnjaka je obučen da maksimalno iskoristi potencijal ovog fiber lasera, što nam omogućava da budemo na čelu inovacija i efikasnosti u industriji mašinske obrade.",
+        "title": "",
+        "subtitle": "",
+        "text": "Dodatno, ovaj laser je opremljen automatski izmjenjivim stolom, što nam omogućava značajne uštede u vremenu pripreme. Ova funkcionalnost omogućava bržu promenu materijala i smanjenje downtime-a između različitih zadataka, čime dodatno povećavamo našu efikasnost i produktivnost. Ova tehnologija nam omogućava da ispunimo čak i najzahtevnije specifikacije naših klijenata, pružajući im komponente visokog kvaliteta sa savršenim ivicama i minimalnim termičkim deformacijama. Naš tim stručnjaka je obučen da maksimalno iskoristi potencijal ovog fiber lasera, što nam omogućava da budemo na čelu inovacija i efikasnosti u industriji mašinske obrade.",
         "visit_website": "Poseti sajt"
     },
     "Hero_second_section": {

@@ -2,7 +2,7 @@ import CncLaser from '/public/static/images/ProductionGridSection/cnc-laser.jpg'
 import Glodanje from '/public/static/images/ProductionGridSection/glodanje.jpg';
 import Struganje from '/public/static/images/ProductionGridSection/struganje.jpg';
 import Brusenje from '/public/static/images/ProductionGridSection/brusenje.jpg';
-import Busenje from '/public/static/images/ProductionGridSection/busenje.jpg';
+import Busenje from '/public/static/images/ProductionGridSection/busenje1.jpg';
 import PlastDeformisanje from '/public/static/images/ProductionGridSection/plast-deformisanje.jpg';
 
 export const images = (t: any) => [

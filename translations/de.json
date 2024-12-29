@@ -112,21 +112,24 @@
     },
     "CNC_Laser": {
         "hero_section_title": "CNC Laser",
-        "hero_section_text": "Im Jahr 2023 haben wir in die neueste Technologie in der Fertigungstechnik investiert – einen hochmodernen Faserlaser.",
-        "video_section_text": "Dieses hochmoderne Gerät stellt den Höhepunkt unseres technologischen Arsenals dar und ermöglicht uns herausragende Ergebnisse beim Schneiden verschiedener Materialien wie Edelstahl, Aluminium, Stahl (MS), Kupfer und anderen. Dank seiner beeindruckenden 12 kW Leistung schneidet unser Faserlaser mühelos durch dicke Materialien und erreicht hohe Verarbeitungsgeschwindigkeiten ohne Kompromisse bei der Präzision.",
-        "circle_points_section_title": "Lorem ipsum",
-        "circle_points_section_subtitle": "Lorem ipsum",
+        "hero_section_text": "Im Jahr 2023 haben wir in die neueste Technologie der Maschinenfertigung investiert – Laser der nächsten Generation.",
+        "video_section_title": "Faserlaser",
+        "video_section_text": "Kürzlich haben wir einen neuen 12 kW CNC-Faserlaser in unseren Maschinenpark aufgenommen, der eine präzise und effiziente Materialverarbeitung ermöglicht. Diese fortschrittliche Technologie bringt eine signifikante Steigerung der Geschwindigkeit und Genauigkeit, die es uns ermöglicht, unseren Kunden noch hochwertigere Dienstleistungen anzubieten. Mit hoher Kapazität und Flexibilität ermöglicht uns unser neuer Faserlaser die Verarbeitung einer breiten Palette von Materialien, von Metallen bis hin zu komplexen Komponenten, mit hervorragenden Ergebnissen.",
+        "additional_laser_info": "Darüber hinaus ist dieser Laser mit einem automatisch wechselbaren Tisch ausgestattet, der uns erhebliche Zeitersparnisse bei der Vorbereitung ermöglicht. Diese Funktionalität ermöglicht schnellere Materialwechsel und reduziert die Ausfallzeiten zwischen verschiedenen Aufgaben, wodurch wir unsere Effizienz und Produktivität weiter steigern. Diese Technologie ermöglicht es uns, sogar die anspruchsvollsten Spezifikationen unserer Kunden zu erfüllen und ihnen Komponenten von hoher Qualität mit perfekten Kanten und minimalen thermischen Verformungen zu liefern. Unser Expertenteam ist geschult, das Potenzial dieses Faserlasers optimal zu nutzen, was uns an die Spitze von Innovation und Effizienz in der Maschinenbearbeitungsindustrie bringt.",
+        "circle_points_section_title": "Netzwerk der Industrien",
+        "circle_points_section_subtitle": "Lorem ipsun",
         "circle_data_car_manufacturing": "Automobilherstellung",
         "circle_data_mechanical_processing": "Mechanische Bearbeitung",
-        "circle_data_petroleum_machinery": "Petroleumtechnik",
-        "circle_data_solar_panels": "Solarmodule",
+        "circle_data_petroleum_machinery": "Öl-Ausrüstung",
+        "circle_data_solar_panels": "Solarpaneele",
         "circle_data_metallurgy": "Metallurgie",
         "circle_data_sheet_metal_fabrication": "Blechbearbeitung",
+        "slider_section_title": "Unsere Produkte",
         "steel_data": "Stahl",
         "stainless_steel_data": "Edelstahl",
         "aluminum_data": "Aluminium",
         "bronze_data": "Bronze",
-        "production_grid_section_title": "Produktion",
+        "production_grid_section_title": "Technologien der Maschinenbearbeitung",
         "production_grid_section_subtitle": "Lorem ipsum"
     },
     "Plastic_deformation": {
@@ -152,9 +155,9 @@
         "find_out_more": "Erfahren Sie mehr"
     },
     "CNC_Laser_info": {
-        "title": "Lorem Ipsum",
-        "subtitle": "Lorem Ipsum",
-        "text": "Zusätzlich ist dieser Laser mit einem automatischen Austausch-Tisch ausgestattet, der uns erhebliche Zeitersparnisse bei der Einrichtung ermöglicht. Diese Funktionalität ermöglicht schnellere Materialwechsel und reduziert Ausfallzeiten zwischen verschiedenen Aufgaben, wodurch unsere Effizienz und Produktivität weiter gesteigert wird. Diese Technologie ermöglicht es uns, selbst die anspruchsvollsten Kundenspezifikationen zu erfüllen und hochwertige Komponenten mit perfekten Kanten und minimalen thermischen Verzerrungen bereitzustellen. Unser Expertenteam ist darauf trainiert, das Potenzial dieses Faserlasers zu maximieren, wodurch wir in Innovation und Effizienz in der Fertigungsindustrie führend sind.",
+        "title": "",
+        "subtitle": "",
+        "text": "Zusätzlich ist dieser Laser mit einem automatisch wechselbaren Tisch ausgestattet, der es uns ermöglicht, erhebliche Zeitersparnisse bei der Vorbereitung zu erzielen. Diese Funktionalität ermöglicht schnellere Materialwechsel und reduziert Ausfallzeiten zwischen verschiedenen Aufgaben, was unsere Effizienz und Produktivität weiter steigert. Diese Technologie erlaubt es uns, auch die anspruchsvollsten Spezifikationen unserer Kunden zu erfüllen und ihnen hochqualitative Komponenten mit perfekten Kanten und minimalen thermischen Verformungen zu liefern. Unser Expertenteam ist geschult, das Potenzial dieses Faserlasers optimal zu nutzen, sodass wir an der Spitze von Innovation und Effizienz in der Fertigungsindustrie bleiben.",
         "visit_website": "Website besuchen"
     },
     "Hero_second_section": {

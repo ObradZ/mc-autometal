@@ -9,43 +9,33 @@ import CncLaserInfo from '@/components/CncLaserInfo';
 import SliderSection from '@/components/SliderSection';
 import HeroSecondSection from '@/components/HeroSecondSection';
 import { useTranslations } from 'next-intl';
-// Slider images
-import AboutImg from '@images/AboutUs/Hero.jpg';
-import ContactImg from '@images/Contact/Hero.jpg';
-import HomepageImg from '@images/Homepage/Hero.jpg';
 import Image from 'next/image';
-
-const slides = [
-    <Image src={AboutImg} alt='about us' key={1} />,
-    <Image src={ContactImg} alt='contact' key={2} />,
-    <Image src={HomepageImg} alt='homepage' key={3} />
-];
 
 const Page = () => {
     const t = useTranslations('CNC_Laser');
     return (
         <main>
             <HeroSection
-                 videoSrc='/videos/cnc2.mp4'
+                videoSrc='/videos/cnc2.mp4'
                 isLearnMoreVisible={false}
                 title={t('hero_section_title')}
                 countUpData={data(t)}
                 text={t('hero_section_text')}
             />
-            <VideoSection videoUrl='https://www.youtube.com/watch?v=BXSsWHauKwE' videoText={t('video_section_text')} />
+            <VideoSection
+                videoUrl='https://www.youtube.com/watch?v=BXSsWHauKwE'
+                videoText={t('video_section_text')}
+                videoTitle={'Fiber laser'}
+            />
             <CncLaserInfo />
             <CirclePointsSection
                 data={circleData(t)}
-                title='Lorem Ipsum'
-                subTitle='Lorem Ipsum'
+                title={t('circle_points_section_title')}
+                subTitle=''
                 areImagesSvgs={false}
             />
-            <SliderSection slides={slides} />
-            <ProductionGridSection
-                title={t('production_grid_section_title')}
-                subtitle={t('production_grid_section_subtitle')}
-                images={images}
-            />
+            <SliderSection title={t('slider_section_title')} />
+            <ProductionGridSection title={t('production_grid_section_title')} images={images} />
             <HeroSecondSection />
         </main>
     );

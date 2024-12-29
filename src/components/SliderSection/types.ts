@@ -1,5 +1,7 @@
 import { ReactNode } from 'react';
 
 export interface SliderSectionProps {
-    slides: ReactNode[];
+    slides?: ReactNode[];
+    title?: string;
+    subtitle?: string;
 }

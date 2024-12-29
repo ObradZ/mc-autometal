@@ -112,22 +112,25 @@
     },
     "CNC_Laser": {
         "hero_section_title": "CNC Laser",
-        "hero_section_text": "In 2023, we invested in the latest technology in machining production—a state-of-the-art fiber laser.",
-        "video_section_text": "This top-of-the-line device represents the pinnacle of our technological arsenal, enabling us to achieve exceptional results in cutting various materials such as stainless steel, aluminum, steel (MS), copper, and others. Thanks to its impressive 12KW power, our fiber laser effortlessly cuts through thick materials, achieving high processing speeds without compromising precision.",
-        "circle_points_section_title": "Lorem ipsum",
-        "circle_points_section_subtitle": "Lorem ipsum",
-        "circle_data_car_manufacturing": "Car manufacturing",
-        "circle_data_mechanical_processing": "Mechanical processing",
-        "circle_data_petroleum_machinery": "Petroleum machinery",
-        "circle_data_solar_panels": "Solar panels",
+        "hero_section_text": "In 2023, we invested in the latest technology in machine manufacturing - next-generation fiber laser.",
+        "video_section_title": "Fiber Laser",
+        "video_section_text": "Recently, we added a new 12 kW CNC fiber laser to our machinery park, which allows for precise and efficient material processing. This advanced technology brings a significant increase in speed and accuracy, enabling us to provide even higher quality services to our clients. With high capacity and flexibility, our new fiber laser allows for the processing of a wide range of materials, from metals to complex components, with excellent results.",
+        "additional_laser_info": "Additionally, this laser is equipped with an automatically interchangeable table, which allows us to achieve significant time savings in preparation. This functionality enables faster material changes and reduces downtime between different tasks, further increasing our efficiency and productivity. This technology allows us to meet even the most demanding specifications of our clients, providing them with high-quality components with perfect edges and minimal thermal deformations. Our team of experts is trained to make the most of the potential of this fiber laser, allowing us to stay at the forefront of innovation and efficiency in the machining industry.",
+        "circle_points_section_title": "Network of Industries",
+        "circle_points_section_subtitle": "",
+        "circle_data_car_manufacturing": "Car Manufacturing",
+        "circle_data_mechanical_processing": "Mechanical Processing",
+        "circle_data_petroleum_machinery": "Oil Equipment",
+        "circle_data_solar_panels": "Solar Panels",
         "circle_data_metallurgy": "Metallurgy",
-        "circle_data_sheet_metal_fabrication": "Sheet metal fabrication",
-        "steel_data": "steel",
-        "stainless_steel_data": "Stainless steel",
+        "circle_data_sheet_metal_fabrication": "Sheet Metal Fabrication",
+        "slider_section_title": "Our Products",
+        "steel_data": "Steel",
+        "stainless_steel_data": "Stainless Steel",
         "aluminum_data": "Aluminum",
         "bronze_data": "Bronze",
-        "production_grid_section_title": "Production",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "production_grid_section_title": "Machining Technologies",
+        "production_grid_section_subtitle": ""
     },
     "Plastic_deformation": {
         "hero_section_title": "Plastic deformation",
@@ -152,9 +155,9 @@
         "find_out_more": "Find out more"
     },
     "CNC_Laser_info": {
-        "title": "Lorem Ipsum",
-        "subtitle": "Lorem Ipsum",
-        "text": "Additionally, this laser is equipped with an automatic exchange table, which allows us significant time savings in setup. This functionality enables faster material changes and reduces downtime between different tasks, further enhancing our efficiency and productivity. This technology allows us to meet even the most demanding client specifications, providing high-quality components with perfect edges and minimal thermal distortions. Our team of experts is trained to maximize the potential of this fiber laser, enabling us to lead in innovation and efficiency in the machining industry.",
+        "title": "",
+        "subtitle": "",
+        "text": "Additionally, this laser is equipped with an automatically interchangeable table, which allows us to achieve significant time savings in preparation. This functionality enables faster material changes and reduces downtime between different tasks, further increasing our efficiency and productivity. This technology allows us to meet even the most demanding specifications of our clients, providing them with high-quality components with perfect edges and minimal thermal deformations. Our team of experts is trained to make the most of the potential of this fiber laser, allowing us to stay at the forefront of innovation and efficiency in the machining industry.",
         "visit_website": "Visit website"
     },
     "Hero_second_section": {

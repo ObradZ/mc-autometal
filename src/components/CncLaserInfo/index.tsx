@@ -13,7 +13,9 @@ const CncLaserInfo = () => {
             <div className={styles.wrapper}>
                 <div className={styles.cncLaserWrapper}>
                     <div className={styles.contentWithBackground}>
-                        <MainHeading title={t('title')} subtitle={t('subtitle')} shade='light' />
+                        {t('title') && (
+                            <MainHeading title={t('title') || ''} subtitle={t('subtitle') || ''} shade='light' />
+                        )}
                         <p className={styles.text}>{t('text')}</p>
                         <MainLink href='#' shade='light'>
                             {t('visit_website')} →
