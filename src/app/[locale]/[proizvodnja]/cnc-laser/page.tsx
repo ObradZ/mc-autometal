@@ -9,7 +9,6 @@ import CncLaserInfo from '@/components/CncLaserInfo';
 import SliderSection from '@/components/SliderSection';
 import HeroSecondSection from '@/components/HeroSecondSection';
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
 
 const Page = () => {
     const t = useTranslations('CNC_Laser');

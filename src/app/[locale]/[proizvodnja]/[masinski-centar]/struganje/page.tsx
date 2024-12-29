@@ -16,14 +16,14 @@ const Page = () => {
                 isLearnMoreVisible={false}
                 countUpData={data}
                 title={t('hero_section_title')}
-                text={t('text')}
+                text={t('hero_section_text')}
             />
-            <VideoSection videoUrl='https://www.youtube.com/watch?v=6F8rFv4ZAMY' videoText={t('video_section_text')} />
-            <ProductionGridSection
-                title={t('production_grid_section_title')}
-                subtitle={t('production_grid_section_subtitle')}
-                images={images}
+            <VideoSection
+                videoUrl='https://www.youtube.com/watch?v=6F8rFv4ZAMY'
+                videoText={t('video_section_text')}
+                videoTitle={t('video_section_title')}
             />
+            <ProductionGridSection title={t('production_grid_section_title')} images={images} />
             <HeroSecondSection />
         </main>
     );

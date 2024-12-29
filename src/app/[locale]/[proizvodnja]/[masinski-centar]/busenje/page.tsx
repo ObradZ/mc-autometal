@@ -16,12 +16,12 @@ const Page = () => {
                 title={t('hero_section_title')}
                 text={t('hero_section_text')}
             />
-            <VideoSection videoUrl='https://www.youtube.com/watch?v=M1VzgtJeR1M' videoText={t('video_section_text')} />
-            <ProductionGridSection
-                title={t('production_grid_section_title')}
-                subtitle={t('production_grid_section_subtitle')}
-                images={images}
+            <VideoSection
+                videoUrl='https://www.youtube.com/watch?v=M1VzgtJeR1M'
+                videoText={t('video_section_text')}
+                videoTitle={t('video_section_title')}
             />
+            <ProductionGridSection title={t('production_grid_section_title')} images={images} />
             <HeroSecondSection />
         </main>
     );

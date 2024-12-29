@@ -52,7 +52,7 @@
         "about_us": "Über uns"
     },
     "Contact": {
-        "title": "Kontakt",
+        "title": "Senden Sie uns eine Anfrage.",
         "hero_section_title": "Kontakt",
         "hero_section_text": "Wir freuen uns, Ihre Anfrage so schnell wie möglich zu beantworten!",
         "production_grid_section_title": "Produktion",
@@ -75,40 +75,40 @@
     },
     "Machine_center": {
         "hero_section_title": "Maschinenzentrum",
-        "hero_section_text": "Unser Unternehmen ist stolz auf seinen modernen CNC-Maschinenpark, der mit der neuesten Technologie ausgestattet ist. Wir verfügen über CNC-Fräsmaschinen und Drehmaschinen, die uns die Durchführung von 3- und 4-Achsen-Bearbeitungen mit maximaler Präzision und Effizienz ermöglichen.",
+        "hero_section_text": "Durch jahrzehntelange Erfahrung haben wir ein tiefes Verständnis für die Bedürfnisse unserer Kunden entwickelt, und kontinuierliche Investitionen in Technologie ermöglichen es uns, die höchsten Qualitätsstandards zu halten.",
         "years_of_business": "JAHRE IM GESCHÄFT",
         "satisfied_clients": "ZUFRIEDENE KUNDEN",
-        "video_section_text": "Diese Maschinenzentren sind das Herzstück unserer Produktionslinie und ermöglichen es uns, unterschiedliche Kundenanforderungen zu erfüllen und Komponenten von hohem Standard und Qualität zu produzieren. Unsere erfahrenen Bediener sind geschult, das Potenzial dieser Maschinen zu maximieren und selbst anspruchsvollste Projektspezifikationen zu erfüllen.",
-        "production_grid_section_title": "Produktion",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "video_section_title": "Maschinenpark",
+        "video_section_text": "Unser Maschinenpark umfasst ein breites Spektrum an konventionellen und CNC-Maschinen, mit denen wir präzise 3-Achsen- und 4-Achsen-Fräs- und Drehbearbeitungen durchführen können. Mit dieser Ausstattung bieten wir hohe Präzision und Flexibilität in der Produktion, sodass wir auf unterschiedliche Kundenanforderungen reagieren können. Unsere Maschinen ermöglichen die Bearbeitung einer Vielzahl von Materialien und garantieren Qualität und Effizienz in jedem Projekt.",
+        "production_grid_section_title": "Bearbeitungstechnologien"
     },
     "Grinding": {
         "hero_section_title": "Schleifen",
-        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "production_grid_section_title": "Produktion",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "hero_section_text": "Wir verwenden diesen Prozess, um hochpräzise Abmessungen und Oberflächenqualität zu erreichen und eine einwandfreie Übereinstimmung mit den Kundenanforderungen zu gewährleisten.",
+        "video_section_title": "Schleifen – Flach und Zylindrisch",
+        "video_section_text": "Schleifdienstleistungen – flach und zylindrisch. Der Schleifprozess gewährleistet eine außergewöhnlich präzise Bearbeitung durch das Entfernen von Partikeln vom Werkstück. Durch Schleifen können wir eine feine und abschließende Bearbeitung harter Oberflächen erreichen, unabhängig davon, ob sie flach, zylindrisch oder von komplexer Form sind.",
+        "production_grid_section_title": "Bearbeitungstechnologien"
     },
     "Drilling": {
         "hero_section_title": "Bohrung",
-        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "production_grid_section_title": "Produktion",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "hero_section_text": "Wir bieten Koordinatenbohrdienste als spezialisierte Bearbeitungstechnologie an, die außergewöhnliche Präzision gewährleistet und das Bohren von Löchern und Öffnungen mit genau definierten Abständen zueinander ermöglicht.",
+        "video_section_title": "Koordinatenbohren",
+        "video_section_text": "Beim Koordinatenbohren werden Bohrungen, Reiben, Senken, Gewindeschneiden und die Erstellung verschiedener Arten von Löchern und Öffnungen, einschließlich Blindlöchern, Tiefbohrungen und Gewindeschneiden, durchgeführt. In diesem Prozess verwenden wir eine breite Palette an Werkzeugen, die für Koordinatenbohrmaschinen verfügbar sind, was eine Vielseitigkeit der Dienstleistungen gewährleistet.",
+        "production_grid_section_title": "Bearbeitungstechnologien"
     },
     "Milling": {
         "hero_section_title": "Fräsen",
-        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "production_grid_section_title": "Produktion",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "hero_section_text": "Das CNC-Fräsen wird auf modernen 3-Achsen- und 4-Achsen-Maschinen durchgeführt, die hohe Genauigkeit, Präzision und Flexibilität bei der Bearbeitung verschiedener Materialien gewährleisten.",
+        "video_section_title": "Maschinenpark",
+        "video_section_text": "Wir verfügen über 12 CNC-Fräsmaschinen mit Arbeitsbereichen von 500x300x400mm bis 1600x800x800mm. Die Kontrolle von Produkten und Prozessen ist ein zentraler Bestandteil unserer Arbeit, sodass jedes Stück sorgfältig überprüft wird, um Genauigkeit und Konformität mit den Spezifikationen sicherzustellen. Unser Expertenteam garantiert hohe Qualität und Effizienz in jeder Phase der Produktion.",
+        "production_grid_section_title": "Bearbeitungstechnologien"
     },
     "Turning": {
         "hero_section_title": "Drehen",
-        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "production_grid_section_title": "Produktion",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "hero_section_text": "Das Drehen wird auf konventionellen und CNC-Drehmaschinen durchgeführt, wodurch eine präzise Bearbeitung verschiedener Materialien und Formen ermöglicht wird.",
+        "video_section_title": "Drehen",
+        "video_section_text": "Wir bieten Drehdienstleistungen zur Formgebung von rotierenden Werkstücken wie Wellen, Achsen, Buchsen, Riemenscheiben, Schwungrädern, Kolben, Zylindern, Schrauben, Muttern usw. Die Hauptoperationen beim Drehen umfassen externe und interne Längsbearbeitung, externe und interne Querschnittsbearbeitung, Schneiden von äußeren und inneren Nuten, das Anfasen von Kanten an inneren und äußeren Oberflächen, Bearbeiten von inneren und äußeren Kegeln, Gewindeschneiden, Erstellen von Profil- und Innenflächen, Bohren von axialen Löchern und Bohrungen usw.",
+        "production_grid_section_title": "Bearbeitungstechnologien"
     },
     "CNC_Laser": {
         "hero_section_title": "CNC Laser",
@@ -129,15 +129,14 @@
         "stainless_steel_data": "Edelstahl",
         "aluminum_data": "Aluminium",
         "bronze_data": "Bronze",
-        "production_grid_section_title": "Technologien der Maschinenbearbeitung",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "production_grid_section_title": "Bearbeitungstechnologien"
     },
     "Plastic_deformation": {
-        "hero_section_title": "Kunststoffverformung",
+        "hero_section_title": "Plastische Verformung von Metall",
         "hero_section_text": "Unser Unternehmen ist mit Kunststoffverformungstechnologien ausgestattet, die uns eine breite Palette an Produktionsmöglichkeiten bieten. Wir verfügen über exzentrische und hydraulische Biegemaschinen, die entscheidend für das Biegen von Metall in verschiedene Formen und Dimensionen sind.",
+        "video_section_title": "Metallprodukte",
         "video_section_text": "Diese Maschinen sind ideal für die Herstellung einzelner Komponenten sowie für die Arbeit in großen Serien, wodurch wir die Bedürfnisse unserer Kunden aus verschiedenen Branchen effizient erfüllen können. Unsere Fähigkeit, Metallkomponenten präzise und zuverlässig mit diesen Technologien zu formen, macht uns zum bevorzugten Partner für Projekte, die ein hohes Maß an Anpassung und Qualität erfordern.",
-        "production_grid_section_title": "Produktion",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "production_grid_section_title": "Bearbeitungstechnologien"
     },
     "Production_grid_section": {
         "cnc_laser_alt": "CNC Laser",

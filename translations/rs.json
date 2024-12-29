@@ -54,7 +54,7 @@
         "about_us": "O nama"
     },
     "Contact": {
-        "title": "Contact",
+        "title": "Pošaljite nam upit.",
         "hero_section_title": "Kontakt",
         "hero_section_text": "Biće nam zadovoljstvo da u što kraćem vremenskom roku odgovorimo i na Vaš zahtjev!",
         "production_grid_section_title": "Proizvodnja",
@@ -77,40 +77,40 @@
     },
     "Machine_center": {
         "hero_section_title": "Mašinski centar",
-        "hero_section_text": "Naša kompanija se ponosi savremenim CNC mašinskim parkom opremljenim najnovijom tehnologijom. Posedujemo CNC glodalice i strugove koji nam omogućavaju izvođenje 3-osnih i 4-osnih obrada sa maksimalnom preciznošću i efikasnošću.",
+        "hero_section_text": "Kroz decenije iskustva, razvili smo duboko razumijevanje potreba naših klijenata, a stalna ulaganja u tehnologiju omogućavaju nam da održimo najviše standarde kvaliteta.",
         "years_of_business": "GODINA POSLOVANJA",
         "satisfied_clients": "ZADOVOLJNIH KLIJENATA",
-        "video_section_text": "Ovi mašinski centri su srce naše proizvodne linije, omogućavajući nam da odgovorimo na različite zahteve naših klijenata i proizvedemo komponente visokog standarda i kvaliteta. Naši stručni operateri su obučeni da maksimalno iskoriste potencijal ovih mašina, obezbeđujući optimalne performanse i zadovoljavajući čak i najzahtevnije specifikacije projekata.",
-        "production_grid_section_title": "Proizvodnja",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "video_section_title": "Mašinski park",
+        "video_section_text": "Naš mašinski park obuhvata širok spektar konvencionalnih i CNC mašina, omogućavajući nam da obavljamo preciznu 3-osnu i 4-osnu obradu glodanjem i struganjem. Sa ovim mašinama pružamo visoku tačnost i fleksibilnost u proizvodnji, što nam omogućava da odgovorimo na različite zahtjeve klijenata. Naša oprema omogućava obradu širokog spektra materijala, čime garantujemo kvalitet i efikasnost u svakom projektu.",
+        "production_grid_section_title": "Tehnologije mašinske obrade"
     },
     "Grinding": {
         "hero_section_title": "Brušenje",
-        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "production_grid_section_title": "Proizvodnja",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "hero_section_text": "Ovaj proces koristimo za postizanje visokopreciznih dimenzija i površinskog kvaliteta, osiguravajući besprekornu usklađenost sa zahtevima klijenata.",
+        "video_section_title": "Brušenje – ravno i okruglo",
+        "video_section_text": "Usluge brušenja - ravnog i okruglog. Sam proces brušenja garantuje izuzetno preciznu obradu odvajanjem čestica sa obradka. Brušenjem možemo postići finu i završnu obradu tvrdih površina, bilo da su ravne, cilindrične ili složenog oblika.",
+        "production_grid_section_title": "Tehnologije mašinske obrade"
     },
     "Drilling": {
         "hero_section_title": "Bušenje",
-        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "production_grid_section_title": "Proizvodnja",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "hero_section_text": "Pružamo usluge koordinatnog bušenja kao specijalizovanu tehnologiju obrade koja obezbeđuje izuzetnu preciznost i omogućava bušenje rupa i otvora sa tačno definisanim međusobnim rastojanjima.",
+        "video_section_title": "Koordinatno bušenje",
+        "video_section_text": "Kroz koordinatno bušenje izvodi se bušenje, proširivanje, upuštanje, razvrtanje, kao i kreiranje različitih vrsta otvora i rupa, uključujući zabušivanje, bušenje dubokih otvora i izradu navoja. U ovom procesu koristimo širok spektar alata dostupnih za koordinatne bušilice, čime garantujemo raznovrsnost usluga.",
+        "production_grid_section_title": "Tehnologije mašinske obrade"
     },
     "Milling": {
         "hero_section_title": "Glodanje",
-        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "production_grid_section_title": "Proizvodnja",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "hero_section_text": "CNC glodanje se izvodi na savremenim 3-osnim i 4-osnim mašinama koje omogućavaju veliku tačnost, preciznost i fleksibilnost pri obradi različitih materijala.",
+        "video_section_title": "Mašinski park",
+        "video_section_text": "Posjedujemo 12 CNC glodalica sa radnim hodovima od 500x300x400mm do 1600x800x800mm. Kontrola proizvoda i procesa je ključna u našem radu, pa se svaki komad pažljivo provjerava kako bi se osigurala tačnost i usklađenost sa specifikacijama. Naš stručni tim garantuje visok kvalitet i efikasnost u svakoj fazi proizvodnje.",
+        "production_grid_section_title": "Tehnologije mašinske obrade"
     },
     "Turning": {
         "hero_section_title": "Struganje",
-        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "production_grid_section_title": "Proizvodnja",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "hero_section_text": "Struganje se izvodi na konvencionalnim i CNC strugovima, omogućavajući preciznu obradu različitih materijala i oblika.",
+        "video_section_title": "Struganje",
+        "video_section_text": "Nudimo uslugu struganja kojim se oblikuju rotacioni radni predmeti: osovine, vratila, čaure, remenice, zamajci, klipovi, cilindri, vijci, navrtke, itd. Osnovne operacije obrade struganjem su spoljašnja i unutrašnja uzdužna obrada, spoljašnja i unutrašnja poprečna obrada, usjecanje spoljnjih i unutrašnjih žljebova, obaranje ivice na unutrašnjim i spoljnjim površinama, obrada unutrašnjih i spoljnjih konusa, rezanje navoja, izrada profilnih i unutrašnjih površina, bušenje aksijalnih otvora i rupa, itd",
+        "production_grid_section_title": "Tehnologije mašinske obrade"
     },
     "CNC_Laser": {
         "hero_section_title": "CNC Laser",
@@ -126,20 +126,19 @@
         "circle_data_solar_panels": "Solarni paneli",
         "circle_data_metallurgy": "Metalurgija",
         "circle_data_sheet_metal_fabrication": "Izrada delova od limova",
-        "slider_section_title":"Naši proizvodi",
+        "slider_section_title": "Naši proizvodi",
         "steel_data": "Čelik",
         "stainless_steel_data": "Nerdjajući čelik",
         "aluminum_data": "Aluminijum",
         "bronze_data": "Bronza",
-        "production_grid_section_title": "Tehnologije mašinske obrade",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "production_grid_section_title": "Tehnologije mašinske obrade"
     },
     "Plastic_deformation": {
-        "hero_section_title": "Plastično deformisanje",
+        "hero_section_title": "Plastično deformisanje metala",
         "hero_section_text": "Naša kompanija je opremljena tehnologijama plastičnog deformisanja koje nam omogućavaju širok spektar mogućnosti u proizvodnji. Posedujemo ekscentar i hidraulične apkant prese koje su ključne za savijanje metala u različitim oblicima i dimenzijama.",
+        "video_section_title": "Metalni proizvodi",
         "video_section_text": "Ove mašine su idealne kako za proizvodnju pojedinačnih komponenti, tako i za rad u velikim serijama, čime efikasno zadovoljavamo potrebe naših klijenata iz različitih industrija. Naša sposobnost da precizno i pouzdano oblikujemo metalne komponente pomoću ovih tehnologija čini nas partnerom po izboru za projekte koji zahtevaju visok nivo prilagođenosti i kvaliteta.",
-        "production_grid_section_title": "Proizvodnja",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "production_grid_section_title": "Tehnologije mašinske obrade"
     },
     "Production_grid_section": {
         "cnc_laser_alt": "CNC Laser",

@@ -52,7 +52,7 @@
         "about_us": "About us"
     },
     "Contact": {
-        "title": "Contact",
+        "title": "Send us an inquiry.",
         "hero_section_title": "Contact",
         "hero_section_text": "We will be pleased to respond to your request as soon as possible!",
         "production_grid_section_title": "Production",
@@ -75,40 +75,40 @@
     },
     "Machine_center": {
         "hero_section_title": "Machine Center",
-        "hero_section_text": "Our company takes pride in its modern CNC machine park, equipped with the latest technology. We have CNC milling machines and lathes that allow us to perform 3-axis and 4-axis machining with maximum precision and efficiency.",
+        "hero_section_text": "Through decades of experience, we have developed a deep understanding of our clients' needs, and continuous investment in technology allows us to maintain the highest quality standards.",
         "years_of_business": "YEARS OF BUSINESS",
         "satisfied_clients": "SATISFIED CLIENTS",
-        "video_section_text": "These machine centers are the heart of our production line, enabling us to meet various client demands and produce components of high standard and quality. Our expert operators are trained to maximize the potential of these machines, ensuring optimal performance and meeting even the most demanding project specifications.",
-        "production_grid_section_title": "Production",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "video_section_title": "Machine Park",
+        "video_section_text": "Our machine park includes a wide range of conventional and CNC machines, enabling us to perform precise 3-axis and 4-axis milling and turning operations. With this equipment, we provide high accuracy and flexibility in production, allowing us to meet various client demands. Our machinery supports the processing of a wide variety of materials, ensuring quality and efficiency in every project.",
+        "production_grid_section_title": "Machining Technologies"
     },
     "Grinding": {
         "hero_section_title": "Grinding",
-        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "production_grid_section_title": "Production",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "hero_section_text": "We use this process to achieve high-precision dimensions and surface quality, ensuring flawless compliance with client requirements.",
+        "video_section_title": "Grinding – Flat and Cylindrical",
+        "video_section_text": "Grinding services – flat and cylindrical. The grinding process ensures exceptionally precise machining by removing particles from the workpiece. Through grinding, we can achieve fine and finish machining of hard surfaces, whether they are flat, cylindrical, or of complex shapes.",
+        "production_grid_section_title": "Machining Technologies"
     },
     "Drilling": {
         "hero_section_title": "Drilling",
-        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "production_grid_section_title": "Production",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "hero_section_text": "We provide coordinate drilling services as a specialized machining technology that ensures exceptional precision and allows drilling holes and openings with precisely defined distances from each other.",
+        "video_section_title": "Coordinate Drilling",
+        "video_section_text": "Coordinate drilling includes drilling, reaming, counterboring, tapping, and creating various types of holes and openings, including blind holes, deep hole drilling, and thread cutting. In this process, we use a wide range of tools available for coordinate drilling machines, ensuring service versatility.",
+        "production_grid_section_title": "Machining Technologies"
     },
     "Milling": {
         "hero_section_title": "Milling",
-        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "production_grid_section_title": "Production",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "hero_section_text": "CNC milling is performed on modern 3-axis and 4-axis machines, which ensure high accuracy, precision, and flexibility when processing various materials.",
+        "video_section_title": "Machine Park",
+        "video_section_text": "We have 12 CNC milling machines with working travels ranging from 500x300x400mm to 1600x800x800mm. Product and process control is key to our work, so every piece is carefully inspected to ensure accuracy and compliance with specifications. Our expert team guarantees high quality and efficiency at every stage of production.",
+        "production_grid_section_title": "Machining Technologies"
     },
     "Turning": {
         "hero_section_title": "Turning",
-        "hero_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "video_section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies gravida metus ac auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Pellentesque urna diam, imperdiet ac quam consectetur, facilisis aliquam orci. Maecenas laoreet eleifend odio pretium maximus.",
-        "production_grid_section_title": "Production",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "hero_section_text": "Turning is performed on conventional and CNC lathes, enabling precise machining of various materials and shapes.",
+        "video_section_title": "Turning",
+        "video_section_text": "We offer turning services to shape rotational workpieces such as shafts, spindles, bushings, pulleys, flywheels, pistons, cylinders, screws, nuts, etc. The main turning operations include external and internal longitudinal machining, external and internal transverse machining, cutting external and internal grooves, chamfering edges on internal and external surfaces, machining internal and external tapers, thread cutting, creating profile and internal surfaces, drilling axial holes and bores, etc.",
+        "production_grid_section_title": "Machining Technologies"
     },
     "CNC_Laser": {
         "hero_section_title": "CNC Laser",
@@ -129,15 +129,14 @@
         "stainless_steel_data": "Stainless Steel",
         "aluminum_data": "Aluminum",
         "bronze_data": "Bronze",
-        "production_grid_section_title": "Machining Technologies",
-        "production_grid_section_subtitle": ""
+        "production_grid_section_title": "Machining Technologies"
     },
     "Plastic_deformation": {
-        "hero_section_title": "Plastic deformation",
+        "hero_section_title": "Metal Plastic Deformation",
         "hero_section_text": "Our company is equipped with plastic deformation technologies that allow us a wide range of production possibilities. We have eccentric and hydraulic bending presses that are key for bending metal into various shapes and dimensions.",
+        "video_section_title": "Metal Products",
         "video_section_text": "These machines are ideal for both producing individual components and working in large series, allowing us to efficiently meet the needs of our clients from various industries. Our ability to precisely and reliably shape metal components with these technologies makes us the partner of choice for projects that require a high level of customization and quality.",
-        "production_grid_section_title": "Production",
-        "production_grid_section_subtitle": "Lorem ipsum"
+        "production_grid_section_title": "Machining Technologies"
     },
     "Production_grid_section": {
         "cnc_laser_alt": "CNC Laser",
