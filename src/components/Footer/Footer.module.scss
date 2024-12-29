@@ -72,7 +72,10 @@
             flex-direction: column;
             margin: 10px 0;
             align-items: center;
-
+            .socialIcon {
+                margin-left: 3px;
+                cursor: pointer;
+            }
             @include media(md) {
                 flex-direction: row;
             }

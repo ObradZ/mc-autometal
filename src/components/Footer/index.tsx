@@ -1,7 +1,9 @@
 import React from 'react';
 import styles from './Footer.module.scss';
 import SectionWrapper from '../SectionWrapper';
-import SocialIcon from '@images/Footer/social_icon.svg';
+import Instagram from '@images/Footer/instagram.svg';
+import Youtube from '@images/Footer/youtube.svg';
+import Linkedin from '@images/Footer/linkedin.svg';
 import Logo from '@images/Header/mc_autometal_logo.png';
 import Image from 'next/image';
 import MainLink from '../MainLink';
@@ -30,7 +32,9 @@ const Index = () => {
                         <p className={styles.footerItemRow}>Republika Srpska / Bosna i Hercegovina</p>
                         <div className={styles.socialNetwork}>
                             <h4 className={styles.footerSubheading}>{t('social_networks')}</h4>
-                            <Image src={SocialIcon} alt='instagram-icon'></Image>
+                            <Image src={Instagram} alt='instagram-icon' className={styles.socialIcon}></Image>
+                            <Image src={Youtube} alt='youtube-icon' className={styles.socialIcon}></Image>
+                            <Image src={Linkedin} alt='linkedin-icon' className={styles.socialIcon}></Image>
                         </div>
                     </div>
 
