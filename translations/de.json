@@ -106,7 +106,7 @@
     "Turning": {
         "hero_section_title": "Drehen",
         "hero_section_text": "Das Drehen wird auf konventionellen und CNC-Drehmaschinen durchgeführt, wodurch eine präzise Bearbeitung verschiedener Materialien und Formen ermöglicht wird.",
-        "video_section_title": "Drehen",
+        "video_section_title": "Konventionelles und CNC-Drehen",
         "video_section_text": "Wir bieten Drehdienstleistungen zur Formgebung von rotierenden Werkstücken wie Wellen, Achsen, Buchsen, Riemenscheiben, Schwungrädern, Kolben, Zylindern, Schrauben, Muttern usw. Die Hauptoperationen beim Drehen umfassen externe und interne Längsbearbeitung, externe und interne Querschnittsbearbeitung, Schneiden von äußeren und inneren Nuten, das Anfasen von Kanten an inneren und äußeren Oberflächen, Bearbeiten von inneren und äußeren Kegeln, Gewindeschneiden, Erstellen von Profil- und Innenflächen, Bohren von axialen Löchern und Bohrungen usw.",
         "production_grid_section_title": "Bearbeitungstechnologien"
     },
@@ -140,17 +140,17 @@
     },
     "Production_grid_section": {
         "cnc_laser_alt": "CNC Laser",
-        "cnc_laser_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "cnc_laser_text": "Präzises und effizientes Schneiden von Metall mit Faserlaser.",
         "milling_alt": "Fräsen",
-        "milling_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "milling_text": "3-achsiges und 4-achsiges Fräsen von prismatischen Metall- und Nichtmetallteilen.",
         "turning_alt": "Drehen",
-        "turning_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "turning_text": "Bearbeitung von rotationssymmetrischen Teilen mit Drehtechnologie.",
         "grinding_alt": "Schleifen",
-        "grinding_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "grinding_text": "Hochpräzise Bearbeitung durch Schleifen zylindrischer und prismatischer Teile.",
         "drilling_alt": "Bohrung",
-        "drilling_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "drilling_text": "Hochgeschwindigkeitsbohren von Metallen und Nichtmetallen.",
         "plastic_deformation_alt": "Kunststoffverformung",
-        "plastic_deformation_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "plastic_deformation_text": "Serien- und Einzelproduktion von Blechteilen auf Pressen von 5 bis 170 Tonnen.",
         "find_out_more": "Erfahren Sie mehr"
     },
     "CNC_Laser_info": {

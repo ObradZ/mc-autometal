@@ -108,7 +108,7 @@
     "Turning": {
         "hero_section_title": "Struganje",
         "hero_section_text": "Struganje se izvodi na konvencionalnim i CNC strugovima, omogućavajući preciznu obradu različitih materijala i oblika.",
-        "video_section_title": "Struganje",
+        "video_section_title": "Konvencionalno i CNC struganje",
         "video_section_text": "Nudimo uslugu struganja kojim se oblikuju rotacioni radni predmeti: osovine, vratila, čaure, remenice, zamajci, klipovi, cilindri, vijci, navrtke, itd. Osnovne operacije obrade struganjem su spoljašnja i unutrašnja uzdužna obrada, spoljašnja i unutrašnja poprečna obrada, usjecanje spoljnjih i unutrašnjih žljebova, obaranje ivice na unutrašnjim i spoljnjim površinama, obrada unutrašnjih i spoljnjih konusa, rezanje navoja, izrada profilnih i unutrašnjih površina, bušenje aksijalnih otvora i rupa, itd",
         "production_grid_section_title": "Tehnologije mašinske obrade"
     },
@@ -142,17 +142,17 @@
     },
     "Production_grid_section": {
         "cnc_laser_alt": "CNC Laser",
-        "cnc_laser_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "cnc_laser_text": "Precizno i efikasno sječenje metala fiber laserom.",
         "milling_alt": "Glodanje",
-        "milling_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "milling_text": "3-osno i 4-osno glodanje prizmatičnih metalnih i nemetalnih dijelova.",
         "turning_alt": "Struganje",
-        "turning_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "turning_text": "Obrada rotaciono simetričnih dijelova tehnologijom struganja.",
         "grinding_alt": "Brušenje",
-        "grinding_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "grinding_text": "Visokoprecizna obrada brušenjem cilindričnih i prizmatičnih dijelova.",
         "drilling_alt": "Bušenje",
-        "drilling_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "drilling_text": "Visokobrzinsko bušenje metala i nemetala.",
         "plastic_deformation_alt": "Plast. deformisanje",
-        "plastic_deformation_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "plastic_deformation_text": "Serijska i pojedinačna proizvodnja dijelova od lima na presama od 5 do 170 tona.",
         "find_out_more": "Saznaj više"
     },
     "CNC_Laser_info": {

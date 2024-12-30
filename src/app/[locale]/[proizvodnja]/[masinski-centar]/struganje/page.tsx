@@ -4,7 +4,6 @@ import ProductionGridSection from '@/components/ProductionGridSection';
 import { images } from '@/components/ProductionGridSection/content';
 import VideoSection from '@/components/VideoSection';
 import React from 'react';
-import Struganje from '@images/MachineCenter/glodanje.jpg';
 import { data } from './content';
 import { useTranslations } from 'next-intl';
 const Page = () => {

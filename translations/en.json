@@ -106,7 +106,7 @@
     "Turning": {
         "hero_section_title": "Turning",
         "hero_section_text": "Turning is performed on conventional and CNC lathes, enabling precise machining of various materials and shapes.",
-        "video_section_title": "Turning",
+        "video_section_title": "Conventional and CNC Turning",
         "video_section_text": "We offer turning services to shape rotational workpieces such as shafts, spindles, bushings, pulleys, flywheels, pistons, cylinders, screws, nuts, etc. The main turning operations include external and internal longitudinal machining, external and internal transverse machining, cutting external and internal grooves, chamfering edges on internal and external surfaces, machining internal and external tapers, thread cutting, creating profile and internal surfaces, drilling axial holes and bores, etc.",
         "production_grid_section_title": "Machining Technologies"
     },
@@ -140,17 +140,17 @@
     },
     "Production_grid_section": {
         "cnc_laser_alt": "CNC Laser",
-        "cnc_laser_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "cnc_laser_text": "Precise and efficient metal cutting with fiber laser.",
         "milling_alt": "Milling",
-        "milling_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "milling_text": "3-axis and 4-axis milling of prismatic metal and non-metal parts.",
         "turning_alt": "Turning",
-        "turning_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "turning_text": "Processing of rotationally symmetrical parts with turning technology.",
         "grinding_alt": "Grinding",
-        "grinding_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "grinding_text": "High-precision grinding of cylindrical and prismatic parts.",
         "drilling_alt": "Drilling",
-        "drilling_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "plastic_deformation_alt": "Plastic deformation",
-        "plastic_deformation_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "drilling_text": "High-speed drilling of metals and non-metals.",
+        "plastic_deformation_alt": "Plastic Deformation",
+        "plastic_deformation_text": "Series and individual production of sheet metal parts on presses from 5 to 170 tons.",
         "find_out_more": "Find out more"
     },
     "CNC_Laser_info": {
