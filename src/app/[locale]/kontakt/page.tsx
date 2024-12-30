@@ -24,11 +24,7 @@ const Page = () => {
                 nameOfTheCompany={t('name_of_the_company')}
             />
             <MapComponent />
-            <ProductionGridSection
-                title={t('production_grid_section_title')}
-                subtitle={t('production_grid_section_subtitle')}
-                images={images}
-            />
+            <ProductionGridSection title={t('production_grid_section_title')} images={images} />
             <HeroSecondSection />
         </main>
     );

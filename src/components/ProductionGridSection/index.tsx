@@ -15,6 +15,7 @@ interface ProductionGridSectionProps {
 
 const ProductionGridSection = ({ title, subtitle, images }: ProductionGridSectionProps) => {
     const t = useTranslations('Production_grid_section');
+
     return (
         <SectionWrapper>
             <div className={styles.container}>
