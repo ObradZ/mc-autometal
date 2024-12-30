@@ -3,6 +3,7 @@ import styles from './Certificates.module.scss';
 import SectionWrapper from '../SectionWrapper';
 import MainHeading from '../MainHeading';
 import EmblaCarousel from '../EmblaCarousel';
+import Slider from '../SliderSection/Slider';
 
 type CertificatesProps = {
     title: string;
@@ -35,18 +36,22 @@ const Certificates = ({
             <div className={styles.certificatesSection}>
                 <div className={styles.certificatesTextWrapper}>
                     <MainHeading title={title} subtitle={subtitle} shade='dark' />
-                    <p className={styles.text}>{text}</p>
+                    <div className={styles.emblaTextWrapper}>
+                        <div className={styles.textWrapper}>
+                            <p className={styles.text}>{text}</p>
+                        </div>
+                        <div className={styles.emblaContainer}>
+                            <Slider
+                                viewPortStyles={styles.viewPortStyles}
+                                options={{ loop: true, slidesToScroll: 2 }}
+                                slides={slides}
+                            />
+                        </div>
+                    </div>
                 </div>
                 <div className={styles.imagesWrapper}>
-                    <div className={styles.imageContent}>
-                        <EmblaCarousel
-                            options={{ loop: true, slidesToScroll: 1 }}
-                            slides={slides}
-                            enableDotsButtons={false}
-                        />
-                    </div>
                     <div className={styles.imageContentMobileSlider}>
-                        <EmblaCarousel options={{ loop: true }} slides={slides} enableDotsButtons={false} />
+                        <EmblaCarousel emblaViewport={styles.mobileViewPort} options={{ loop: true }} slides={slides} enableArrowButtons enableDotsButtons={false} />
                     </div>
                 </div>
             </div>

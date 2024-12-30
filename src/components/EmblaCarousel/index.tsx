@@ -13,10 +13,11 @@ type PropType = {
     options?: EmblaOptionsType;
     enableArrowButtons?: boolean;
     enableDotsButtons?: boolean;
+    emblaViewport?: string;
 };
 
 const EmblaCarousel: React.FC<PropType> = (props) => {
-    const { slides, options, enableArrowButtons = true, enableDotsButtons = true } = props;
+    const { slides, options, enableArrowButtons = true, enableDotsButtons = true, emblaViewport } = props;
     const [emblaRef, emblaApi] = useEmblaCarousel(options, [Fade()]);
 
     const { selectedIndex, scrollSnaps, onDotButtonClick } = useDotButton(emblaApi);
@@ -24,8 +25,8 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
 
     return (
         <div className='embla'>
-            <div className='embla__viewport' ref={emblaRef}>
-                <div className='embla__container'>
+            <div className={['embla__viewport', emblaViewport || ''].join(' ')} ref={emblaRef}>
+                <div className={'embla__container'}>
                     {slides.map((item, index) => (
                         <div className='embla__slide' key={index}>
                             {item}

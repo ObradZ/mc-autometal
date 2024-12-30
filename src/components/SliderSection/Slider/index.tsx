@@ -13,10 +13,11 @@ const numberWithinRange = (number: number, min: number, max: number): number => 
 type PropType = {
     slides: ReactNode[];
     options?: EmblaOptionsType;
+    viewPortStyles?: string;
 };
 
 const Slider: React.FC<PropType> = (props) => {
-    const { slides, options } = props;
+    const { slides, options, viewPortStyles } = props;
     const [emblaRef, emblaApi] = useEmblaCarousel(options);
     const tweenFactor = useRef(0);
     const tweenNodes = useRef<HTMLElement[]>([]);
@@ -89,7 +90,7 @@ const Slider: React.FC<PropType> = (props) => {
 
     return (
         <div className={styles.embla}>
-            <div className={styles.embla__viewport} ref={emblaRef}>
+            <div className={[styles.embla__viewport, viewPortStyles || ''].join(' ')} ref={emblaRef}>
                 <div className={styles.embla__container}>
                     {slides.map((slide, index) => (
                         <div className={styles.embla__slide} key={index}>
