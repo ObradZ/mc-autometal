@@ -6,14 +6,23 @@ import Image, { StaticImageData } from 'next/image';
 type SocialIconProps = {
     link: string;
     image: StaticImageData;
+    className?: string;
 };
 
-const SocialIcon = ({ link, image }: SocialIconProps) => {
+const SocialIcon = ({ link, image, className }: SocialIconProps) => {
     const handleClick = () => {
         window.open(link);
     };
 
-    return <Image src={image} alt='social-icon' onClick={handleClick} style={{ cursor: 'pointer' }} />;
+    return (
+        <Image
+            className={className}
+            src={image}
+            alt='social-icon'
+            onClick={handleClick}
+            style={{ cursor: 'pointer' }}
+        />
+    );
 };
 
 export default SocialIcon;
