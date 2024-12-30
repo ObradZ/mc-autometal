@@ -12,7 +12,11 @@
     }
 
     .sectionStyles {
-        margin-top: 0;
+        margin-top: 35px;
+
+        @include media(md) {
+            margin-top: 0;
+        }
 
         .mainHeadingContainer {
             width: 100%;
