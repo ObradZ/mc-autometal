@@ -8,6 +8,8 @@ import Logo from '@images/Header/mc_autometal_logo.png';
 import Image from 'next/image';
 import MainLink from '../MainLink';
 import { useTranslations } from 'next-intl';
+import SocialIcon from '../SocialIcon';
+import { socialLinks } from './content';
 
 const Index = () => {
     const t = useTranslations('Footer');
@@ -32,9 +34,9 @@ const Index = () => {
                         <p className={styles.footerItemRow}>Republika Srpska / Bosna i Hercegovina</p>
                         <div className={styles.socialNetwork}>
                             <h4 className={styles.footerSubheading}>{t('social_networks')}</h4>
-                            <Image src={Instagram} alt='instagram-icon' className={styles.socialIcon}></Image>
-                            <Image src={Youtube} alt='youtube-icon' className={styles.socialIcon}></Image>
-                            <Image src={Linkedin} alt='linkedin-icon' className={styles.socialIcon}></Image>
+                            <SocialIcon link={socialLinks.instagram} image={Instagram} />
+                            <SocialIcon link={socialLinks.youtube} image={Youtube} />
+                            <SocialIcon link={socialLinks.linkedin} image={Linkedin} />
                         </div>
                     </div>
 

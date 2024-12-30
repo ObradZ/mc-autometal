@@ -1,4 +1,5 @@
 'use client';
+
 import React, { useState } from 'react';
 import styles from './Contact.module.scss';
 import SectionWrapper from '../SectionWrapper';
@@ -11,6 +12,7 @@ import Youtube from '@images/Footer/youtube.svg';
 import Linkedin from '@images/Footer/linkedin.svg';
 import Image, { StaticImageData } from 'next/image';
 import MainHeading from '../MainHeading';
+import SocialIcon from '../SocialIcon';
 
 const Contact = ({
     address,
@@ -76,33 +78,21 @@ const Contact = ({
                         <h3 className={styles.contactDetailsSectionHeading}>
                             <div className={styles.networksContainer}>
                                 {socialNetworks}
-
-                                <span>
-                                    <Image
-                                        className={styles.socialIcon}
-                                        src={Instagram}
-                                        alt='instagram-icon'
-                                        onClick={() => window.open('https://www.instagram.com/mc_autometal/')}
-                                    ></Image>{' '}
-                                </span>
-                                <span>
-                                    <Image
-                                        className={styles.socialIcon}
-                                        src={Youtube}
-                                        alt='youtube-icon'
-                                        onClick={() =>
-                                            window.open('https://www.youtube.com/channel/UCk6otWTBegF9RC4gwH9I93Q')
-                                        }
-                                    ></Image>{' '}
-                                </span>
-                                <span>
-                                    <Image
-                                        className={styles.socialIcon}
-                                        src={Linkedin}
-                                        alt='linkedin-icon'
-                                        onClick={() => window.open('https://www.linkedin.com/company/105171911')}
-                                    ></Image>{' '}
-                                </span>
+                                <SocialIcon
+                                    className={styles.socialIcon}
+                                    image={Instagram}
+                                    link='https://www.instagram.com/mc_autometal/'
+                                />
+                                <SocialIcon
+                                    className={styles.socialIcon}
+                                    image={Youtube}
+                                    link='https://www.youtube.com/channel/UCk6otWTBegF9RC4gwH9I93Q'
+                                />
+                                <SocialIcon
+                                    className={styles.socialIcon}
+                                    image={Linkedin}
+                                    link='https://www.linkedin.com/company/105171911'
+                                />
                             </div>
                         </h3>
                     </div>
@@ -115,7 +105,6 @@ const Contact = ({
                             onChange={handleInputChange}
                             value={body.companyName}
                         />
-
                         <textarea
                             placeholder={message}
                             name='message'
@@ -126,7 +115,6 @@ const Contact = ({
                             value={body.message}
                             onChange={handleInputChange}
                         ></textarea>
-
                         <a
                             className={styles.sendLink}
                             href={`mailto:info@mcautometal.com?subject=${body.companyName}&body=${body.message}`}

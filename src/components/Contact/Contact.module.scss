@@ -3,12 +3,15 @@
 
 .contactWrapper {
     width: 100%;
+
     .contactMainHeading {
         margin-top: 100px;
     }
+
     .contactContainer {
         display: flex;
         flex-direction: column;
+
         @include media(sm) {
             flex-direction: row;
         }
@@ -18,20 +21,25 @@
             flex: 1;
             flex-direction: column;
             align-items: flex-start;
+
+            .networksContainer {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
             .socialIcon {
                 cursor: pointer;
                 margin-left: 5px;
             }
+
             .contactDetailsSection {
                 margin-bottom: 20px;
+
                 .contactDetailsSectionHeading {
-                    .networksContainer {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                    }
                     margin: 0 0 5px 0;
                 }
+
                 .item {
                     margin: 0 0 4px 0;
                     padding: 0;
@@ -43,6 +51,7 @@
                     font-size: 16px;
                     margin-bottom: 6px;
                     color: $primary-blue;
+
                     &:hover {
                         color: $primary-red;
                         transition: 0.2s ease-in;
@@ -72,6 +81,7 @@
                 padding: 20px;
                 resize: none;
             }
+
             .attachment {
                 cursor: pointer;
                 color: $primary-blue;
@@ -81,6 +91,7 @@
                     color: $primary-blue;
                 }
             }
+
             .sendLink {
                 width: 100%;
                 padding: 20px;
@@ -90,6 +101,7 @@
                 text-decoration: none;
                 text-align: center;
                 cursor: pointer;
+
                 &:hover {
                     color: $primary-red;
                     transition: 0.2s ease-in;
