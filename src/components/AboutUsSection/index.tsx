@@ -5,6 +5,8 @@ import MainLink from '../MainLink';
 import GearLeft from '../../../public/static/images/Gears/Vector-left.svg';
 import GearRight from '../../../public/static/images/Gears/Vector-right.svg';
 import { useTranslations } from 'next-intl';
+import VideoSection from '../VideoSection';
+import ReactPlayer from 'react-player';
 interface AboutSectionProps {
     title: string;
     subtitle?: string;
@@ -17,17 +19,25 @@ const AboutUsSection = ({ title, subtitle, text }: AboutSectionProps) => {
     return (
         <SectionWrapper>
             <div className={styles.aboutSection}>
-                <div className={styles.innerWrapper}>
+                <VideoSection
+                    videoTitle={title}
+                    videoUrl='https://www.youtube.com/watch?v=wTauEVgfcDw'
+                    videoText={text}
+                    videoSubtitle={subtitle}
+                />
+                {/* <div className={styles.innerWrapper}>
                     <div className={styles.innerTextWrapper}>
                         <h2 className={styles.subtitle}>{subtitle}</h2>
                         <h1 className={styles.title}>{title}</h1>
                         <p className={styles.text}>{text}</p>
-                    </div>
-                    <div className={styles.imageContent}>
+                    </div> */}
+
+                {/* </div> */}
+                {/* <div className={styles.imageContent}>
                         <Image src={GearLeft} alt='gear' className={styles.gearLeft} />
                         <Image src={GearRight} alt='gear' className={styles.gearRight} />
-                    </div>
-                </div>
+                    </div>  */}
+                {/* </div> */}
                 <MainLink href='/o-nama' superStyles={styles.link} shade='dark'>
                     {t('about_us')} →
                 </MainLink>
