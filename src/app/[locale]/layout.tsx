@@ -11,9 +11,11 @@ const lato = Inter({
     weight: ['300', '400', '800'],
     subsets: ['latin']
 });
+
 export async function generateMetadata({ params: { locale } }: { params: { locale: Locale } }) {
     return metaData[locale];
 }
+
 export default function LocaleLayout({
     children,
     params: { locale }
@@ -22,6 +24,7 @@ export default function LocaleLayout({
     params: { locale: string };
 }) {
     const t = useTranslations('About_us_section');
+
     return (
         <html lang={locale}>
             <body className={lato.className}>

@@ -5,14 +5,14 @@ import HeroImg from '@images/Contact/Hero.jpg';
 import { images } from '@/components/ProductionGridSection/content';
 import ProductionGridSection from '@/components/ProductionGridSection';
 import HeroSecondSection from '@/components/HeroSecondSection';
-import { NextIntlClientProvider, useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl';
 
 const Page = () => {
     const t = useTranslations('Contact');
+
     return (
         <main>
             <HeroSection image={HeroImg} title={t('hero_section_title')} text={t('hero_section_text')} />
-
             <Contact
                 address={t('address')}
                 title={t('title')}
@@ -23,7 +23,6 @@ const Page = () => {
                 message={t('message')}
                 nameOfTheCompany={t('name_of_the_company')}
             />
-
             <MapComponent />
             <ProductionGridSection
                 title={t('production_grid_section_title')}

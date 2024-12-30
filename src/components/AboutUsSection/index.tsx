@@ -13,6 +13,7 @@ interface AboutSectionProps {
 
 const AboutUsSection = ({ title, subtitle, text }: AboutSectionProps) => {
     const t = useTranslations('About_us_section');
+
     return (
         <SectionWrapper>
             <div className={styles.aboutSection}>

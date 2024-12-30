@@ -8,6 +8,7 @@ import { useTranslations } from 'next-intl';
 
 const CncLaserInfo = () => {
     const t = useTranslations('CNC_Laser_info');
+
     return (
         <SectionWrapper superStyles={styles.sectionWrapper}>
             <div className={styles.wrapper}>

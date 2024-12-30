@@ -13,8 +13,8 @@ import { useTranslations } from 'next-intl';
 
 const Page = ({ params }: { params: { locale: string } }) => {
     const { locale } = params;
-
     const t = useTranslations('About_us');
+
     return (
         <main>
             <HeroSection image={HeroImg} title={t('hero_section_title')} text={t('hero_section_text')} />
@@ -25,9 +25,10 @@ const Page = ({ params }: { params: { locale: string } }) => {
                 text={t(content.text)}
                 certificate1={content.certificates.certificate1}
                 certificate2={content.certificates.certificate2}
+                certificate3={content.certificates.certificate3}
+                certificate4={content.certificates.certificate4}
             />
             {locale === 'de' && <Cooperands title={t('cooperands_title')} />}
-
             <ProductionGridSection title={t('production_grid_section_title')} images={images} />
             <HeroSecondSection />
         </main>

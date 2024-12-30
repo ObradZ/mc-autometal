@@ -16,6 +16,7 @@ const CirclePointsSection = ({
     areImagesSvgs = true
 }: CirclePointsSectionProps) => {
     const t = useTranslations('About_us');
+
     return (
         <SectionWrapper superStyles={styles.wrapper}>
             {title && <MainHeading title={title} subtitle={subTitle} shade='dark' superStyles={styles.mainHeading} />}

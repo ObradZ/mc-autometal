@@ -15,4 +15,5 @@ export type MetaData = {
     en: LanguageMetadata;
     de: LanguageMetadata;
 };
+
 export type Locale = 'rs' | 'en' | 'de';

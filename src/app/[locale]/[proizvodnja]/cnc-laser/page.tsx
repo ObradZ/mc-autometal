@@ -1,7 +1,6 @@
 import HeroSection from '@/components/HeroSection';
 import VideoSection from '@/components/VideoSection';
 import ProductionGridSection from '@/components/ProductionGridSection';
-// import HeroImg from '@images/Homepage/Hero.jpg';
 import { images } from '@/components/ProductionGridSection/content';
 import { circleData, data } from './content';
 import CirclePointsSection from '@/components/CirclePointsSection';
@@ -12,6 +11,7 @@ import { useTranslations } from 'next-intl';
 
 const Page = () => {
     const t = useTranslations('CNC_Laser');
+
     return (
         <main>
             <HeroSection

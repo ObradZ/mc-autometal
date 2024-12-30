@@ -3,7 +3,7 @@ import styles from './History.module.scss';
 import Image from 'next/image';
 import { content } from './content';
 import MainHeading from '../MainHeading';
-import HistoryImg2 from '../../../public/static/images/AboutUs/AboutUsSectionImg.jpg';
+import TeamImg from '../../../public/static/images/History/Team-min.jpg';
 import SectionWrapper from '../SectionWrapper';
 import GearLeft from '../../../public/static/images/Gears/Vector-left.svg';
 import GearRight from '../../../public/static/images/Gears/Vector-right.svg';
@@ -31,7 +31,7 @@ const History = () => {
                         <p>{t('text2')}</p>
                     </div>
                     <div className={styles.imageBlockBottom}>
-                        <Image src={HistoryImg2} alt='factory worker img' className={styles.historyImg2} />
+                        <Image src={TeamImg} alt='factory worker img' className={styles.historyImg2} />
                     </div>
                 </div>
             </div>
