@@ -32,7 +32,7 @@ const Certificates = ({
     ];
 
     return (
-        <SectionWrapper>
+        <SectionWrapper superStyles={styles.superSectionStyles}>
             <div className={styles.certificatesSection}>
                 <div className={styles.certificatesTextWrapper}>
                     <MainHeading title={title} subtitle={subtitle} shade='dark' />
@@ -51,7 +51,13 @@ const Certificates = ({
                 </div>
                 <div className={styles.imagesWrapper}>
                     <div className={styles.imageContentMobileSlider}>
-                        <EmblaCarousel emblaViewport={styles.mobileViewPort} options={{ loop: true }} slides={slides} enableArrowButtons enableDotsButtons={false} />
+                        <EmblaCarousel
+                            emblaViewport={styles.mobileViewPort}
+                            options={{ loop: true }}
+                            slides={slides}
+                            enableArrowButtons
+                            enableDotsButtons={false}
+                        />
                     </div>
                 </div>
             </div>

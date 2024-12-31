@@ -21,19 +21,24 @@ const DropdownSubsectionMobile = ({
     const contentHeight = useRef<HTMLDivElement>(null);
     const handleItemClick = (item: string) => {
         mainHeaderClose();
-
         setIsOpenDropdown((state) => !state);
+        handleHeight();
         router.replace(item);
     };
 
-    const handleOpenAccordion = () => {
+    const handleHeight = () => {
         const currEl = contentHeight?.current;
-        setIsOpenDropdown((state) => !state);
+
         if (!isOpenDropdown) {
             setHeight((state: number) => currEl && state + currEl.scrollHeight);
         } else {
             setHeight((state: number) => currEl && state - currEl.scrollHeight);
         }
+    };
+
+    const handleOpenAccordion = () => {
+        setIsOpenDropdown((state) => !state);
+        handleHeight();
     };
 
     const handleTitleClick = (e: any) => {

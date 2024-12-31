@@ -10,6 +10,7 @@ import CirclePointsSection from '@/components/CirclePointsSection';
 import { data } from './content';
 import HeroSecondSection from '@/components/HeroSecondSection';
 import { useTranslations } from 'next-intl';
+import styles from './aboutUs.module.scss';
 
 const Page = ({ params }: { params: { locale: string } }) => {
     const { locale } = params;
@@ -17,7 +18,12 @@ const Page = ({ params }: { params: { locale: string } }) => {
 
     return (
         <main>
-            <HeroSection image={HeroImg} title={t('hero_section_title')} text={t('hero_section_text')} />
+            <HeroSection
+                image={HeroImg}
+                heroImageStyles={styles.heroImageStyles}
+                title={t('hero_section_title')}
+                text={t('hero_section_text')}
+            />
             <History />
             <CirclePointsSection title={t('circle_points_section_title')} data={data(t)} pointsBorder />
             <Certificates

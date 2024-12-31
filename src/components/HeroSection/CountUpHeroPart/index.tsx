@@ -14,15 +14,7 @@ const CountUpHeroPart = ({ data }: CountUpHeroPartProps) => {
                         <div className={styles.countUpWrapper}>
                             {!item.biggerThanSign && <div className={styles.prefix}>{'>'}</div>}
 
-                            <CountUp
-                                enableScrollSpy
-                                scrollSpyDelay={0.6}
-                                start={1}
-                                delay={0.4}
-                                className={styles.countUp}
-                                end={item.number}
-                                duration={2}
-                            />
+                            <CountUp start={1} delay={0.4} className={styles.countUp} end={item.number} duration={2} />
                             {item.isUnits && <div className={styles.sufix}>mm</div>}
                         </div>
                         <div className={styles.property}>{item.property}</div>

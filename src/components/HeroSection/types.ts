@@ -8,4 +8,5 @@ export interface HeroSectionProps {
     text: string;
     videoSrc?: string;
     countUpData?: CountUpData[] | undefined;
+    heroImageStyles?: string;
 }

@@ -25,19 +25,6 @@ const AboutUsSection = ({ title, subtitle, text }: AboutSectionProps) => {
                     videoText={text}
                     videoSubtitle={subtitle}
                 />
-                {/* <div className={styles.innerWrapper}>
-                    <div className={styles.innerTextWrapper}>
-                        <h2 className={styles.subtitle}>{subtitle}</h2>
-                        <h1 className={styles.title}>{title}</h1>
-                        <p className={styles.text}>{text}</p>
-                    </div> */}
-
-                {/* </div> */}
-                {/* <div className={styles.imageContent}>
-                        <Image src={GearLeft} alt='gear' className={styles.gearLeft} />
-                        <Image src={GearRight} alt='gear' className={styles.gearRight} />
-                    </div>  */}
-                {/* </div> */}
                 <MainLink href='/o-nama' superStyles={styles.link} shade='dark'>
                     {t('about_us')} →
                 </MainLink>

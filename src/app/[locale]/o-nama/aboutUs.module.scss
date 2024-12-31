@@ -1,0 +1,10 @@
+@import '/styles/__main';
+@import '/styles/0_variables.scss';
+
+.heroImageStyles {
+    object-position: 35% 0;
+
+    @include media(lg) {
+        object-position: center;
+    }
+}

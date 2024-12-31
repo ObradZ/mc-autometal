@@ -27,8 +27,13 @@
         }
     }
     .arrow {
-        margin-left: 3px;
-        font-size: 14px;
+        margin-left: 5px;
+        padding: 4px;
+        font-size: 16px;
+        line-height: 14px;
+        font-weight: 800;
+        position: relative;
+        top: 1px;
     }
     .isActive {
         position: relative;

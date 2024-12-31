@@ -8,13 +8,21 @@ import MainLink from '../MainLink';
 import { useTranslations } from 'next-intl';
 import HeroVideo from '../HeroVideo';
 
-const HeroSection = ({ image, title, text, videoSrc, isLearnMoreVisible = true, countUpData }: HeroSectionProps) => {
+const HeroSection = ({
+    image,
+    title,
+    text,
+    videoSrc,
+    isLearnMoreVisible = true,
+    countUpData,
+    heroImageStyles
+}: HeroSectionProps) => {
     const t = useTranslations('Hero_section');
     return (
         <div className={styles.wrapper}>
             {image && (
                 <>
-                    <Image className={styles.heroImage} src={image} alt='Banner' />
+                    <Image className={[styles.heroImage, heroImageStyles || ''].join(' ')} src={image} alt='Banner' />
                     <div className={styles.imageOpacity}></div>
                 </>
             )}
