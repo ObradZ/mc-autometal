@@ -17,7 +17,7 @@ const MachineCenter = () => {
     return (
         <div>
             <HeroSection
-                image={MasinskiCentar}
+                videoSrc='/videos/masinski-centar.mp4'
                 isLearnMoreVisible={false}
                 countUpData={data(t)}
                 title={t('hero_section_title')}
