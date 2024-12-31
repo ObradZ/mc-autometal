@@ -90,7 +90,7 @@
     width: 100px;
     height: auto;
     animation: rotateGear 20s linear infinite;
-
+    margin-top: 40px;
     @include media(md) {
         width: 200px;
     }
