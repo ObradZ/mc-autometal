@@ -56,7 +56,7 @@ const MobileDropdown = ({ title, links, mainHeaderClose, isOpen, toggleOpen }: D
                             key={link.name}
                             links={link.subsection}
                             mainHeaderClose={mainHeaderClose}
-                            title={'MAŠINSKI CENTAR'}
+                            title={link.name}
                             setHeight={setHeight}
                             titleLink='/proizvodnja/masinski-centar/'
                         />
