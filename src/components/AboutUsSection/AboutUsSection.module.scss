@@ -127,3 +127,13 @@
         bottom: 60px;
     }
 }
+
+.wrapperSuperStyles {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+    @include media(lg) {
+        padding-left: unset !important;
+        padding-right: unset !important;
+    }
+}

@@ -9,15 +9,17 @@ const VideoSection = ({
     videoUrl,
     videoText,
     videoTitle,
-    videoSubtitle
+    videoSubtitle,
+    superStyles
 }: {
     videoUrl: string;
     videoText: string;
     videoTitle?: string;
     videoSubtitle?: string;
+    superStyles?: string;
 }) => {
     return (
-        <SectionWrapper superStyles={styles.videoSection}>
+        <SectionWrapper superStyles={[styles.videoSection, superStyles || ''].join(' ')}>
             <div className={styles.videoSectionWrapper}>
                 <div className={styles.videoSectionContent}>
                     <MainHeading title={videoTitle || 'Lorem ipsum'} subtitle={videoSubtitle || ''} shade='dark' />
