@@ -2,6 +2,11 @@
 @import '/styles/0_variables.scss';
 
 .videoSection {
+    padding-left: 0;
+    padding-bottom: 0;
+    @include media(md) {
+        padding-bottom: 30px;
+    }
     .videoSectionWrapper {
         display: flex;
         flex-direction: column;
