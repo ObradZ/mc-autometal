@@ -1,21 +1,21 @@
-export const productionLinks = [
+export const productionLinks = (t: any) => [
     {
-        name: 'CNC LASER',
+        name: t('CNC LASER'),
         path: '/proizvodnja/cnc-laser',
         subsection: []
     },
     {
-        name: 'MAŠINSKI CENTAR',
+        name: t('MAŠINSKI CENTAR'),
         subsection: [
-            { name: 'GLODANJE', path: '/proizvodnja/masinski-centar/glodanje', subsection: [] },
-            { name: 'STRUGANJE', path: '/proizvodnja/masinski-centar/struganje', subsection: [] },
-            { name: 'BRUŠENJE', path: '/proizvodnja/masinski-centar/brusenje', subsection: [] },
-            { name: 'BUŠENJE', path: '/proizvodnja/masinski-centar/busenje', subsection: [] }
+            { name: t('GLODANJE'), path: '/proizvodnja/masinski-centar/glodanje', subsection: [] },
+            { name: t('STRUGANJE'), path: '/proizvodnja/masinski-centar/struganje', subsection: [] },
+            { name: t('BRUŠENJE'), path: '/proizvodnja/masinski-centar/brusenje', subsection: [] },
+            { name: t('BUŠENJE'), path: '/proizvodnja/masinski-centar/busenje', subsection: [] }
         ],
         path: ''
     },
     {
-        name: 'PLASTIČNO DEFORMISANJE',
+        name: t('PLASTIČNO DEFORMISANJE'),
         path: '/proizvodnja/plasticno-deformisanje',
         subsection: []
     }

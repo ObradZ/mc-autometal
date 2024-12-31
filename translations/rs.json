@@ -3,7 +3,14 @@
         "home": "Početna",
         "aboutUs": "O Nama",
         "production": "Proizvodnja",
-        "contact": "Kontakt"
+        "contact": "Kontakt",
+        "CNC LASER": "CNC LASER",
+        "MAŠINSKI CENTAR": "MAŠINSKI CENTAR",
+        "GLODANJE": "GLODANJE",
+        "STRUGANJE": "STRUGANJE",
+        "BRUŠENJE": "BRUŠENJE",
+        "BUŠENJE": "BUŠENJE",
+        "PLASTIČNO DEFORMISANJE": "PLASTIČNO DEFORMISANJE"
     },
     "Footer": {
         "machine_center": "mašinski centar",

@@ -3,7 +3,14 @@
         "home": "Startseite",
         "aboutUs": "Über uns",
         "production": "Produktion",
-        "contact": "Kontakt"
+        "contact": "Kontakt",
+        "CNC LASER": "CNC LASER",
+        "MAŠINSKI CENTAR": "MASCHINENZENTRUM",
+        "GLODANJE": "FRÄSEN",
+        "STRUGANJE": "DREHEN",
+        "BRUŠENJE": "SCHLEIFEN",
+        "BUŠENJE": "BOHREN",
+        "PLASTIČNO DEFORMISANJE": "PLASTISCHE VERFORMUNG"
     },
     "Footer": {
         "machine_center": "Maschinenzentrum",

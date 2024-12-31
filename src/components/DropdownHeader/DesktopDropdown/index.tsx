@@ -25,7 +25,7 @@ const DesktopDropdown = ({ title, links }: DropdownHeaderProps) => {
                         <DropdownSubsection
                             key={link.name}
                             links={link.subsection}
-                            title={'Mašinski centar'}
+                            title={link.name}
                             titleLink='/proizvodnja/masinski-centar/'
                         />
                     ) : (

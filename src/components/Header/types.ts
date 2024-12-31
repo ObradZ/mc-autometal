@@ -3,4 +3,5 @@ export interface HeaderProps {
     aboutUsTitle: string;
     productionTitle: string;
     contactTitle: string;
+    dropdownLinks: any;
 }
