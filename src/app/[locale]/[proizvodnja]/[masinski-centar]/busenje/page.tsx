@@ -6,7 +6,7 @@ import SliderSection from '@/components/SliderSection';
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import ImageSection from '@/components/ImageSection';
-import MachineImg from '/public/static/images/MachineCenter/busenje-min.jpeg';
+import MachineImg from '/public/static/images/MachineCenter/busenje.jpeg';
 
 const Page = () => {
     const t = useTranslations('Drilling');
