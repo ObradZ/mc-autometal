@@ -8,6 +8,7 @@ import { data } from './content';
 import { useTranslations } from 'next-intl';
 import ImageSection from '@/components/ImageSection';
 import Img from '/public/static/images/glodanje-min.jpeg';
+import { BASE_URL } from '@/app/config';
 
 const Page = () => {
     const t = useTranslations('Milling');
@@ -16,7 +17,7 @@ const Page = () => {
     return (
         <main>
             <HeroSection
-                videoSrc='/videos/glodanje2.mp4'
+                videoSrc={`${BASE_URL}/videos/glodanje2.mp4`}
                 isLearnMoreVisible={false}
                 countUpData={data}
                 title={t('hero_section_title')}

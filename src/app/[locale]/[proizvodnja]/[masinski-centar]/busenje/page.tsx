@@ -7,6 +7,7 @@ import React from 'react';
 import { useTranslations } from 'next-intl';
 import ImageSection from '@/components/ImageSection';
 import MachineImg from '/public/static/images/MachineCenter/busenje.jpeg';
+import { BASE_URL } from '@/app/config';
 
 const Page = () => {
     const t = useTranslations('Drilling');
@@ -15,7 +16,7 @@ const Page = () => {
     return (
         <main>
             <HeroSection
-                videoSrc='/videos/busenje2.mp4'
+                videoSrc={`${BASE_URL}/videos/busenje2.mp4`}
                 isLearnMoreVisible={false}
                 title={t('hero_section_title')}
                 text={t('hero_section_text')}

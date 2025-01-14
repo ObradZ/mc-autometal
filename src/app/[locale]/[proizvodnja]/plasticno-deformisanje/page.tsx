@@ -7,6 +7,7 @@ import { images } from '@/components/ProductionGridSection/content';
 import SliderSection from '@/components/SliderSection';
 import HeroSecondSection from '@/components/HeroSecondSection';
 import { useTranslations } from 'next-intl';
+import { BASE_URL } from '@/app/config';
 
 const Page = () => {
     const t = useTranslations('Plastic_deformation');
@@ -15,7 +16,7 @@ const Page = () => {
     return (
         <main>
             <HeroSection
-                videoSrc='/videos/plast-deformisanje.mp4'
+                videoSrc={`${BASE_URL}/videos/plast-deformisanje.mp4`}
                 isLearnMoreVisible={false}
                 title={t('hero_section_title')}
                 text={t('hero_section_text')}

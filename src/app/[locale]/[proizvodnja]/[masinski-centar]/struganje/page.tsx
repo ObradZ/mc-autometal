@@ -8,6 +8,7 @@ import { data } from './content';
 import { useTranslations } from 'next-intl';
 import Img from '/public/static/images/struganje-min.jpeg';
 import ImageSection from '@/components/ImageSection';
+import { BASE_URL } from '@/app/config';
 
 const Page = () => {
     const t = useTranslations('Turning');
@@ -16,7 +17,7 @@ const Page = () => {
     return (
         <main>
             <HeroSection
-                videoSrc='/videos/struganjeee.mp4'
+                videoSrc={`${BASE_URL}/videos/struganjeee.mp4`}
                 isLearnMoreVisible={false}
                 countUpData={data}
                 title={t('hero_section_title')}

@@ -6,6 +6,7 @@ import VideoSection from '@/components/VideoSection';
 import SliderSection from '@/components/SliderSection';
 import React from 'react';
 import { useTranslations } from 'next-intl';
+import { BASE_URL } from '@/app/config';
 
 const Page = () => {
     const t = useTranslations('Grinding');
@@ -14,7 +15,7 @@ const Page = () => {
     return (
         <main>
             <HeroSection
-                videoSrc='/videos/brusenje2.mp4'
+                videoSrc={`${BASE_URL}/videos/brusenje2.mp4`}
                 isLearnMoreVisible={false}
                 title={t('hero_section_title')}
                 text={t('hero_section_text')}

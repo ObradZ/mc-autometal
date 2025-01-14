@@ -9,6 +9,7 @@ import HeroSecondSection from '@/components/HeroSecondSection';
 import { useTranslations } from 'next-intl';
 import ImageSection from '@/components/ImageSection';
 import MachineParkImg from '/public/static/images/ImageSection/ImageSection-min.jpg';
+import { BASE_URL } from '@/app/config';
 
 const MachineCenter = () => {
     const t = useTranslations('Machine_center');
@@ -17,7 +18,7 @@ const MachineCenter = () => {
     return (
         <div>
             <HeroSection
-                videoSrc='/videos/masinski-centar.mp4'
+                videoSrc={`${BASE_URL}/videos/masinski-centar.mp4`}
                 isLearnMoreVisible={false}
                 countUpData={data(t)}
                 title={t('hero_section_title')}
