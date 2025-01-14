@@ -2,11 +2,12 @@ import HeroSecondSection from '@/components/HeroSecondSection';
 import HeroSection from '@/components/HeroSection';
 import ProductionGridSection from '@/components/ProductionGridSection';
 import { images } from '@/components/ProductionGridSection/content';
-import VideoSection from '@/components/VideoSection';
 import SliderSection from '@/components/SliderSection';
 import React from 'react';
 import { data } from './content';
 import { useTranslations } from 'next-intl';
+import ImageSection from '@/components/ImageSection';
+import Img from '/public/static/images/glodanje-min.jpeg';
 
 const Page = () => {
     const t = useTranslations('Milling');
@@ -21,11 +22,8 @@ const Page = () => {
                 title={t('hero_section_title')}
                 text={t('hero_section_text')}
             />
-            <VideoSection
-                videoUrl='https://www.youtube.com/watch?v=uwlxa39DdpM'
-                videoText={t('video_section_text')}
-                videoTitle={t('video_section_title')}
-            />
+
+            <ImageSection imageUrl={Img} imageText={t('video_section_text')} imageTitle={t('video_section_title')} />
             <SliderSection title={cncT('slider_section_title')} />
             <ProductionGridSection title={t('production_grid_section_title')} images={images} />
             <HeroSecondSection />
