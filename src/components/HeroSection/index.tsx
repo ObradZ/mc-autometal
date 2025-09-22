@@ -22,7 +22,7 @@ const HeroSection = ({
         <div className={styles.wrapper}>
             {image && (
                 <>
-                    <Image className={[styles.heroImage, heroImageStyles || ''].join(' ')} src={image} alt='Banner' />
+                    <Image className={[styles.heroImage, heroImageStyles || ''].join(' ')} src={image} alt='Banner' priority fetchPriority='high' placeholder="blur" />
                     <div className={styles.imageOpacity}></div>
                 </>
             )}
