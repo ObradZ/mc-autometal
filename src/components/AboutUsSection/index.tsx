@@ -1,6 +1,5 @@
 import styles from './AboutUsSection.module.scss';
 import SectionWrapper from '../SectionWrapper';
-import MainLink from '../MainLink';
 import { useTranslations } from 'next-intl';
 import VideoSection from '../VideoSection';
 
@@ -21,11 +20,9 @@ const AboutUsSection = ({ title, subtitle, text }: AboutSectionProps) => {
                     videoUrl='https://www.youtube.com/watch?v=wTauEVgfcDw'
                     videoText={text}
                     videoSubtitle={subtitle}
+                    aboutUsText={t('about_us')}
                     superStyles={styles.wrapperSuperStyles}
                 />
-                <MainLink href='/o-nama' superStyles={styles.link} shade='dark'>
-                    {t('about_us')} →
-                </MainLink>
             </div>
         </SectionWrapper>
     );

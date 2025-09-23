@@ -6,6 +6,26 @@
     @include media(md) {
         padding-bottom: 30px;
     }
+
+    .linkDesktop {
+        display: none;
+        margin-top: 30px;
+
+        @include media(md) {
+            display: inline-block;
+        }
+    }
+
+    .linkMobile {
+        display: block;
+        margin-top: 30px;
+        font-size: 16px;
+
+        @include media(md) {
+            display: none;
+        }
+    }
+
     .videoSectionWrapper {
         display: flex;
         flex-direction: column;
