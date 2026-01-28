@@ -22,6 +22,9 @@ const Page = () => {
                 send={t('send')}
                 message={t('message')}
                 nameOfTheCompany={t('name_of_the_company')}
+                labelDirector={t('labelDirector')}
+                labelOwner={t('labelOwner')}
+                labelTelFax={t('labelTelFax')}
             />
             <MapComponent />
             <ProductionGridSection title={t('production_grid_section_title')} images={images} />

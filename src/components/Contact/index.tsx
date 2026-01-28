@@ -14,6 +14,12 @@ import Image, { StaticImageData } from 'next/image';
 import MainHeading from '../MainHeading';
 import SocialIcon from '../SocialIcon';
 
+type ContactItem = {
+    id: string | number;
+    label?: string;
+    value?: string;
+};
+
 const Contact = ({
     address,
     email,
@@ -22,7 +28,10 @@ const Contact = ({
     send,
     nameOfTheCompany,
     message,
-    title
+    title,
+    labelDirector,
+    labelOwner,
+    labelTelFax
 }: {
     address: string;
     email: string;
@@ -32,6 +41,9 @@ const Contact = ({
     nameOfTheCompany: string;
     message: string;
     title: string;
+    labelDirector: string;
+    labelOwner: string;
+    labelTelFax: string;
 }) => {
     const [body, setBody] = useState({ companyName: '', message: '' });
 
@@ -39,14 +51,21 @@ const Contact = ({
         setBody({ ...body, [e.target.name]: e.target.value });
     };
 
-    const rendersection = (title: string, section: string, icon: StaticImageData) => {
-        const sectionToRender = content[section as keyof typeof content];
+    const rendersection = (
+        title: string,
+        section: 'address' | 'email' | 'telephone',
+        icon: StaticImageData,
+        itemsOverride?: ContactItem[]
+    ) => {
+        const sectionToRender = (itemsOverride ??
+            (content[section as keyof typeof content] as ContactItem[])) as ContactItem[];
 
         return (
             <div className={styles.contactDetailsSection}>
                 <h3 className={styles.contactDetailsSectionHeading}>
-                    <Image src={icon} alt={`${title}-icon`}></Image> {title}
+                    <Image src={icon} alt={`${title}-icon`} /> {title}
                 </h3>
+
                 {sectionToRender.map((item) =>
                     section === 'address' ? (
                         <p key={item.id} className={styles.item}>
@@ -55,7 +74,11 @@ const Contact = ({
                     ) : (
                         <a
                             key={item.id}
-                            href={section === 'telephone' ? `tel:${item.value}` : `mailto:${item.value}`}
+                            href={
+                                section === 'telephone'
+                                    ? `tel:${item.value ?? item.label}`
+                                    : `mailto:${item.value ?? item.label}`
+                            }
                             className={styles.itemLink}
                         >
                             {item.label}
@@ -66,6 +89,12 @@ const Contact = ({
         );
     };
 
+    const telephoneItems: ContactItem[] = [
+        { id: 'director', label: labelDirector, value: '+38765171711' },
+        { id: 'owner', label: labelOwner, value: '+38765588693' },
+        { id: 'telfax', label: labelTelFax, value: '+38758621300' }
+    ];
+
     return (
         <SectionWrapper>
             <div className={styles.contactWrapper}>
@@ -74,7 +103,8 @@ const Contact = ({
                     <div className={styles.contactDetails}>
                         {rendersection(address, 'address', AddressIcon)}
                         {rendersection(email, 'email', EmailIcon)}
-                        {rendersection(telephone, 'telephone', TelephoneIcon)}
+                        {rendersection(telephone, 'telephone', TelephoneIcon, telephoneItems)}
+
                         <h3 className={styles.contactDetailsSectionHeading}>
                             <div className={styles.networksContainer}>
                                 {socialNetworks}
@@ -96,6 +126,7 @@ const Contact = ({
                             </div>
                         </h3>
                     </div>
+
                     <div className={styles.contactForm}>
                         <input
                             type='text'

@@ -70,7 +70,10 @@
         "social_networks": "Soziale Netzwerke",
         "send": "Senden",
         "name_of_the_company": "Name des Unternehmens",
-        "message": "Nachricht"
+        "message": "Nachricht",
+        "labelDirector": "+387 (0)65171711 - Milan Đukanović - Direktor",
+        "labelOwner": "+387 (0)65588693 - Petar Đukanović - Inhaber",
+        "labelTelFax": "+387 (0)58621300 - tel/faks"
     },
     "History": {
         "title": "Geschichte",

@@ -72,7 +72,10 @@
         "social_networks": "Društvene mreže",
         "send": "Pošalji",
         "name_of_the_company": "Ime kompanije",
-        "message": "Poruka"
+        "message": "Poruka",
+        "labelDirector": "+387 (0)65171711 - Milan Đukanović - Direktor",
+        "labelOwner": "+387 (0)65588693 - Petar Đukanović - Vlasnik",
+        "labelTelFax": "+387 (0)58621300 - tel/faks"
     },
     "History": {
         "title": "Istorija",

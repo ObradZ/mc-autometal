@@ -11,8 +11,8 @@ export const content = {
         { id: 3, label: 'nabavka@mcautometal.com', value: 'nabavka@mcautometal.com' }
     ],
     telephone: [
-        { id: 1, label: '+387 (0)65171711 - Milan Đukanović - Direktor', value: '+38765171711' },
-        { id: 2, label: '+387 (0)65588693 - Petar Đukanović - Vlasnik', value: '+38765588693' },
-        { id: 3, label: '+387 (0)58621300 - tel/faks', value: '+38758621300' }
+        { id: 1, value: '+38765171711' },
+        { id: 2, value: '+38765588693' },
+        { id: 3, value: '+38758621300' }
     ]
 };
